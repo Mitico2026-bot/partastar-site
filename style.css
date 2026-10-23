@@ -289,3 +289,34 @@ details.faq p { margin-top: 10px; color: var(--muted); max-width: 70ch; }
   html { scroll-behavior: auto; }
   .cell .level, .toast { transition: none; }
 }
+
+/* 3D scenes */
+.s3d { position: relative; width: 100%; height: 240px; margin-top: 18px; pointer-events: none; }
+.s3d-stage { position: absolute; inset: 0; perspective: 1400px; --s: 1; }
+.s3d-world { position: absolute; left: 50%; top: 52%; width: 0; height: 0; transform-style: preserve-3d; transform: rotateX(58deg) rotateZ(-34deg) scale(var(--s)); will-change: transform; }
+.s3d-in, .s3d .cb { position: absolute; left: 0; top: 0; transform-style: preserve-3d; }
+.s3d .f { position: absolute; left: 0; top: 0; transform-origin: 0 0; backface-visibility: visible; }
+.s3d .ground { background-color: #e8eef7; background-image: linear-gradient(#cdd8e8 0 1px, transparent 1px), linear-gradient(90deg, #cdd8e8 0 1px, transparent 1px); background-size: 35px 35px; border-radius: 14px; box-shadow: 0 0 0 6px #f6f9fd; }
+.s3d .sf { filter: brightness(.96); } .s3d .sr { filter: brightness(.82); } .s3d .sl { filter: brightness(.88); } .s3d .sb { filter: brightness(.74); }
+.s3d .flow { background: repeating-linear-gradient(90deg, #ffc24a 0 10px, transparent 10px 22px); box-shadow: 0 0 10px #ffc24a; animation: s3dflow 1.2s linear infinite; border-radius: 3px; }
+.s3d .flow[style*="height:4px"], .s3d .flow[style*="height:5px"] { }
+.s3d-sun { position: absolute; right: 6%; top: 2%; width: 70px; height: 70px; border-radius: 50%; background: radial-gradient(circle, #fff6d0 0 28%, #ffc24a 45%, rgba(255,194,74,0) 70%); animation: s3dsun 4s ease-in-out infinite; }
+@keyframes s3dflow { to { background-position: 22px 0; } }
+@keyframes s3dsun { 50% { transform: scale(1.18); opacity: .85; } }
+@keyframes s3dled { 50% { opacity: .35; } }
+/* hero */
+.hero { overflow: hidden; }
+.hero .wrap { position: relative; z-index: 1; }
+.hero .s3d { position: absolute; right: 1%; top: 3%; bottom: 3%; width: min(48vw, 660px); height: auto; margin: 0; z-index: 0; }
+.hero .s3d-sun { right: 14%; top: 0; }
+/* product pages */
+.page-head .wrap { position: relative; }
+.page-head .s3d { height: 250px; }
+@media (min-width: 900px) {
+  .page-head .wrap { min-height: 300px; }
+  .page-head .wrap > h1, .page-head .wrap > p:not(.crumbs) { max-width: 52%; }
+  .page-head .s3d { position: absolute; right: 0; top: -6px; width: 46%; height: 300px; margin: 0; }
+}
+@media (max-width: 899px) { .hero .s3d { display: none; } }
+.cat-card { transition: transform .18s ease, border-color .15s; will-change: transform; }
+@media (prefers-reduced-motion: reduce) { .cat-card, .s3d .flow, .s3d-sun { transition: none; animation: none; } }
