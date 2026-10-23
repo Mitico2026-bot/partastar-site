@@ -320,3 +320,13 @@ details.faq p { margin-top: 10px; color: var(--muted); max-width: 70ch; }
 @media (max-width: 899px) { .hero .s3d { display: none; } }
 .cat-card { transition: transform .18s ease, border-color .15s; will-change: transform; }
 @media (prefers-reduced-motion: reduce) { .cat-card, .s3d .flow, .s3d-sun { transition: none; animation: none; } }
+
+/* language switcher */
+.lang { display: flex; gap: 2px; align-items: center; margin-right: 4px; }
+.lang a { font-size: 0.75rem; font-weight: 700; padding: 5px 7px; border-radius: 6px; color: var(--muted); text-decoration: none; letter-spacing: .02em; }
+.lang a:hover { color: var(--ink); background: rgba(11,58,140,.08); }
+.lang a[aria-current="true"] { color: #fff; background: var(--blue, #0b3a8c); }
+html[lang="zh-Hans"] body, html[lang="zh-Hans"] h1, html[lang="zh-Hans"] h2, html[lang="zh-Hans"] h3, html[lang="zh-Hans"] button, html[lang="zh-Hans"] .btn { font-family: var(--font), "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Hiragino Sans GB", sans-serif; }
+html[lang="zh-Hans"] h1 { letter-spacing: 0; }
+@media (max-width: 720px) { .top-links { gap: 8px; } .lang a { padding: 4px 5px; font-size: 0.7rem; } .top-links > a:not(.btn) { display: none; } }
+.lang a{white-space:nowrap}@media(max-width:720px){.lang{gap:2px}.lang a{padding:4px 5px}}

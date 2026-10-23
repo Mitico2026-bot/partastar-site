@@ -1,23 +1,24 @@
+var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
 (function () {
   "use strict";
 
   /* Runtime figures are the catalog's own appliance table (hours of use, rounded as printed). */
   var LOADS = [
-    { name: "Зурагт", w: "150 Вт" },
-    { name: "Усны халаагуур", w: "2200 Вт" },
-    { name: "Агааржуулагч", w: "1500 Вт" },
-    { name: "Хөргөгч", w: "140 Вт" }
+    { name: T("Зурагт"), w: T("150 Вт") },
+    { name: T("Усны халаагуур"), w: T("2200 Вт") },
+    { name: T("Агааржуулагч"), w: T("1500 Вт") },
+    { name: T("Хөргөгч"), w: T("140 Вт") }
   ];
   var RT = [
-    { k: 2.56, h: [16, 1.1, 1.5, 17], m: [["Хананд өлгөх", "home-storage.html#wall-mounted"]] },
-    { k: 3.17, h: [19, 1.3, 1.9, 20.1], m: [["Хананд өлгөх", "home-storage.html#wall-mounted"]] },
-    { k: 5.12, h: [31, 2.1, 3.1, 33], m: [["Давхарладаг", "home-storage.html#stack-512"], ["Тавиурт", "home-storage.html#rack"], ["Нэгдсэн систем", "home-storage.html#all-in-one"], ["Хананд өлгөх", "home-storage.html#wall-mounted"]] },
-    { k: 7.68, h: [46, 3.2, 4.6, 50], m: [["Давхарладаг", "home-storage.html#stack-768"], ["Тавиурт", "home-storage.html#rack"], ["Нэгдсэн систем", "home-storage.html#all-in-one"]] },
-    { k: 10, h: [60, 4.1, 6, 64], m: [["Дугуйтай", "home-storage.html#leaning"], ["Нэгдсэн систем", "home-storage.html#all-in-one"], ["Хананд өлгөх", "home-storage.html#wall-mounted"]] },
-    { k: 14.34, h: [86, 6, 9, 92], m: [["Дугуйтай", "home-storage.html#leaning"], ["Нэгдсэн систем", "home-storage.html#all-in-one"]] },
-    { k: 16, h: [96, 7, 10, 103], m: [["Дугуйтай", "home-storage.html#leaning"]] },
-    { k: 20, h: [120, 8.2, 12, 129], m: [["Нэгдсэн систем", "home-storage.html#all-in-one"], ["Давхарладаг IP65", "home-storage.html#stack-ip65"]] },
-    { k: 32, h: [192, 14, 20, 206], m: [["Дугуйтай", "home-storage.html#leaning"], ["Нэгдсэн систем", "home-storage.html#all-in-one"]] }
+    { k: 2.56, h: [16, 1.1, 1.5, 17], m: [[T("Хананд өлгөх"), "home-storage.html#wall-mounted"]] },
+    { k: 3.17, h: [19, 1.3, 1.9, 20.1], m: [[T("Хананд өлгөх"), "home-storage.html#wall-mounted"]] },
+    { k: 5.12, h: [31, 2.1, 3.1, 33], m: [[T("Давхарладаг"), "home-storage.html#stack-512"], [T("Тавиурт"), "home-storage.html#rack"], [T("Нэгдсэн систем"), "home-storage.html#all-in-one"], [T("Хананд өлгөх"), "home-storage.html#wall-mounted"]] },
+    { k: 7.68, h: [46, 3.2, 4.6, 50], m: [[T("Давхарладаг"), "home-storage.html#stack-768"], [T("Тавиурт"), "home-storage.html#rack"], [T("Нэгдсэн систем"), "home-storage.html#all-in-one"]] },
+    { k: 10, h: [60, 4.1, 6, 64], m: [[T("Дугуйтай"), "home-storage.html#leaning"], [T("Нэгдсэн систем"), "home-storage.html#all-in-one"], [T("Хананд өлгөх"), "home-storage.html#wall-mounted"]] },
+    { k: 14.34, h: [86, 6, 9, 92], m: [[T("Дугуйтай"), "home-storage.html#leaning"], [T("Нэгдсэн систем"), "home-storage.html#all-in-one"]] },
+    { k: 16, h: [96, 7, 10, 103], m: [[T("Дугуйтай"), "home-storage.html#leaning"]] },
+    { k: 20, h: [120, 8.2, 12, 129], m: [[T("Нэгдсэн систем"), "home-storage.html#all-in-one"], [T("Давхарладаг IP65"), "home-storage.html#stack-ip65"]] },
+    { k: 32, h: [192, 14, 20, 206], m: [[T("Дугуйтай"), "home-storage.html#leaning"], [T("Нэгдсэн систем"), "home-storage.html#all-in-one"]] }
   ];
   var MAX_K = 32;
 
@@ -45,7 +46,7 @@
       input.value = String(i);
       if (r.k === DEFAULT_K) input.checked = true;
       var span = document.createElement("span");
-      span.innerHTML = String(r.k) + "<small> кВт·ц</small>";
+      span.innerHTML = String(r.k) + T("<small> кВт·ц</small>");
       label.appendChild(input);
       label.appendChild(span);
       group.appendChild(label);
@@ -63,7 +64,7 @@
       LOADS.forEach(function (l, j) {
         var li = document.createElement("li");
         li.innerHTML =
-          '<span class="hours">' + fmt(r.h[j]) + "<small>цаг</small></span>" +
+          '<span class="hours">' + fmt(r.h[j]) + T("<small>цаг</small></span>") +
           '<span class="what">' + l.name + "</span>" +
           '<span class="watt">' + l.w + "</span>";
         list.appendChild(li);
@@ -102,14 +103,14 @@
     try {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(
-          function () { say("Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү."); },
-          function () { say("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: " + text); }
+          function () { say(T("Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү.")); },
+          function () { say(T("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ") + text); }
         );
       } else {
-        say("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: " + text);
+        say(T("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ") + text);
       }
     } catch (err) {
-      say("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: " + text);
+      say(T("Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ") + text);
     }
   });
 })();
