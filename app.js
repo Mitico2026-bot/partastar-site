@@ -216,7 +216,7 @@ var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
 
 /* ---- 3D product photos: layered extrusion + tilt ---- */
 (function () {
-  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reduce = false; /* owner request: always spin */
   var imgs = document.querySelectorAll(".pic > img, .pic img");
   if (!imgs.length || !("IntersectionObserver" in window)) return;
   var LAYERS = 12, STEP = 1.5;
