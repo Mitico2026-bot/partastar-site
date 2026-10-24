@@ -334,14 +334,14 @@ details.faq p { margin-top: 10px; color: var(--muted); max-width: 70ch; }
 @media(max-width:720px){.lang summary{padding:6px 8px;font-size:.75rem}}
 /* 3D product photos */
 .p3d{display:block;position:relative;width:100%;height:100%;perspective:900px;perspective-origin:50% 40%}
-.p3d-obj{display:block;position:relative;width:100%;height:100%;transform-style:preserve-3d;will-change:transform}
+.p3d-obj{display:block;position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .25s ease-out;animation:p3dfloat 7s ease-in-out infinite}
 .p3d-obj>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;backface-visibility:visible}
 .p3d-l{pointer-events:none}
 .p3d-front{filter:drop-shadow(0 1px 0 rgba(255,255,255,.35))}
-.p3d-sh{position:absolute;left:12%;right:12%;bottom:2%;height:10%;animation:none!important;border-radius:50%;background:radial-gradient(closest-side,rgba(10,25,50,.28),transparent);transform:translateZ(0);animation:p3dsh 7s ease-in-out infinite;pointer-events:none}
+.p3d-sh{position:absolute;left:12%;right:12%;bottom:2%;height:10%;border-radius:50%;background:radial-gradient(closest-side,rgba(10,25,50,.28),transparent);transform:translateZ(0);animation:p3dsh 7s ease-in-out infinite;pointer-events:none}
 @keyframes p3dfloat{0%,100%{transform:rotateY(-14deg) rotateX(5deg) translateY(0)}50%{transform:rotateY(14deg) rotateX(2deg) translateY(-5px)}}
 @keyframes p3dsh{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(.88);opacity:.6}}
-
+@media (prefers-reduced-motion:reduce){.p3d-obj,.p3d-sh{animation:none}}
 .cat-card .pic .p3d-obj>img{padding:16px;mix-blend-mode:normal}
 .cat-card .pic:has(.p3d){background:radial-gradient(120% 90% at 50% 0%,#fff 0%,var(--pic-bg) 70%)}
 .cat-card .pic{overflow:visible;clip-path:inset(0 round 0)}
