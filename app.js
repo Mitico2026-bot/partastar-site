@@ -214,75 +214,40 @@ var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
   }
 })();
 
-/* ---- 3D product photos: layered extrusion + tilt ---- */
+/* ---- 3D product photos: static layered depth, tilt on hover only (no auto rotation) ---- */
 (function () {
-  var reduce = false; /* owner request: always spin */
-  var imgs = document.querySelectorAll(".pic > img, .pic img");
+  var imgs = document.querySelectorAll(".pic img");
   if (!imgs.length || !("IntersectionObserver" in window)) return;
-  var LAYERS = 22, STEP = 1.3;
+  var LAYERS = 9, STEP = 1.6;
   function build(img) {
     if (img.dataset.p3d) return;
     img.dataset.p3d = "1";
-    var cut = img.currentSrc || img.src;
-    var wrap = document.createElement("span");
-    wrap.className = "p3d";
-    var obj = document.createElement("span");
-    obj.className = "p3d-obj";
-    img.parentNode.insertBefore(wrap, img);
-    wrap.appendChild(obj);
+    var src = img.currentSrc || img.src;
+    var wrap = document.createElement("span"); wrap.className = "p3d";
+    var obj = document.createElement("span"); obj.className = "p3d-obj";
+    img.parentNode.insertBefore(wrap, img); wrap.appendChild(obj);
     for (var i = LAYERS; i >= 1; i--) {
       var l = document.createElement("img");
-      l.src = cut; l.alt = ""; l.setAttribute("aria-hidden", "true");
-      l.className = "p3d-l";
+      l.src = src; l.alt = ""; l.setAttribute("aria-hidden", "true"); l.className = "p3d-l";
       l.style.transform = "translateZ(" + (-i * STEP) + "px)";
-      l.style.filter = "brightness(" + (0.8 - i * 0.025).toFixed(2) + ") saturate(.9)";
+      l.style.filter = "brightness(" + (0.8 - i * 0.03).toFixed(2) + ") saturate(.9)";
       obj.appendChild(l);
     }
-    img.classList.add("p3d-front");
-    obj.appendChild(img);
+    img.classList.add("p3d-front"); obj.appendChild(img);
     var sh = document.createElement("span"); sh.className = "p3d-sh"; wrap.appendChild(sh);
-    var st = { a: Math.random() * 40 - 20, drag: false, x: 0, vis: true, obj: obj };
-    objs.push(st);
-    if (!reduce) {
-      wrap.style.cursor = "grab"; wrap.style.touchAction = "pan-y";
-      wrap.addEventListener("pointerdown", function (e) { st.drag = true; st.x = e.clientX; wrap.style.cursor = "grabbing"; try { wrap.setPointerCapture(e.pointerId); } catch (_) {} });
-      wrap.addEventListener("pointermove", function (e) { if (st.drag) { st.a += (e.clientX - st.x) * 0.8; st.x = e.clientX; } });
-      var up = function () { st.drag = false; wrap.style.cursor = "grab"; };
-      wrap.addEventListener("pointerup", up); wrap.addEventListener("pointercancel", up);
-      wrap.addEventListener("pointerenter", function () { st.hover = true; });
-      wrap.addEventListener("pointerleave", function () { st.hover = false; up(); });
-      new IntersectionObserver(function (en) { st.vis = en[0].isIntersecting; }).observe(wrap);
-    }
-  }
-  var objs = [];
-  if (!reduce) (function () {
-    var last = 0;
-    function loop(t) {
-      var dt = last ? Math.min(t - last, 100) : 16; last = t;
-      for (var i = 0; i < objs.length; i++) {
-        var o = objs[i]; if (!o.vis) continue;
-        if (!o.drag) o.a += dt * (o.hover ? 0.01 : 0.032);
-        o.obj.style.transform = "rotateX(8deg) rotateY(" + (o.a % 360).toFixed(1) + "deg)";
-      }
-      requestAnimationFrame(loop);
-    }
-    requestAnimationFrame(loop);
-  })();
-  var io = new IntersectionObserver(function (en) {
-    en.forEach(function (e) {
-      if (e.isIntersecting) { build(e.target); io.unobserve(e.target); }
+    obj.style.transform = "rotateX(6deg) rotateY(-12deg)";
+    wrap.addEventListener("pointermove", function (e) {
+      var r = wrap.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      obj.style.transform = "rotateX(" + (6 - y * 14).toFixed(1) + "deg) rotateY(" + (-12 + x * 24).toFixed(1) + "deg)";
     });
+    wrap.addEventListener("pointerleave", function () { obj.style.transform = "rotateX(6deg) rotateY(-12deg)"; });
+  }
+  var io = new IntersectionObserver(function (en) {
+    en.forEach(function (e) { if (e.isIntersecting) { build(e.target); io.unobserve(e.target); } });
   }, { rootMargin: "120px" });
   imgs.forEach(function (i) {
     if (i.classList.contains("cover") || /aio-room|hero-house/.test(i.src)) return;
     io.observe(i);
   });
-})();
-
-/* language dropdown */
-(function(){
-  var ds=document.querySelectorAll("details.lang");
-  if(!ds.length)return;
-  document.addEventListener("click",function(e){ds.forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});
-  document.addEventListener("keydown",function(e){if(e.key==="Escape")ds.forEach(function(d){d.removeAttribute("open");});});
 })();
