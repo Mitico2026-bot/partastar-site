@@ -213,3 +213,52 @@ var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
     });
   }
 })();
+
+/* ---- 3D product photos: layered extrusion + tilt ---- */
+(function () {
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var imgs = document.querySelectorAll(".pic > img, .pic img");
+  if (!imgs.length || !("IntersectionObserver" in window)) return;
+  var LAYERS = 7, STEP = 2.2;
+  function build(img) {
+    if (img.dataset.p3d) return;
+    img.dataset.p3d = "1";
+    var cut = img.currentSrc || img.src;
+    var wrap = document.createElement("span");
+    wrap.className = "p3d";
+    var obj = document.createElement("span");
+    obj.className = "p3d-obj";
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(obj);
+    for (var i = LAYERS; i >= 1; i--) {
+      var l = document.createElement("img");
+      l.src = cut; l.alt = ""; l.setAttribute("aria-hidden", "true");
+      l.className = "p3d-l";
+      l.style.transform = "translateZ(" + (-i * STEP) + "px)";
+      l.style.filter = "brightness(" + (0.78 - i * 0.04).toFixed(2) + ") saturate(.9)";
+      obj.appendChild(l);
+    }
+    img.classList.add("p3d-front");
+    obj.appendChild(img);
+    var sh = document.createElement("span"); sh.className = "p3d-sh"; wrap.appendChild(sh);
+    if (!reduce) {
+      wrap.addEventListener("pointermove", function (ev) {
+        var r = wrap.getBoundingClientRect();
+        var x = (ev.clientX - r.left) / r.width - .5, y = (ev.clientY - r.top) / r.height - .5;
+        obj.style.animation = "none";
+        obj.style.transform = "rotateY(" + (x * 34).toFixed(1) + "deg) rotateX(" + (-y * 22).toFixed(1) + "deg)";
+      });
+      wrap.addEventListener("pointerleave", function () { obj.style.transform = ""; obj.style.animation = ""; });
+    }
+  }
+  var io = new IntersectionObserver(function (en) {
+    en.forEach(function (e) {
+      if (e.isIntersecting) { build(e.target); io.unobserve(e.target); }
+    });
+  }, { rootMargin: "120px" });
+  imgs.forEach(function (i) {
+    if (i.classList.contains("cover")) return;
+    if (/hero-house|logo|solar-carport|solar-roof|car-trunk|aio-room|lead-acid|tools|transport|leaning-32/.test(i.src)) return;
+    io.observe(i);
+  });
+})();
