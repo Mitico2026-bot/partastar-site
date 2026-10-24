@@ -257,8 +257,14 @@ var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
     });
   }, { rootMargin: "120px" });
   imgs.forEach(function (i) {
-    if (i.classList.contains("cover")) return;
-    if (/hero-house|logo|solar-carport|solar-roof|car-trunk|aio-room|lead-acid|tools|transport|leaning-32/.test(i.src)) return;
-    io.observe(i);
+        io.observe(i);
   });
+})();
+
+/* language dropdown */
+(function(){
+  var ds=document.querySelectorAll("details.lang");
+  if(!ds.length)return;
+  document.addEventListener("click",function(e){ds.forEach(function(d){if(!d.contains(e.target))d.removeAttribute("open");});});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")ds.forEach(function(d){d.removeAttribute("open");});});
 })();

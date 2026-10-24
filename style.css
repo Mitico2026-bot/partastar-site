@@ -322,15 +322,16 @@ details.faq p { margin-top: 10px; color: var(--muted); max-width: 70ch; }
 @media (prefers-reduced-motion: reduce) { .cat-card, .s3d .flow, .s3d-sun { transition: none; animation: none; } }
 
 /* language switcher */
-.lang { display: flex; gap: 2px; align-items: center; margin-right: 4px; }
-.lang a { font-size: 0.75rem; font-weight: 700; padding: 5px 7px; border-radius: 6px; color: var(--muted); text-decoration: none; letter-spacing: .02em; }
-.lang a:hover { color: var(--ink); background: rgba(11,58,140,.08); }
-.lang a[aria-current="true"] { color: #fff; background: var(--blue, #0b3a8c); }
-html[lang="zh-Hans"] body, html[lang="zh-Hans"] h1, html[lang="zh-Hans"] h2, html[lang="zh-Hans"] h3, html[lang="zh-Hans"] button, html[lang="zh-Hans"] .btn { font-family: var(--font), "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Hiragino Sans GB", sans-serif; }
-html[lang="zh-Hans"] h1 { letter-spacing: 0; }
-@media (max-width: 720px) { .top-links { gap: 8px; } .lang a { padding: 4px 5px; font-size: 0.7rem; } .top-links > a:not(.btn) { display: none; } }
-.lang a{white-space:nowrap}@media(max-width:720px){.lang{gap:2px}.lang a{padding:4px 5px}}
-
+.lang{position:relative;margin-right:6px}
+.lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:4px;font-size:.8rem;font-weight:700;padding:7px 11px;border:1px solid rgba(11,58,140,.25);border-radius:8px;color:var(--ink);background:#fff;white-space:nowrap;user-select:none}
+.lang summary::-webkit-details-marker{display:none}
+.lang summary::after{content:"\25BE";font-size:.7rem}
+.lang[open] summary{background:rgba(11,58,140,.08)}
+.lang-menu{position:absolute;right:0;top:calc(100% + 6px);z-index:60;display:flex;flex-direction:column;min-width:130px;background:#fff;border:1px solid rgba(11,58,140,.18);border-radius:10px;box-shadow:0 10px 30px rgba(10,25,50,.18);padding:6px}
+.lang-menu a{font-size:.9rem;font-weight:600;padding:9px 12px;border-radius:7px;color:var(--ink);text-decoration:none;white-space:nowrap}
+.lang-menu a:hover{background:rgba(11,58,140,.08)}
+.lang-menu a[aria-current="true"]{color:#fff;background:var(--blue,#0b3a8c)}
+@media(max-width:720px){.lang summary{padding:6px 8px;font-size:.75rem}}
 /* 3D product photos */
 .p3d{display:block;position:relative;width:100%;height:100%;perspective:900px;perspective-origin:50% 40%}
 .p3d-obj{display:block;position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .25s ease-out;animation:p3dfloat 7s ease-in-out infinite}
@@ -344,3 +345,11 @@ html[lang="zh-Hans"] h1 { letter-spacing: 0; }
 .cat-card .pic .p3d-obj>img{padding:16px;mix-blend-mode:normal}
 .cat-card .pic:has(.p3d){background:radial-gradient(120% 90% at 50% 0%,#fff 0%,var(--pic-bg) 70%)}
 .cat-card .pic{overflow:visible;clip-path:inset(0 round 0)}
+
+.pic .p3d-obj>img{position:absolute;inset:0;width:100%;height:100%}
+.pic .p3d-obj>img.cover{object-fit:cover;padding:0;mix-blend-mode:normal}
+.pic .p3d-obj>img:not(.cover){mix-blend-mode:normal}
+.line .pic.two .p3d{width:50%;flex:none}
+.line .pic.two{overflow:visible}
+.line .pic.two .p3d-obj>img,.line .pic .p3d-obj>img{position:absolute;inset:0;width:100%;height:100%}
+.line .pic.two .p3d{height:100%}
