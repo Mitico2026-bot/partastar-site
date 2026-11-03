@@ -16,6 +16,8 @@
 - [Тээвэр, багажны батарей](https://partastar.solar/other-batteries.html): Тээврийн, гольфын тэрэгний, багажны болон OEM/ODM жижиг батарей.
 - [Зөөврийн цахилгаан станц](https://partastar.solar/portable.html): CN-300W-аас CN-5500W хүртэл зөөврийн цахилгаан станц.
 - [Нарны хавтан](https://partastar.solar/solar-panels.html): Монокристалл 100–720 Вт, эвхдэг зөөврийн 60–400 Вт, уян 50–300 Вт нарны хавтан.
+- [Агаарын дулааны насос](https://partastar.solar/heat-pumps.html): Гадна агаараас халаалт, хөргөлт, халуун ус. Гадна −20℃-д ч халаана.
+- [Цахилгаан машины цэнэглэгч](https://partastar.solar/ev-chargers.html): Зөөврийн цэнэглэгч, ханын цэнэглэгч, 160 кВт хүртэл DC хурдан цэнэглэгч. GB/T, Type 2, Type 1 залгуур.
 - [Even when the power goes out, your home stays lit.](https://partastar.solar/en/): Partastar Solar: solar panels, inverters, LiFePO4 batteries. Catalog, specifications and orders via Facebook.
 - [Электр өшсе де, үйіңіз жарық болады.](https://partastar.solar/kk/): Partastar Solar: күн панельдері, инверторлар, LiFePO4 батареялар. Каталог, техникалық сипаттамалар, Facebook арқылы тапсырыс.
 - [Даже когда отключили электричество, в вашем доме светло.](https://partastar.solar/ru/): Partastar Solar: солнечные панели, инверторы, батареи LiFePO4. Каталог, характеристики и заказ через Facebook.
@@ -33,6 +35,9 @@
 - [Batteries for vehicles and tools](https://partastar.solar/en/other-batteries.html): Batteries for vehicles, golf carts, tools and small OEM/ODM devices.
 - [Portable power station](https://partastar.solar/en/portable.html): Portable power stations from CN-300W to CN-5500W.
 - [Solar panels](https://partastar.solar/en/solar-panels.html): Monocrystalline 100–720 W, foldable portable 60–400 W, flexible 50–300 W solar panels.
+- [Air-source heat pumps](https://partastar.solar/en/heat-pumps.html): Heating, cooling and hot water from outside air. Keeps heating at −20℃ outside.
+- [EV chargers](https://partastar.solar/en/ev-chargers.html): Portable chargers, wallboxes and DC fast chargers up to 160 kW. GB/T, Type 2 and Type 1 connectors.
+
 
 ## Қазақша
 
@@ -46,6 +51,9 @@
 - [Көлік пен құралдарға арналған батареялар](https://partastar.solar/kk/other-batteries.html): Көлік, гольф арбалары, құралдар және OEM/ODM шағын құрылғыларға арналған батареялар.
 - [Тасымал электр станциясы](https://partastar.solar/kk/portable.html): CN-300W-тан CN-5500W-қа дейінгі тасымал электр станциялары.
 - [Күн панельдері](https://partastar.solar/kk/solar-panels.html): Күн панельдері: моно кристалды 100–720 Вт, жиналмалы тасымал 60–400 Вт, икемді 50–300 Вт.
+- [Ауа көзді жылу сорғылары](https://partastar.solar/kk/heat-pumps.html): Сыртқы ауадан жылыту, салқындату және ыстық су. Сыртта −20℃ болса да жылытады.
+- [Электромобиль зарядтау құрылғылары](https://partastar.solar/kk/ev-chargers.html): Тасымал зарядтағыштар, қабырға станциялары және 160 кВт-қа дейінгі DC жылдам станциялар. GB/T, Type 2, Type 1 қосқыштары.
+
 
 ## Русский
 
@@ -59,6 +67,9 @@
 - [Батареи для транспорта и инструмента](https://partastar.solar/ru/other-batteries.html): Батареи для транспорта, гольф-каров, инструмента и малых устройств OEM/ODM.
 - [Портативная электростанция](https://partastar.solar/ru/portable.html): Портативные электростанции от CN-300W до CN-5500W.
 - [Солнечные панели](https://partastar.solar/ru/solar-panels.html): Солнечные панели: монокристаллические 100–720 Вт, складные портативные 60–400 Вт, гибкие 50–300 Вт.
+- [Воздушные тепловые насосы](https://partastar.solar/ru/heat-pumps.html): Отопление, охлаждение и горячая вода за счёт наружного воздуха. Греет даже при −20℃ на улице.
+- [Зарядные устройства для электромобилей](https://partastar.solar/ru/ev-chargers.html): Портативные зарядки, настенные станции и быстрые DC-станции до 160 кВт. Разъёмы GB/T, Type 2, Type 1.
+
 
 ## 中文
 
@@ -72,3 +83,5 @@
 - [交通与工具电池](https://partastar.solar/zh/other-batteries.html): 适用于交通工具、高尔夫球车、工具及 OEM/ODM 小型设备的电池。
 - [便携储能电站](https://partastar.solar/zh/portable.html): CN-300W 至 CN-5500W 便携储能电站。
 - [太阳能板](https://partastar.solar/zh/solar-panels.html): 单晶 100–720 W、折叠便携 60–400 W、柔性 50–300 W 太阳能板。
+- [空气源热泵](https://partastar.solar/zh/heat-pumps.html): 利用室外空气实现采暖、制冷和热水，室外 −20℃ 仍可制热。
+- [电动汽车充电桩](https://partastar.solar/zh/ev-chargers.html): 便携式充电器、壁挂充电桩、最高 160 kW 直流快充桩。GB/T、Type 2、Type 1 接口。
