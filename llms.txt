@@ -1,0 +1,74 @@
+# Partastar Solar
+
+> Partastar Solar: нарны хавтан, инвертер, LiFePO4 батарей. Каталог, техникийн үзүүлэлт, Facebook-ээр захиалга.
+
+Нарны хавтан, инвертер, LiFePO4 батарей. Partastar-ийн бүх цувралыг нэг каталогоос сонгоно.
+
+## Pages
+
+- [Бидний тухай](https://partastar.solar/about.html): Partastar Solar: компанийн танилцуулга, холбоо барих.
+- [Автомашины тэжээл](https://partastar.solar/car-power.html): 3.23–8.02 кВт·ц автомашины нэмэлт батарей.
+- [Аж үйлдвэрийн хадгалалт](https://partastar.solar/commercial.html): 60 кВт·ц-аас 3290 кВт·ц хүртэл аж үйлдвэрийн эрчим хүч хадгалах систем.
+- [Ногоон зээлээр авах](https://partastar.solar/green-loan.html): Нарны систем, батарейг ногоон зээлээр авах дараалал, материал.
+- [Гэр ахуйн эрчим хүч хадгалалт](https://partastar.solar/home-storage.html): Давхарладаг, дугуйтай, тавиурт, хананд өлгөх, инвертер нэгдсэн LiFePO4 батарей. 2.56–61 кВт·ц.
+- [Инвертер](https://partastar.solar/inverters.html): Европ стандартын нэг фаз, гурван фаз, өндөр хүчдэлийн гибрид инвертер, Америк стандарт. 3–125 кВт.
+- [Хар тугалгыг орлох литийн цуврал](https://partastar.solar/lithium-replacement.html): 12.8V, 25.6V, 51.2V LiFePO4 батарей, 6000+ цикл.
+- [Тээвэр, багажны батарей](https://partastar.solar/other-batteries.html): Тээврийн, гольфын тэрэгний, багажны болон OEM/ODM жижиг батарей.
+- [Зөөврийн цахилгаан станц](https://partastar.solar/portable.html): CN-300W-аас CN-5500W хүртэл зөөврийн цахилгаан станц.
+- [Нарны хавтан](https://partastar.solar/solar-panels.html): Монокристалл 100–720 Вт, эвхдэг зөөврийн 60–400 Вт, уян 50–300 Вт нарны хавтан.
+- [Even when the power goes out, your home stays lit.](https://partastar.solar/en/): Partastar Solar: solar panels, inverters, LiFePO4 batteries. Catalog, specifications and orders via Facebook.
+- [Электр өшсе де, үйіңіз жарық болады.](https://partastar.solar/kk/): Partastar Solar: күн панельдері, инверторлар, LiFePO4 батареялар. Каталог, техникалық сипаттамалар, Facebook арқылы тапсырыс.
+- [Даже когда отключили электричество, в вашем доме светло.](https://partastar.solar/ru/): Partastar Solar: солнечные панели, инверторы, батареи LiFePO4. Каталог, характеристики и заказ через Facebook.
+- [即使停电,您的家依然明亮。](https://partastar.solar/zh/): Partastar Solar:太阳能板、逆变器、LiFePO4 电池。产品目录、技术参数,通过 Facebook 下单。
+
+## English
+
+- [About us](https://partastar.solar/en/about.html): Partastar Solar: company profile and contact details.
+- [Car power](https://partastar.solar/en/car-power.html): 3.23–8.02 kWh additional car battery.
+- [Industrial storage](https://partastar.solar/en/commercial.html): Industrial energy storage systems from 60 kWh to 3290 kWh.
+- [Buying with a green loan](https://partastar.solar/en/green-loan.html): Sequence and documents for buying a solar system and battery with a green loan.
+- [Home energy storage](https://partastar.solar/en/home-storage.html): Stackable, wheeled, rack-mount, wall-mounted and inverter-integrated LiFePO4 batteries. 2.56–61 kWh.
+- [Inverters](https://partastar.solar/en/inverters.html): European-standard single-phase, three-phase and high-voltage hybrid inverters, American standard. 3–125 kW.
+- [Lithium series replacing lead-acid](https://partastar.solar/en/lithium-replacement.html): 12.8V, 25.6V, 51.2V LiFePO4 batteries, 6000+ cycles.
+- [Batteries for vehicles and tools](https://partastar.solar/en/other-batteries.html): Batteries for vehicles, golf carts, tools and small OEM/ODM devices.
+- [Portable power station](https://partastar.solar/en/portable.html): Portable power stations from CN-300W to CN-5500W.
+- [Solar panels](https://partastar.solar/en/solar-panels.html): Monocrystalline 100–720 W, foldable portable 60–400 W, flexible 50–300 W solar panels.
+
+## Қазақша
+
+- [Біз туралы](https://partastar.solar/kk/about.html): Partastar Solar: компания туралы және байланыс.
+- [Автокөлік қуаты](https://partastar.solar/kk/car-power.html): 3.23–8.02 кВт·сағ автокөлікке арналған қосымша батарея.
+- [Өнеркәсіптік жинағыш](https://partastar.solar/kk/commercial.html): 60-тан 3290 кВт·сағ-қа дейінгі өнеркәсіптік энергия жинақтау жүйелері.
+- [Жасыл несиемен сатып алу](https://partastar.solar/kk/green-loan.html): Жасыл несиемен күн жүйесі мен батарея сатып алу тәртібі мен құжаттары.
+- [Үйге арналған энергия жинақтау](https://partastar.solar/kk/home-storage.html): Үйме, дөңгелекті, сөреге орнатылатын, қабырғаға ілінетін және инвертор біріктірілген LiFePO4 батареялар. 2.56–61 кВт·сағ.
+- [Инверторлар](https://partastar.solar/kk/inverters.html): Еуропа стандартты бір фазалы, үш фазалы, жоғары вольтты гибридті инверторлар, Америка стандарты. 3–125 кВт.
+- [Қорғасын батареяларды алмастыратын литий сериясы](https://partastar.solar/kk/lithium-replacement.html): 12.8V, 25.6V, 51.2V LiFePO4 батареялар, 6000+ цикл.
+- [Көлік пен құралдарға арналған батареялар](https://partastar.solar/kk/other-batteries.html): Көлік, гольф арбалары, құралдар және OEM/ODM шағын құрылғыларға арналған батареялар.
+- [Тасымал электр станциясы](https://partastar.solar/kk/portable.html): CN-300W-тан CN-5500W-қа дейінгі тасымал электр станциялары.
+- [Күн панельдері](https://partastar.solar/kk/solar-panels.html): Күн панельдері: моно кристалды 100–720 Вт, жиналмалы тасымал 60–400 Вт, икемді 50–300 Вт.
+
+## Русский
+
+- [О нас](https://partastar.solar/ru/about.html): Partastar Solar: о компании и контакты.
+- [Питание для авто](https://partastar.solar/ru/car-power.html): Дополнительная автомобильная батарея 3.23–8.02 кВт·ч.
+- [Промышленные накопители](https://partastar.solar/ru/commercial.html): Промышленные системы накопления энергии от 60 до 3290 кВт·ч.
+- [Покупка по зелёному кредиту](https://partastar.solar/ru/green-loan.html): Порядок и документы для приобретения солнечной системы и батареи по зелёному кредиту.
+- [Домашние системы накопления энергии](https://partastar.solar/ru/home-storage.html): Штабелируемые, на колёсах, стоечные, настенные и со встроенным инвертором батареи LiFePO4. 2,56–61 кВт·ч.
+- [Инверторы](https://partastar.solar/ru/inverters.html): Гибридные инверторы европейского стандарта: однофазные, трёхфазные, высоковольтные; американский стандарт. 3–125 кВт.
+- [Серия литиевых батарей вместо свинцово-кислотных](https://partastar.solar/ru/lithium-replacement.html): Батареи LiFePO4 12,8 В, 25,6 В, 51,2 В, 6000+ циклов.
+- [Батареи для транспорта и инструмента](https://partastar.solar/ru/other-batteries.html): Батареи для транспорта, гольф-каров, инструмента и малых устройств OEM/ODM.
+- [Портативная электростанция](https://partastar.solar/ru/portable.html): Портативные электростанции от CN-300W до CN-5500W.
+- [Солнечные панели](https://partastar.solar/ru/solar-panels.html): Солнечные панели: монокристаллические 100–720 Вт, складные портативные 60–400 Вт, гибкие 50–300 Вт.
+
+## 中文
+
+- [关于我们](https://partastar.solar/zh/about.html): Partastar Solar:公司简介与联系方式。
+- [车载电源](https://partastar.solar/zh/car-power.html): 3.23–8.02 kWh 汽车附加电池。
+- [工商业储能](https://partastar.solar/zh/commercial.html): 60 kWh 至 3290 kWh 工商业储能系统。
+- [通过绿色贷款购买](https://partastar.solar/zh/green-loan.html): 通过绿色贷款购买太阳能系统和电池的流程与材料。
+- [家用储能](https://partastar.solar/zh/home-storage.html): 叠层式、带轮式、机架式、壁挂式及逆变器一体式 LiFePO4 电池,2.56–61 kWh。
+- [逆变器](https://partastar.solar/zh/inverters.html): 欧标单相、三相、高压混合逆变器,美标。3–125 kW。
+- [锂电池替代铅酸系列](https://partastar.solar/zh/lithium-replacement.html): 12.8V、25.6V、51.2V LiFePO4 电池,6000+ 次循环。
+- [交通与工具电池](https://partastar.solar/zh/other-batteries.html): 适用于交通工具、高尔夫球车、工具及 OEM/ODM 小型设备的电池。
+- [便携储能电站](https://partastar.solar/zh/portable.html): CN-300W 至 CN-5500W 便携储能电站。
+- [太阳能板](https://partastar.solar/zh/solar-panels.html): 单晶 100–720 W、折叠便携 60–400 W、柔性 50–300 W 太阳能板。
