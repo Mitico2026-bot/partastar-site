@@ -115,6 +115,27 @@ var T = function (x) { var d = window.I18N; return (d && d[x]) || x; };
   });
 })();
 
+/* Analytics: count Messenger / Facebook clicks as "Order click" (Vercel Web Analytics) */
+(function () {
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest('a[href*="m.me/"], a[href*="facebook.com/"]') : null;
+    if (!a || typeof window.va !== "function") return;
+    var line = a.closest(".line");
+    var h2 = line ? line.querySelector("h2") : null;
+    var where = a.closest(".mbar") ? "mobile-bar" : a.closest(".site-head") ? "header" :
+      a.closest(".hero") ? "hero" : a.closest(".site-foot") ? "footer" : line ? "product" : "other";
+    try {
+      window.va("event", { name: "Order click", data: {
+        page: location.pathname,
+        lang: document.documentElement.lang || "",
+        placement: where,
+        product: h2 ? h2.textContent.trim().slice(0, 100) : "",
+        channel: /m\.me\//.test(a.href) ? "messenger" : "facebook"
+      } });
+    } catch (err) {}
+  });
+})();
+
 /* 3D environment scenes (pure CSS 3D, no libraries) */
 (function () {
   var mounts = document.querySelectorAll(".s3d");
