@@ -8,7 +8,8 @@
     "dev": "npm run sync && astro dev",
     "build": "npm run sync && astro build",
     "compare": "node scripts/compare.mjs",
-    "check": "npm run build && npm run compare"
+    "check": "npm run build && npm run compare",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "astro": "7.4.7"

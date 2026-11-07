@@ -1,0 +1,74 @@
+# Checks every pull request (and main) before Vercel deploys it:
+# the Astro site builds, all internal links resolve, the chat server tests pass,
+# and a real browser can use the built site and the chat widget without errors.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # compare.mjs reads the original pages from git history
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22 # Astro 7 needs 22.23.4 or newer
+          cache: npm
+          cache-dependency-path: astro/package-lock.json
+
+      - name: Install
+        working-directory: astro
+        run: npm ci
+
+      - name: Build
+        working-directory: astro
+        run: npm run build
+
+      - name: Check internal links and images
+        working-directory: astro
+        run: npm run check:links
+
+      # Informational: shows which pages differ from the original hand-written site.
+      # Deliberate content edits are expected to show up here, so this step never fails the run.
+      - name: Compare with the original pages (informational)
+        working-directory: astro
+        continue-on-error: true
+        run: npm run compare
+
+      - name: Chat server tests
+        run: node chat/server.test.mjs
+
+      - name: Install Playwright and Chromium
+        run: |
+          npm install -g playwright@1.63.0
+          echo "NODE_PATH=$(npm root -g)" >> "$GITHUB_ENV"
+          playwright install --with-deps chromium
+
+      - name: Drive the built site in a browser
+        run: |
+          python3 -m http.server 4322 --bind 127.0.0.1 -d astro/dist &
+          timeout 30 bash -c 'until curl -sf http://127.0.0.1:4322/ >/dev/null; do sleep 1; done'
+          node .claude/skills/run-partastar-site/driver.mjs flow --base http://127.0.0.1:4322 --out "$RUNNER_TEMP/screenshots"
+          node .claude/skills/run-partastar-site/driver.mjs chat --base http://127.0.0.1:4322 --out "$RUNNER_TEMP/screenshots"
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: ${{ runner.temp }}/screenshots
+          if-no-files-found: ignore
