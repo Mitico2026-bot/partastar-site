@@ -1,0 +1,10 @@
+---
+// Numbered steps with a Messenger button (green-loan).
+import { MESSENGER } from "../../lib/site";
+const { s } = Astro.props;
+---
+<section class="line"><div class="wrap">
+  <h2>{s.title}</h2>
+  <ol class="steps" style="color:var(--ink)">{s.items.map((i: any) => <li><b>{i.title}</b><p style="color:var(--muted)" set:html={i.text} /></li>)}</ol>
+  <div class="btns"><a class="btn" href={MESSENGER} target="_blank" rel="noopener" data-copy={s.button.copy}>{s.button.text}</a></div>
+</div></section>

@@ -1,0 +1,17 @@
+---
+// Home page order / contact block.
+import { MESSENGER, FACEBOOK } from "../../lib/site";
+const { s } = Astro.props;
+---
+<section class="section">
+  <div class="wrap order">
+    <div>
+      <h2>{s.title}</h2>
+      <p style="margin-top:12px;max-width:52ch;color:var(--muted)" set:html={s.text} />
+    </div>
+    <div class="btns">
+      <a class="btn" href={MESSENGER} target="_blank" rel="noopener" data-copy={s.messenger.copy}>{s.messenger.text}</a>
+      <a class="btn ghost" href={FACEBOOK} target="_blank" rel="noopener">{s.facebook.text}</a>
+    </div>
+  </div>
+</section>

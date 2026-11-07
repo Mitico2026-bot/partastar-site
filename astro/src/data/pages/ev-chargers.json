@@ -9,9 +9,8 @@
       "ogImage": "img/ev-dc-floor.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Мэдээлэл үйлдвэрлэгчийн каталогоос. Орон нутгийн залгуурын стандарт, цахилгаан тэжээлийг захиалахын өмнө баталгаажуулна.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Мэдээлэл үйлдвэрлэгчийн каталогоос. Орон нутгийн залгуурын стандарт, цахилгаан тэжээлийг захиалахын өмнө баталгаажуулна."
         },
         {
           "type": "line",
@@ -3338,9 +3337,8 @@
       "ogImage": "img/ev-dc-floor.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Information is from the manufacturer's catalog. The connector standard and electrical supply are confirmed before ordering.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Information is from the manufacturer's catalog. The connector standard and electrical supply are confirmed before ordering."
         },
         {
           "type": "line",
@@ -6667,9 +6665,8 @@
       "ogImage": "img/ev-dc-floor.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">信息来自制造商产品手册。订购前请确认接口标准与供电条件。</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "信息来自制造商产品手册。订购前请确认接口标准与供电条件。"
         },
         {
           "type": "line",
@@ -9996,9 +9993,8 @@
       "ogImage": "img/ev-dc-floor.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Информация приведена по каталогу производителя. Стандарт разъёма и параметры питания подтверждаются перед заказом.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Информация приведена по каталогу производителя. Стандарт разъёма и параметры питания подтверждаются перед заказом."
         },
         {
           "type": "line",
@@ -13325,9 +13321,8 @@
       "ogImage": "img/ev-dc-floor.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Ақпарат өндірушінің каталогынан алынған. Ұя стандарты мен электр қорегі тапсырыс алдында нақтыланады.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Ақпарат өндірушінің каталогынан алынған. Ұя стандарты мен электр қорегі тапсырыс алдында нақтыланады."
         },
         {
           "type": "line",

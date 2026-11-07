@@ -32,15 +32,17 @@ export const quoteText = (l: Lang, name: string, explicit?: string) =>
 
 /**
  * Name/description/image for the JSON-LD product list.
- * Rule (matches the original site): a section is a product only if it has a picture column;
- * its description is the first lead inside that column.
+ * Rule (matches the original site): a section is a product only if it has pictures (a picture
+ * column or a gallery); its description is the first lead inside the picture column, if any.
  */
 export function productOf(section: any) {
   if (section.type === "raw") return section.product;
+  if (section.type !== "line") return null; // typed one-off sections (FAQ, steps, hero, ...) are not products
   const top = section.blocks.find((b: any) => b.k === "top");
-  if (!top) return null;
-  const lead = top.parts.find((p: any) => p.k === "lead")?.text ?? null;
-  return { id: section.id ?? null, name: section.name, lead, img: top.imgs[0]?.src ?? null };
+  const gallery = section.blocks.find((b: any) => b.k === "gallery");
+  if (!top && !gallery) return null;
+  const lead = top?.parts.find((p: any) => p.k === "lead")?.text ?? null;
+  return { id: section.id ?? null, name: section.name, lead, img: (top ?? gallery).imgs[0]?.src ?? null };
 }
 
 /**

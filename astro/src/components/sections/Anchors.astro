@@ -1,0 +1,5 @@
+---
+// Quick links to the product lines further down the page (home storage).
+const { s } = Astro.props;
+---
+<div class="wrap"><ul class="chips" aria-label={s.label}>{s.items.map((i: any) => <li><a href={i.href} style="text-decoration:none">{i.text}</a></li>)}</ul></div>

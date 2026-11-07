@@ -34,12 +34,15 @@ src/lib/site.ts                    URL scheme, hreflang, Messenger quote text, J
 src/layouts/Base.astro             <head>, header, category nav, footer, mobile bar, scripts
 src/components/PageView.astro      page-head + sections for any page kind
 src/components/ProductLine.astro   one product <section class="line">
+src/components/sections/*.astro    one component per one-off section type (hero, faq, steps, ...)
+src/components/Img.astro           <img> from image data
 src/pages/[...lang]/[slug].astro   /<slug>.html (Mongolian) and /<lang>/<slug>.html
 src/pages/[...lang]/index.astro    the home page: /index.html and /<lang>/index.html
 src/pages/404.astro                not-found page (Mongolian only, ported by hand)
 src/pages/sitemap.xml.ts           sitemap from the page list (LASTMOD constant inside)
-scripts/extract.mjs                HTML -> JSON extractor used for the migration (historical: it reads
-                                   the original pages, which now exist only in git history)
+scripts/extract.mjs                HTML -> JSON extractor used for the migration. It reads the original pages
+                                   from git (e6a2a40fcdb3) and overwrites src/data/, so don't re-run it once
+                                   the data has been edited by hand.
 scripts/compare.mjs                page-by-page equivalence check against the originals
 ```
 
@@ -58,8 +61,12 @@ Edit the product's block in `src/data/pages/<slug>.json`, in each language, then
   - `button`;
   - `table`, `tblTitle` and `note`.
 - A button's `copy` is stored only when it differs from the language's `copyTemplate`. This happens in 40 places where the original page uses a product-family name instead of the `h2`.
-- 70 sections don't fit the model yet and are kept as raw HTML (`"type": "raw"`). They are still checked by `npm run compare`:
-  - the home page's sections: hero, runtime calculator, category grid and so on (6 per language);
-  - the prose sections of `about` and `green-loan` (2 each per language);
-  - the home-storage runtime calculator, the "tight" note sections on heat pumps and EV chargers, and one commercial block.
+- Every section is structured; none is stored as raw HTML. Besides product lines (`"type": "line"`), pages use these one-off section types, each with a component in `src/components/sections/`:
+  - home page: `hero`, `runtime` (the calculator shell that `app.js` fills in), `catGrid`, `homeTrust`, `bandSteps` and `order`;
+  - `about`: `aboutTrust` and `faq`;
+  - `green-loan`: `pageSteps` and `faq`;
+  - other pages: `note` (heat pumps, EV chargers) and `anchors` (the quick links on home storage).
+- Product lines can also contain a `gallery` block of pictures (commercial).
+- Short inline formatting inside text, such as a bold phrase, is kept as an HTML snippet in that field (`text`, `html`, `a`, `facts`).
+- A raw-HTML fallback (`"type": "raw"`) still exists in the templates for content that doesn't fit, but nothing uses it now.
 - JSON-LD rule, matching the original pages: a section is a product only if it has a picture column, and its description is the first lead in that column.

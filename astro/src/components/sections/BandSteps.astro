@@ -1,0 +1,11 @@
+---
+// Home page green-loan steps band.
+const { s } = Astro.props;
+---
+<section class="section band">
+  <div class="wrap">
+    <div class="section-head"><h2>{s.title}</h2><p set:html={s.intro} /></div>
+    <ol class="steps">{s.items.map((i: any) => <li><b>{i.title}</b><p set:html={i.text} /></li>)}</ol>
+    <p style="margin-top:28px"><a class="btn lamp" href={s.link.href}>{s.link.text}</a></p>
+  </div>
+</section>

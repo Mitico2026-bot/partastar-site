@@ -9,9 +9,8 @@
       "ogImage": "img/hp-zun.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Мэдээлэл үйлдвэрлэгчийн каталогоос. Үнэ, нөөц, хүргэлт, баталгааны нөхцөлийг захиалгын үед баталгаажуулна.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Мэдээлэл үйлдвэрлэгчийн каталогоос. Үнэ, нөөц, хүргэлт, баталгааны нөхцөлийг захиалгын үед баталгаажуулна."
         },
         {
           "type": "line",
@@ -4043,9 +4042,8 @@
       "ogImage": "img/hp-zun.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Information is from the manufacturer's catalog. Price, stock, delivery and warranty terms are confirmed when ordering.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Information is from the manufacturer's catalog. Price, stock, delivery and warranty terms are confirmed when ordering."
         },
         {
           "type": "line",
@@ -8077,9 +8075,8 @@
       "ogImage": "img/hp-zun.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">信息来自制造商产品手册。价格、库存、配送及质保条款在下单时确认。</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "信息来自制造商产品手册。价格、库存、配送及质保条款在下单时确认。"
         },
         {
           "type": "line",
@@ -12111,9 +12108,8 @@
       "ogImage": "img/hp-zun.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Информация приведена по каталогу производителя. Цена, наличие, доставка и условия гарантии подтверждаются при заказе.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Информация приведена по каталогу производителя. Цена, наличие, доставка и условия гарантии подтверждаются при заказе."
         },
         {
           "type": "line",
@@ -16145,9 +16141,8 @@
       "ogImage": "img/hp-zun.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"section tight\"><div class=\"wrap\"><p class=\"note\">Ақпарат өндірушінің каталогынан алынған. Баға, қор, жеткізу және кепілдік шарттары тапсырыс кезінде нақтыланады.</p></div></section>",
-          "product": null
+          "type": "note",
+          "html": "Ақпарат өндірушінің каталогынан алынған. Баға, қор, жеткізу және кепілдік шарттары тапсырыс кезінде нақтыланады."
         },
         {
           "type": "line",

@@ -2,16 +2,34 @@
 // Renders one page (any kind) inside the shared layout. Used by both page routes.
 import Base from "../layouts/Base.astro";
 import ProductLine from "./ProductLine.astro";
-import { jsonLd, ui, type Lang, type PageKind } from "../lib/site";
+import Note from "./sections/Note.astro";
+import Anchors from "./sections/Anchors.astro";
+import Faq from "./sections/Faq.astro";
+import PageSteps from "./sections/PageSteps.astro";
+import AboutTrust from "./sections/AboutTrust.astro";
+import Hero from "./sections/Hero.astro";
+import Runtime from "./sections/Runtime.astro";
+import CatGrid from "./sections/CatGrid.astro";
+import HomeTrust from "./sections/HomeTrust.astro";
+import BandSteps from "./sections/BandSteps.astro";
+import Order from "./sections/Order.astro";
+import { jsonLd, ui, rootPrefix, type Lang, type PageKind } from "../lib/site";
 
 interface Props { lang: Lang; slug: string; kind: PageKind; data: any; }
 const { lang, slug, kind, data } = Astro.props;
 const page = data.langs[lang];
 const t = ui(lang);
+const P = rootPrefix(lang);
+/** Component per section type; every type in src/data/pages must be listed here. */
+const SECTIONS: Record<string, any> = { note: Note, anchors: Anchors, faq: Faq, pageSteps: PageSteps, aboutTrust: AboutTrust, hero: Hero, runtime: Runtime, catGrid: CatGrid, homeTrust: HomeTrust, bandSteps: BandSteps, order: Order };
+for (const s of page.sections) if (s.type !== "line" && s.type !== "raw" && !SECTIONS[s.type]) throw new Error(`${lang}/${slug}: no component for section type "${s.type}"`);
 const h1Style = page.h1Style === undefined ? "font-size:clamp(1.9rem,4.4vw,3rem)" : page.h1Style ?? undefined;
 ---
 <Base lang={lang} slug={slug} title={page.title} description={page.description} ogImage={page.ogImage} jsonLd={jsonLd(lang, slug, kind, page)}>
-{kind !== "home" && <section class="page-head"><div class="wrap"><p class="crumbs"><a href="index.html">{t.crumbsHome}</a> / {page.crumb}</p><h1 style={h1Style}>{page.h1}</h1><p set:html={page.introHtml} />{data.scene && <div class="s3d" data-scene={data.scene} aria-hidden="true"></div>}</div></section>}{page.sections.map((s: any) =>
-  s.type === "line" ? <ProductLine lang={lang} line={s} /> : <Fragment set:html={s.html} />
-)}
+{kind !== "home" && <section class="page-head"><div class="wrap"><p class="crumbs"><a href="index.html">{t.crumbsHome}</a> / {page.crumb}</p><h1 style={h1Style}>{page.h1}</h1><p set:html={page.introHtml} />{data.scene && <div class="s3d" data-scene={data.scene} aria-hidden="true"></div>}</div></section>}{page.sections.map((s: any) => {
+  if (s.type === "line") return <ProductLine lang={lang} line={s} />;
+  if (s.type === "raw") return <Fragment set:html={s.html} />;
+  const Section = SECTIONS[s.type];
+  return <Section s={s} P={P} />;
+})}
 </Base>
