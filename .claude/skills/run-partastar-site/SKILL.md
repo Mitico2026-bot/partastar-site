@@ -56,8 +56,11 @@ lsof -ti:4322 -sTCP:LISTEN | xargs -r kill
 
 ```bash
 cd astro && npm run check          # build + compare every page with the original hand-written pages (from git)
+npm run check:links                # every internal href/src on every built page resolves, including #fragments
 cd .. && node chat/server.test.mjs # 11 chat-server tests against a stub Ollama; summary lines: "# pass 11", "# fail 0"
 ```
+
+CI (`.github/workflows/ci.yml`) runs these checks on every pull request. It also runs the driver's `flow` and `chat` checks against the served production build, and uploads the screenshots as an artifact. In CI the comparison is informational only.
 
 `npm run compare` diffs `astro/dist` against the original pages at git commit `e6a2a40fcdb3`. A deliberate content edit shows up as a `DIFF` for that page. That's expected; it's a regression check for template changes.
 
