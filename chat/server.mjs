@@ -8,8 +8,8 @@
 //   OLLAMA_MODEL     default gemma3:4b
 //   PORT             default 8787
 //   HOST             default 127.0.0.1 (only the local Cloudflare Tunnel can connect)
-//   ALLOWED_ORIGINS  comma-separated; default https://partastar.solar,https://www.partastar.solar,
-//                    http://localhost:8000,http://127.0.0.1:8000
+//   ALLOWED_ORIGINS  comma-separated; default https://partastar.solar,https://www.partastar.solar
+//                    (for local testing add e.g. http://127.0.0.1:8000)
 //   MAX_CONCURRENT   default 2      model answers generated at the same time; more get "busy"
 //   MAX_TOKENS       default 512    longest answer, in tokens
 //   ANSWER_TIMEOUT_MS default 90000 longest time one answer may run
@@ -24,8 +24,7 @@ const OLLAMA_URL = (process.env.OLLAMA_URL || "http://127.0.0.1:11434").replace(
 const MODEL = process.env.OLLAMA_MODEL || "gemma3:4b";
 const PORT = Number(process.env.PORT || 8787);
 const HOST = process.env.HOST || "127.0.0.1";
-const ALLOWED = (process.env.ALLOWED_ORIGINS ||
-  "https://partastar.solar,https://www.partastar.solar,http://localhost:8000,http://127.0.0.1:8000")
+const ALLOWED = (process.env.ALLOWED_ORIGINS || "https://partastar.solar,https://www.partastar.solar")
   .split(",").map((s) => s.trim()).filter(Boolean);
 const positive = (v, d) => (Number.isFinite(Number(v)) && Number(v) > 0 ? Number(v) : d);
 const MAX_CONCURRENT = positive(process.env.MAX_CONCURRENT, 2);
@@ -36,6 +35,7 @@ const MAX_TURNS = 12;          // messages of history kept per request
 const MAX_CHARS = 1000;        // per user message
 const RATE_PER_MIN = 10;       // requests per visitor IP per minute
 const MAX_TRACKED_IPS = 10_000; // rate-limit memory bound
+const HEALTH_PER_MIN = 30;     // public /health checks per visitor IP per minute
 
 const LANG_NAMES = { mn: "Mongolian", en: "English", zh: "Simplified Chinese", ru: "Russian", kk: "Kazakh" };
 const KNOWLEDGE = readFileSync(join(here, "knowledge-base.md"), "utf8");
@@ -54,7 +54,8 @@ function systemPrompt(lang) {
 }
 
 const limiter = createLimiter({ perWindow: RATE_PER_MIN, windowMs: 60_000, maxKeys: MAX_TRACKED_IPS });
-setInterval(limiter.sweep, 60_000).unref();
+const healthLimiter = createLimiter({ perWindow: HEALTH_PER_MIN, windowMs: 60_000, maxKeys: MAX_TRACKED_IPS });
+setInterval(() => { limiter.sweep(); healthLimiter.sweep(); }, 60_000).unref();
 
 // The visitor's address. Cloudflare Tunnel (cloudflared on this computer) puts it in
 // CF-Connecting-IP; that header is only believed when the request comes from this computer,
@@ -65,6 +66,8 @@ function clientIp(req) {
   const header = req.headers["cf-connecting-ip"];
   return LOOPBACK.has(peer) && typeof header === "string" && header ? header : peer;
 }
+// Someone at this computer (not a visitor coming through the tunnel, which always adds CF-Connecting-IP).
+const isLocal = (req) => LOOPBACK.has(req.socket.remoteAddress) && req.headers["cf-connecting-ip"] === undefined;
 
 let generating = 0; // model answers in progress
 
@@ -115,14 +118,17 @@ async function handle(req, res) {
   if (req.method === "OPTIONS") { res.writeHead(204); res.end(); return; }
 
   if (req.method === "GET" && url.pathname === "/health") {
+    // Visitors only learn whether the chat works; the model name and setup hints are for this computer.
+    const local = isLocal(req);
+    if (!local && healthLimiter.limited(clientIp(req))) { send(res, 429, { error: "rate limited" }, { "Retry-After": "60" }); return; }
+    let ok = false, note = "Ollama is not reachable";
     try {
       const r = await fetch(`${OLLAMA_URL}/api/tags`, { signal: AbortSignal.timeout(5000) });
       const tags = await r.json();
-      const ok = (tags.models || []).some((m) => m.name === MODEL || m.model === MODEL);
-      send(res, ok ? 200 : 503, { ok, model: MODEL, note: ok ? "ready" : `model not pulled: run "ollama pull ${MODEL}"` });
-    } catch {
-      send(res, 503, { ok: false, note: "Ollama is not reachable" });
-    }
+      ok = (tags.models || []).some((m) => m.name === MODEL || m.model === MODEL);
+      note = ok ? "ready" : `model not pulled: run "ollama pull ${MODEL}"`;
+    } catch { /* keep "not reachable" */ }
+    send(res, ok ? 200 : 503, local ? { ok, model: MODEL, note } : { ok });
     return;
   }
 
@@ -169,19 +175,30 @@ async function handle(req, res) {
     // Stream plain text to the browser as the model writes it.
     res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store", "X-Accel-Buffering": "no" });
     const decoder = new TextDecoder();
+    // Wait until the visitor's connection can take more, or the answer is cancelled.
+    const drained = () => new Promise((resolve) => {
+      if (abort.signal.aborted || res.destroyed) { resolve(); return; } // already over: those events have fired
+      const done = () => { res.off("drain", done); res.off("close", done); abort.signal.removeEventListener("abort", done); resolve(); };
+      res.on("drain", done); res.on("close", done); abort.signal.addEventListener("abort", done);
+    });
     let buf = "";
     try {
-      for await (const chunk of upstream.body) {
+      read: for await (const chunk of upstream.body) {
         buf += decoder.decode(chunk, { stream: true });
         let nl;
         while ((nl = buf.indexOf("\n")) >= 0) {
           const line = buf.slice(0, nl).trim();
           buf = buf.slice(nl + 1);
           if (!line) continue;
-          try {
-            const j = JSON.parse(line);
-            if (j.message && typeof j.message.content === "string" && j.message.content) res.write(j.message.content);
-          } catch { /* ignore partial line */ }
+          let text = "";
+          try { const j = JSON.parse(line); if (j.message && typeof j.message.content === "string") text = j.message.content; }
+          catch { continue; /* ignore partial line */ }
+          // If the visitor reads slower than the model writes, stop reading from Ollama until they
+          // catch up, instead of holding the rest of the answer in memory.
+          if (text && !res.write(text)) {
+            await drained();
+            if (abort.signal.aborted || res.destroyed) break read;
+          }
         }
       }
     } catch { /* visitor closed the chat, or the answer hit the time limit */ }

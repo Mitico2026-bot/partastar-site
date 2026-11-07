@@ -17,10 +17,11 @@ const here = dirname(fileURLToPath(import.meta.url));
 const children = [];
 after(() => children.forEach((c) => c.kill()));
 
-// Stub Ollama: /api/tags lists the model; /api/chat streams "ok" lines, or holds the stream open
-// when the prompt says "hold", recording what it was asked and whether the caller hung up.
+// Stub Ollama: /api/tags lists the model; /api/chat streams "ok" lines, holds the stream open
+// when the prompt says "hold", or streams up to 50 MB as fast as the caller reads when it says
+// "flood"; it records what it was asked, how much it wrote, and whether the caller hung up.
 function startStub() {
-  const stub = { calls: [], open: 0, aborted: 0 };
+  const stub = { calls: [], open: 0, aborted: 0, written: 0 };
   stub.server = http.createServer((req, res) => {
     if (req.url === "/api/tags") { res.end(JSON.stringify({ models: [{ name: "stub:1" }] })); return; }
     let body = "";
@@ -29,6 +30,20 @@ function startStub() {
       const j = JSON.parse(body);
       stub.calls.push(j);
       res.writeHead(200, { "Content-Type": "application/x-ndjson" });
+      if (j.messages.at(-1).content.includes("flood")) {
+        const line = JSON.stringify({ message: { content: "x".repeat(1024) } }) + "\n";
+        let closed = false;
+        res.on("close", () => (closed = true));
+        const pump = () => {
+          while (!closed && stub.written < 50 * 1024 * 1024) {
+            stub.written += line.length;
+            if (!res.write(line)) { res.once("drain", pump); return; }
+          }
+          if (!closed) res.end();
+        };
+        pump();
+        return;
+      }
       if (j.messages.at(-1).content.includes("hold")) {
         stub.open++;
         res.write(JSON.stringify({ message: { content: "..." } }) + "\n");
@@ -198,5 +213,50 @@ test("listens only on 127.0.0.1 by default", async () => {
   const stub = await startStub();
   const srv = await startServer(stub);
   assert.match(srv.log(), /on http:\/\/127\.0\.0\.1:/);
+  stub.server.close();
+});
+
+test("only the site's own origins are allowed by default; local testing must opt in", async () => {
+  const stub = await startStub();
+  const prod = await startServer(stub);
+  for (const origin of ["http://localhost:8000", "http://127.0.0.1:8000", "https://evil.example"])
+    assert.equal((await request(prod.port, { headers: { ...json, Origin: origin }, body: ask("hi") })).status, 403, origin);
+  assert.equal((await request(prod.port, { headers: { ...json, Origin: "https://partastar.solar" }, body: ask("hi") })).status, 200);
+  const dev = await startServer(stub, { ALLOWED_ORIGINS: "http://127.0.0.1:8000" });
+  assert.equal((await request(dev.port, { headers: { ...json, Origin: "http://127.0.0.1:8000" }, body: ask("hi") })).status, 200);
+  stub.server.close();
+});
+
+test("/health shows details only on this computer, and is rate limited for visitors", async () => {
+  const stub = await startStub();
+  const srv = await startServer(stub);
+  const local = await request(srv.port, { method: "GET", path: "/health" });
+  assert.deepEqual(JSON.parse(local.body), { ok: true, model: "stub:1", note: "ready" });
+  const viaTunnel = await request(srv.port, { method: "GET", path: "/health", headers: { "CF-Connecting-IP": "203.0.113.5" } });
+  assert.deepEqual(JSON.parse(viaTunnel.body), { ok: true });
+  const direct = await request(srv.port, { method: "GET", path: "/health", from: "127.0.0.2" });
+  assert.deepEqual(JSON.parse(direct.body), { ok: true });
+  const codes = [];
+  for (let i = 0; i < 31; i++) codes.push((await request(srv.port, { method: "GET", path: "/health", headers: { "CF-Connecting-IP": "203.0.113.6" } })).status);
+  assert.deepEqual(codes, [...Array(30).fill(200), 429]);
+  assert.equal((await request(srv.port, { method: "GET", path: "/health" })).status, 200, "local checks are not limited");
+  stub.server.close();
+});
+
+test("a visitor who stops reading pauses the model stream instead of filling server memory", async () => {
+  const stub = await startStub();
+  const srv = await startServer(stub);
+  const res = await new Promise((resolve, reject) => {
+    const req = http.request({ host: "127.0.0.1", port: srv.port, method: "POST", path: "/chat", headers: json }, resolve);
+    req.on("error", reject);
+    req.end(JSON.stringify(ask("flood")));
+  });
+  res.pause(); // the visitor's browser stops reading
+  await new Promise((r) => setTimeout(r, 1500));
+  const pausedAt = stub.written;
+  assert.ok(pausedAt < 16 * 1024 * 1024, `stub wrote ${(pausedAt / 1048576).toFixed(1)} MB while the visitor was not reading`);
+  res.resume();
+  await new Promise((r) => res.on("end", r)); // reading again lets the rest flow
+  assert.ok(stub.written >= 50 * 1024 * 1024, "the whole answer was delivered once the visitor read again");
   stub.server.close();
 });

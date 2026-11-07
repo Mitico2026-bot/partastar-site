@@ -49,8 +49,10 @@ Windows PowerShell:
 $env:OLLAMA_MODEL="gemma3:4b"; node chat/server.mjs
 ```
 
-Check it: open http://127.0.0.1:8787/health in your browser. It should say
-`"ok":true`.
+Check it: open http://127.0.0.1:8787/health in your browser on the same
+computer. It should say `"ok":true`, the model name, and `"ready"` (or what to
+fix). Visitors who open `/health` through the public address only see
+`{"ok":true}` or `{"ok":false}`.
 
 ## 4. Give it a public address (Cloudflare Tunnel, free)
 
@@ -92,6 +94,8 @@ Publish the site as usual. The "Chat" button appears on every page in all
   visitors see "too many questions, please wait". Each answer is limited to
   512 tokens (`MAX_TOKENS`) and 90 seconds (`ANSWER_TIMEOUT_MS`), so a few
   visitors cannot keep the computer busy for everyone else.
+- Only links to partastar.solar, m.me and facebook.com in an answer are
+  clickable; any other web address the model writes is shown as plain text.
 - Answers come only from `chat/knowledge-base.md`. When products change,
   update that file and restart the chat server.
 
@@ -106,10 +110,11 @@ Publish the site as usual. The "Chat" button appears on every page in all
 | `MAX_CONCURRENT` | `2` (raise it if your computer can answer more people at once) |
 | `MAX_TOKENS` | `512` |
 | `ANSWER_TIMEOUT_MS` | `90000` |
-| `ALLOWED_ORIGINS` | `https://partastar.solar,https://www.partastar.solar,http://localhost:8000,http://127.0.0.1:8000` |
+| `ALLOWED_ORIGINS` | `https://partastar.solar,https://www.partastar.solar` (add `http://127.0.0.1:8000` only while testing locally) |
 
 To try the chat window on your computer before publishing:
-1. Set `ENDPOINT` to `http://127.0.0.1:8787`.
+1. Set `ENDPOINT` to `http://127.0.0.1:8787`, and start the server with
+   `ALLOWED_ORIGINS=http://127.0.0.1:8000 node chat/server.mjs` so the local page may call it.
 2. Build the site: `cd astro && npm ci && npm run build`.
 3. Serve it: `python3 -m http.server 8000 -d astro/dist`, run from the repository folder.
 4. Open http://127.0.0.1:8000.
@@ -122,4 +127,7 @@ and checks:
 - that the rate limit can't be dodged with a fake `CF-Connecting-IP` header;
 - that a flood stays cheap;
 - that the limits on simultaneous answers, answer length and answer time
-  work.
+  work;
+- that only the site's own origins are allowed by default;
+- that `/health` shows details only to someone at this computer;
+- that a visitor who stops reading pauses the answer instead of filling memory.
