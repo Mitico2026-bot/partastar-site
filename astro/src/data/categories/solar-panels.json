@@ -1,0 +1,696 @@
+{
+  "slug": "solar-panels",
+  "scene": "office",
+  "langs": {
+    "mn": {
+      "title": "Нарны хавтан | Partastar Solar",
+      "description": "Монокристалл 100–720 Вт, эвхдэг зөөврийн 60–400 Вт, уян 50–300 Вт нарны хавтан. Каталогт чадал, хүчдэл заасан. Хэмжээ, үр ашгийн мэдээллийг хүсэлтээр өгнө.",
+      "ogImage": "img/solar-mono.webp",
+      "h1": "Нарны хавтан",
+      "crumb": "Нарны хавтан",
+      "introHtml": "Монокристалл, эвхдэг, уян хавтан. Каталогт чадал, хүчдэл заасан. Хэмжээ, үр ашгийн мэдээллийг хүсэлтээр өгнө.",
+      "sections": [
+        {
+          "type": "line",
+          "id": "solar-mono",
+          "name": "Монокристалл нарны хавтан",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-mono.webp",
+                  "alt": "Монокристалл нарны хавтан",
+                  "w": 600,
+                  "h": 600
+                }
+              ],
+              "h2": "Монокристалл нарны хавтан",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Байшин, дээвэр, машины зогсоолын суурилуулалтад. Чадлаа сонгоно уу."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Загварууд (чадал, хүчдэл)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "100 Вт 20.16V",
+                    "200 Вт 21.6V",
+                    "300 Вт 43.2V",
+                    "415 Вт 37.53V",
+                    "450 Вт 49.2V",
+                    "550 Вт 50.16V",
+                    "585 Вт 50.44V",
+                    "630 Вт 49.48V",
+                    "720 Вт 50.74V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-fold",
+          "name": "Зөөврийн эвхдэг нарны хавтан",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-fold.webp",
+                  "alt": "Зөөврийн эвхдэг нарны хавтан",
+                  "w": 716,
+                  "h": 522
+                }
+              ],
+              "h2": "Зөөврийн эвхдэг нарны хавтан",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Эвхээд авч явахад хялбар. Зөөврийн цахилгаан станц, кемпинг, аялалд."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Загварууд (чадал, хүчдэл)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "60 Вт 20V",
+                    "80 Вт 20V",
+                    "100 Вт 20V",
+                    "120 Вт 20V",
+                    "160 Вт 20V",
+                    "200 Вт 20V",
+                    "200 Вт 40V",
+                    "300 Вт 36V",
+                    "400 Вт 40V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-flex",
+          "name": "Уян, өндөр үр ашигтай хавтан",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-flex.webp",
+                  "alt": "Уян, өндөр үр ашигтай хавтан",
+                  "w": 604,
+                  "h": 643
+                }
+              ],
+              "h2": "Уян, өндөр үр ашигтай хавтан",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Нимгэн, уян. Муруй гадаргуу, фургон, завь зэрэгт."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Загварууд (чадал, хүчдэл)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "50 Вт 18V",
+                    "100 Вт 18V",
+                    "150 Вт 18V",
+                    "200 Вт 18V",
+                    "300 Вт 18V"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "title": "Solar panels | Partastar Solar",
+      "description": "Monocrystalline 100–720 W, foldable portable 60–400 W, flexible 50–300 W solar panels. The catalog lists power and voltage.",
+      "ogImage": "img/solar-mono.webp",
+      "h1": "Solar panels",
+      "crumb": "Solar panels",
+      "introHtml": "Monocrystalline, foldable and flexible panels. The catalog lists power and voltage. Dimensions and efficiency are provided on request.",
+      "sections": [
+        {
+          "type": "line",
+          "id": "solar-mono",
+          "name": "Monocrystalline solar panels",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-mono.webp",
+                  "alt": "Monocrystalline solar panels",
+                  "w": 600,
+                  "h": 600
+                }
+              ],
+              "h2": "Monocrystalline solar panels",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "For houses, roofs and carport installations. Choose your power rating."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Models (power, voltage)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "100 W 20.16V",
+                    "200 W 21.6V",
+                    "300 W 43.2V",
+                    "415 W 37.53V",
+                    "450 W 49.2V",
+                    "550 W 50.16V",
+                    "585 W 50.44V",
+                    "630 W 49.48V",
+                    "720 W 50.74V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-fold",
+          "name": "Portable foldable solar panels",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-fold.webp",
+                  "alt": "Portable foldable solar panels",
+                  "w": 716,
+                  "h": 522
+                }
+              ],
+              "h2": "Portable foldable solar panels",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Fold up and carry easily. For portable power stations, camping and travel."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Models (power, voltage)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "60 W 20V",
+                    "80 W 20V",
+                    "100 W 20V",
+                    "120 W 20V",
+                    "160 W 20V",
+                    "200 W 20V",
+                    "200 W 40V",
+                    "300 W 36V",
+                    "400 W 40V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-flex",
+          "name": "Flexible, high-efficiency panels",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-flex.webp",
+                  "alt": "Flexible, high-efficiency panels",
+                  "w": 604,
+                  "h": 643
+                }
+              ],
+              "h2": "Flexible, high-efficiency panels",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Thin and flexible. For curved surfaces, vans, boats and similar."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Models (power, voltage)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "50 W 18V",
+                    "100 W 18V",
+                    "150 W 18V",
+                    "200 W 18V",
+                    "300 W 18V"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "zh": {
+      "title": "太阳能板 | Partastar Solar",
+      "description": "单晶 100–720 W、折叠便携 60–400 W、柔性 50–300 W 太阳能板。目录标明功率和电压。尺寸与效率信息可按需提供。",
+      "ogImage": "img/solar-mono.webp",
+      "h1": "太阳能板",
+      "crumb": "太阳能板",
+      "introHtml": "单晶、折叠式和柔性太阳能板。目录标明功率和电压。尺寸与效率信息可按需提供。",
+      "sections": [
+        {
+          "type": "line",
+          "id": "solar-mono",
+          "name": "单晶太阳能板",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-mono.webp",
+                  "alt": "单晶太阳能板",
+                  "w": 600,
+                  "h": 600
+                }
+              ],
+              "h2": "单晶太阳能板",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "适用于住宅、屋顶和车棚安装。请选择功率。"
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "型号(功率、电压)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "100 W 20.16V",
+                    "200 W 21.6V",
+                    "300 W 43.2V",
+                    "415 W 37.53V",
+                    "450 W 49.2V",
+                    "550 W 50.16V",
+                    "585 W 50.44V",
+                    "630 W 49.48V",
+                    "720 W 50.74V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-fold",
+          "name": "便携折叠太阳能板",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-fold.webp",
+                  "alt": "便携折叠太阳能板",
+                  "w": 716,
+                  "h": 522
+                }
+              ],
+              "h2": "便携折叠太阳能板",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "折叠后便于携带。适用于便携储能电站、露营和旅行。"
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "型号(功率、电压)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "60 W 20V",
+                    "80 W 20V",
+                    "100 W 20V",
+                    "120 W 20V",
+                    "160 W 20V",
+                    "200 W 20V",
+                    "200 W 40V",
+                    "300 W 36V",
+                    "400 W 40V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-flex",
+          "name": "柔性高效太阳能板",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-flex.webp",
+                  "alt": "柔性高效太阳能板",
+                  "w": 604,
+                  "h": 643
+                }
+              ],
+              "h2": "柔性高效太阳能板",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "轻薄柔韧。适用于曲面、厢式车、船只等。"
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "型号(功率、电压)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "50 W 18V",
+                    "100 W 18V",
+                    "150 W 18V",
+                    "200 W 18V",
+                    "300 W 18V"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "title": "Солнечные панели | Partastar Solar",
+      "description": "Солнечные панели: монокристаллические 100–720 Вт, складные портативные 60–400 Вт, гибкие 50–300 Вт. В каталоге указаны мощность и напряжение.",
+      "ogImage": "img/solar-mono.webp",
+      "h1": "Солнечные панели",
+      "crumb": "Солнечные панели",
+      "introHtml": "Монокристаллические, складные и гибкие панели. В каталоге указаны мощность и напряжение. Размеры и КПД предоставляются по запросу.",
+      "sections": [
+        {
+          "type": "line",
+          "id": "solar-mono",
+          "name": "Монокристаллические солнечные панели",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-mono.webp",
+                  "alt": "Монокристаллические солнечные панели",
+                  "w": 600,
+                  "h": 600
+                }
+              ],
+              "h2": "Монокристаллические солнечные панели",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Для установки на домах, крышах и навесах для автомобилей. Выберите мощность."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Модели (мощность, напряжение)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "100 Вт 20.16V",
+                    "200 Вт 21.6V",
+                    "300 Вт 43.2V",
+                    "415 Вт 37.53V",
+                    "450 Вт 49.2V",
+                    "550 Вт 50.16V",
+                    "585 Вт 50.44V",
+                    "630 Вт 49.48V",
+                    "720 Вт 50.74V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-fold",
+          "name": "Портативные складные солнечные панели",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-fold.webp",
+                  "alt": "Портативные складные солнечные панели",
+                  "w": 716,
+                  "h": 522
+                }
+              ],
+              "h2": "Портативные складные солнечные панели",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Легко складываются и переносятся. Для портативных электростанций, кемпинга и путешествий."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Модели (мощность, напряжение)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "60 Вт 20V",
+                    "80 Вт 20V",
+                    "100 Вт 20V",
+                    "120 Вт 20V",
+                    "160 Вт 20V",
+                    "200 Вт 20V",
+                    "200 Вт 40V",
+                    "300 Вт 36V",
+                    "400 Вт 40V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-flex",
+          "name": "Гибкие высокоэффективные панели",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-flex.webp",
+                  "alt": "Гибкие высокоэффективные панели",
+                  "w": 604,
+                  "h": 643
+                }
+              ],
+              "h2": "Гибкие высокоэффективные панели",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Тонкие и гибкие. Для изогнутых поверхностей, фургонов, лодок и т. п."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Модели (мощность, напряжение)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "50 Вт 18V",
+                    "100 Вт 18V",
+                    "150 Вт 18V",
+                    "200 Вт 18V",
+                    "300 Вт 18V"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kk": {
+      "title": "Күн панельдері | Partastar Solar",
+      "description": "Күн панельдері: моно кристалды 100–720 Вт, жиналмалы тасымал 60–400 Вт, икемді 50–300 Вт. Каталогта қуаты мен кернеуі көрсетілген.",
+      "ogImage": "img/solar-mono.webp",
+      "h1": "Күн панельдері",
+      "crumb": "Күн панельдері",
+      "introHtml": "Моно кристалды, жиналмалы және икемді панельдер. Каталогта қуаты мен кернеуі көрсетілген. Өлшемі мен тиімділігі сұраныс бойынша беріледі.",
+      "sections": [
+        {
+          "type": "line",
+          "id": "solar-mono",
+          "name": "Моно кристалды күн панельдері",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-mono.webp",
+                  "alt": "Моно кристалды күн панельдері",
+                  "w": 600,
+                  "h": 600
+                }
+              ],
+              "h2": "Моно кристалды күн панельдері",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Үйге, шатырға және көлік тұрағына орнатуға арналған. Қуатын таңдаңыз."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Үлгілер (қуаты, кернеуі)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "100 Вт 20.16V",
+                    "200 Вт 21.6V",
+                    "300 Вт 43.2V",
+                    "415 Вт 37.53V",
+                    "450 Вт 49.2V",
+                    "550 Вт 50.16V",
+                    "585 Вт 50.44V",
+                    "630 Вт 49.48V",
+                    "720 Вт 50.74V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-fold",
+          "name": "Тасымал жиналмалы күн панельдері",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-fold.webp",
+                  "alt": "Тасымал жиналмалы күн панельдері",
+                  "w": 716,
+                  "h": 522
+                }
+              ],
+              "h2": "Тасымал жиналмалы күн панельдері",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Жинап алып жүруге оңай. Тасымал электр станциялары, кемпинг және саяхатқа арналған."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Үлгілер (қуаты, кернеуі)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "60 Вт 20V",
+                    "80 Вт 20V",
+                    "100 Вт 20V",
+                    "120 Вт 20V",
+                    "160 Вт 20V",
+                    "200 Вт 20V",
+                    "200 Вт 40V",
+                    "300 Вт 36V",
+                    "400 Вт 40V"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "solar-flex",
+          "name": "Икемді, тиімділігі жоғары панельдер",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/solar-flex.webp",
+                  "alt": "Икемді, тиімділігі жоғары панельдер",
+                  "w": 604,
+                  "h": 643
+                }
+              ],
+              "h2": "Икемді, тиімділігі жоғары панельдер",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Жұқа әрі икемді. Қисық беттерге, фургондарға, қайықтарға және т.б. арналған."
+                },
+                {
+                  "k": "chipTitle",
+                  "text": "Үлгілер (қуаты, кернеуі)"
+                },
+                {
+                  "k": "chips",
+                  "items": [
+                    "50 Вт 18V",
+                    "100 Вт 18V",
+                    "150 Вт 18V",
+                    "200 Вт 18V",
+                    "300 Вт 18V"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+---
+// Generates every category page in every language: /solar-panels.html, /en/solar-panels.html, ...
+import Base from "../../layouts/Base.astro";
+import ProductLine from "../../components/ProductLine.astro";
+import { LANGS, categories, jsonLd, ui, type Lang } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const files = import.meta.glob("../../data/categories/*.json", { eager: true });
+  const bySlug = Object.fromEntries(Object.values(files).map((m: any) => [m.default.slug, m.default]));
+  return LANGS.flatMap((lang) =>
+    categories.map((slug) => ({
+      params: { lang: lang === "mn" ? undefined : lang, slug },
+      props: { lang, slug, cat: bySlug[slug] }
+    }))
+  );
+}
+
+const { lang, slug, cat } = Astro.props as { lang: Lang; slug: string; cat: any };
+const page = cat.langs[lang];
+const t = ui(lang);
+---
+<Base lang={lang} slug={slug} title={page.title} description={page.description} ogImage={page.ogImage} jsonLd={jsonLd(lang, slug, page)}>
+<section class="page-head"><div class="wrap"><p class="crumbs"><a href="index.html">{t.crumbsHome}</a> / {page.crumb}</p><h1 style="font-size:clamp(1.9rem,4.4vw,3rem)">{page.h1}</h1><p set:html={page.introHtml} />{cat.scene && <div class="s3d" data-scene={cat.scene} aria-hidden="true"></div>}</div></section>{page.sections.map((s: any) =>
+  s.type === "line" ? <ProductLine lang={lang} line={s} /> : <Fragment set:html={s.html} />
+)}
+</Base>
