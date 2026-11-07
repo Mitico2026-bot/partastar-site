@@ -1,0 +1,12 @@
+---
+// Home page in every language: /index.html (Mongolian) and /<lang>/index.html.
+import PageView from "../../components/PageView.astro";
+import { LANGS, type Lang } from "../../lib/site";
+import { pageData } from "../../lib/pages";
+
+export async function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang: lang === "mn" ? undefined : lang }, props: { lang } }));
+}
+const { lang } = Astro.props as { lang: Lang };
+---
+<PageView lang={lang} slug="index" kind="home" data={pageData.index} />

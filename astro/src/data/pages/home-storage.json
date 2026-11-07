@@ -1,14 +1,12 @@
 {
   "slug": "home-storage",
+  "kind": "category",
   "scene": "house",
   "langs": {
     "mn": {
       "title": "Гэр ахуйн эрчим хүч хадгалалт | Partastar Solar",
       "description": "Давхарладаг, дугуйтай, тавиурт, хананд өлгөх, инвертер нэгдсэн LiFePO4 батарей. 2.56–61 кВт·ц. Гэрийн нарны системд зориулсан LiFePO4 батарей.",
       "ogImage": "img/stack-ip65.webp",
-      "h1": "Гэр ахуйн эрчим хүч хадгалалт",
-      "crumb": "Гэр ахуйн эрчим хүч хадгалалт",
-      "introHtml": "Гэрийн нарны системд зориулсан LiFePO4 батарей. Загвар бүрийн техникийн үзүүлэлтийг доор харна уу.",
       "sections": [
         {
           "type": "raw",
@@ -4590,15 +4588,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Гэр ахуйн эрчим хүч хадгалалт",
+      "crumb": "Гэр ахуйн эрчим хүч хадгалалт",
+      "introHtml": "Гэрийн нарны системд зориулсан LiFePO4 батарей. Загвар бүрийн техникийн үзүүлэлтийг доор харна уу."
     },
     "en": {
       "title": "Home energy storage | Partastar Solar",
       "description": "Stackable, wheeled, rack-mount, wall-mounted and inverter-integrated LiFePO4 batteries. 2.56–61 kWh. LiFePO4 batteries for home solar systems.",
       "ogImage": "img/stack-ip65.webp",
-      "h1": "Home energy storage",
-      "crumb": "Home energy storage",
-      "introHtml": "LiFePO4 batteries for home solar systems. See the specifications of each model below.",
       "sections": [
         {
           "type": "raw",
@@ -9180,15 +9178,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Home energy storage",
+      "crumb": "Home energy storage",
+      "introHtml": "LiFePO4 batteries for home solar systems. See the specifications of each model below."
     },
     "zh": {
       "title": "家用储能 | Partastar Solar",
       "description": "叠层式、带轮式、机架式、壁挂式及逆变器一体式 LiFePO4 电池,2.56–61 kWh。家用太阳能系统专用 LiFePO4 电池。",
       "ogImage": "img/stack-ip65.webp",
-      "h1": "家用储能",
-      "crumb": "家用储能",
-      "introHtml": "家用太阳能系统专用 LiFePO4 电池。各型号参数见下方。",
       "sections": [
         {
           "type": "raw",
@@ -13770,15 +13768,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "家用储能",
+      "crumb": "家用储能",
+      "introHtml": "家用太阳能系统专用 LiFePO4 电池。各型号参数见下方。"
     },
     "ru": {
       "title": "Домашние системы накопления энергии | Partastar Solar",
       "description": "Штабелируемые, на колёсах, стоечные, настенные и со встроенным инвертором батареи LiFePO4. 2,56–61 кВт·ч. Батареи LiFePO4 для домашних солнечных систем.",
       "ogImage": "img/stack-ip65.webp",
-      "h1": "Домашние системы накопления энергии",
-      "crumb": "Домашние системы накопления энергии",
-      "introHtml": "Батареи LiFePO4 для домашних солнечных систем. Характеристики каждой модели смотрите ниже.",
       "sections": [
         {
           "type": "raw",
@@ -18360,15 +18358,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Домашние системы накопления энергии",
+      "crumb": "Домашние системы накопления энергии",
+      "introHtml": "Батареи LiFePO4 для домашних солнечных систем. Характеристики каждой модели смотрите ниже."
     },
     "kk": {
       "title": "Үйге арналған энергия жинақтау | Partastar Solar",
       "description": "Үйме, дөңгелекті, сөреге орнатылатын, қабырғаға ілінетін және инвертор біріктірілген LiFePO4 батареялар. 2.56–61 кВт·сағ.",
       "ogImage": "img/stack-ip65.webp",
-      "h1": "Үйге арналған энергия жинақтау",
-      "crumb": "Үйге арналған энергия жинақтау",
-      "introHtml": "Үйдің күн жүйесіне арналған LiFePO4 батареялар. Әр үлгінің сипаттамаларын төменнен қараңыз.",
       "sections": [
         {
           "type": "raw",
@@ -22950,7 +22948,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Үйге арналған энергия жинақтау",
+      "crumb": "Үйге арналған энергия жинақтау",
+      "introHtml": "Үйдің күн жүйесіне арналған LiFePO4 батареялар. Әр үлгінің сипаттамаларын төменнен қараңыз."
     }
   }
 }

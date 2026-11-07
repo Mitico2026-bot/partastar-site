@@ -354,5 +354,59 @@
       "ru": "Русский",
       "kk": "Қазақша"
     }
-  }
+  },
+  "pages": [
+    {
+      "slug": "home-storage",
+      "kind": "category"
+    },
+    {
+      "slug": "inverters",
+      "kind": "category"
+    },
+    {
+      "slug": "solar-panels",
+      "kind": "category"
+    },
+    {
+      "slug": "commercial",
+      "kind": "category"
+    },
+    {
+      "slug": "car-power",
+      "kind": "category"
+    },
+    {
+      "slug": "lithium-replacement",
+      "kind": "category"
+    },
+    {
+      "slug": "portable",
+      "kind": "category"
+    },
+    {
+      "slug": "other-batteries",
+      "kind": "category"
+    },
+    {
+      "slug": "heat-pumps",
+      "kind": "category"
+    },
+    {
+      "slug": "ev-chargers",
+      "kind": "category"
+    },
+    {
+      "slug": "about",
+      "kind": "content"
+    },
+    {
+      "slug": "green-loan",
+      "kind": "content"
+    },
+    {
+      "slug": "index",
+      "kind": "home"
+    }
+  ]
 }

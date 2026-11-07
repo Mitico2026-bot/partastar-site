@@ -48,11 +48,15 @@ function diff(a, b, path) {
 const load = (p) => canon(parse(readFileSync(p, "utf8").replace(/^<!doctype html>/i, ""), { comment: false }));
 
 let ok = 0, bad = 0;
-for (const l of site.langs) for (const slug of site.categories) {
-  const rel = (l === "mn" ? "" : l + "/") + slug + ".html";
+const targets = [...site.langs.flatMap((l) => site.pages.map(({ slug }) => (l === "mn" ? "" : l + "/") + slug + ".html")), "404.html"];
+for (const rel of targets) {
   if (!existsSync(join(DIST, rel))) { console.log(`MISSING ${rel}`); bad++; continue; }
   const d = diff(load(join(ORIG, rel)), load(join(DIST, rel)), "");
   if (d) { console.log(`DIFF    ${rel}\n        ${d}`); bad++; } else ok++;
 }
-console.log(`\n${ok} identical, ${bad} different (original vs generated)`);
+// sitemap.xml: same set of <url> lines (order is not significant to search engines).
+const lines = (p) => readFileSync(p, "utf8").split("\n").map((x) => x.trim()).filter((x) => x.startsWith("<url>")).sort();
+const sa = lines(join(ORIG, "sitemap.xml")), sb = existsSync(join(DIST, "sitemap.xml")) ? lines(join(DIST, "sitemap.xml")) : [];
+if (JSON.stringify(sa) === JSON.stringify(sb)) ok++; else { bad++; console.log(`DIFF    sitemap.xml: ${sa.length} vs ${sb.length} URLs, or different entries`); }
+console.log(`\n${ok} identical, ${bad} different (original vs generated; ${targets.length} pages + sitemap.xml)`);
 process.exit(bad ? 1 : 0);

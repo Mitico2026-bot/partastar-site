@@ -1,14 +1,12 @@
 {
   "slug": "inverters",
+  "kind": "category",
   "scene": "house",
   "langs": {
     "mn": {
       "title": "Инвертер | Partastar Solar",
       "description": "Европ стандартын нэг фаз, гурван фаз, өндөр хүчдэлийн гибрид инвертер, Америк стандарт. 3–125 кВт. Гибрид инвертерүүд.",
       "ogImage": "img/inv-1ph.webp",
-      "h1": "Инвертер",
-      "crumb": "Инвертер",
-      "introHtml": "Гибрид инвертерүүд. Нэг фаз, гурван фаз, өндөр хүчдэл болон Америк стандарт.",
       "sections": [
         {
           "type": "line",
@@ -211,15 +209,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Инвертер",
+      "crumb": "Инвертер",
+      "introHtml": "Гибрид инвертерүүд. Нэг фаз, гурван фаз, өндөр хүчдэл болон Америк стандарт."
     },
     "en": {
       "title": "Inverters | Partastar Solar",
       "description": "Hybrid inverters from 3 to 125 kW: European-standard single-phase, low-voltage and high-voltage three-phase, and American-standard 110V/220V.",
       "ogImage": "img/inv-1ph.webp",
-      "h1": "Inverters",
-      "crumb": "Inverters",
-      "introHtml": "Hybrid inverters. Single-phase, three-phase, high voltage and American standard.",
       "sections": [
         {
           "type": "line",
@@ -422,15 +420,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Inverters",
+      "crumb": "Inverters",
+      "introHtml": "Hybrid inverters. Single-phase, three-phase, high voltage and American standard."
     },
     "zh": {
       "title": "逆变器 | Partastar Solar",
       "description": "3–125 kW 混合逆变器:欧标单相、低压三相、高压三相及美标 110V/220V 机型,适用于家庭和工商业场景。",
       "ogImage": "img/inv-1ph.webp",
-      "h1": "逆变器",
-      "crumb": "逆变器",
-      "introHtml": "混合逆变器。单相、三相、高压及美标。",
       "sections": [
         {
           "type": "line",
@@ -633,15 +631,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "逆变器",
+      "crumb": "逆变器",
+      "introHtml": "混合逆变器。单相、三相、高压及美标。"
     },
     "ru": {
       "title": "Инверторы | Partastar Solar",
       "description": "Гибридные инверторы европейского стандарта: однофазные, трёхфазные, высоковольтные; американский стандарт. 3–125 кВт.",
       "ogImage": "img/inv-1ph.webp",
-      "h1": "Инверторы",
-      "crumb": "Инверторы",
-      "introHtml": "Гибридные инверторы. Однофазные, трёхфазные, высоковольтные и американского стандарта.",
       "sections": [
         {
           "type": "line",
@@ -844,15 +842,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Инверторы",
+      "crumb": "Инверторы",
+      "introHtml": "Гибридные инверторы. Однофазные, трёхфазные, высоковольтные и американского стандарта."
     },
     "kk": {
       "title": "Инверторлар | Partastar Solar",
       "description": "Еуропа стандартты бір фазалы, үш фазалы, жоғары вольтты гибридті инверторлар, Америка стандарты. 3–125 кВт.",
       "ogImage": "img/inv-1ph.webp",
-      "h1": "Инверторлар",
-      "crumb": "Инверторлар",
-      "introHtml": "Гибридті инверторлар. Бір фазалы, үш фазалы, жоғары вольтты және Америка стандарты.",
       "sections": [
         {
           "type": "line",
@@ -1055,7 +1053,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Инверторлар",
+      "crumb": "Инверторлар",
+      "introHtml": "Гибридті инверторлар. Бір фазалы, үш фазалы, жоғары вольтты және Америка стандарты."
     }
   }
 }

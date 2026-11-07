@@ -4,6 +4,6 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://partastar.solar",
   output: "static",
-  build: { format: "file" },
+  build: { format: "preserve" }, // about.astro -> about.html, [lang]/index.astro -> en/index.html
   compressHTML: false
 });

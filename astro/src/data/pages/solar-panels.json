@@ -1,14 +1,12 @@
 {
   "slug": "solar-panels",
+  "kind": "category",
   "scene": "office",
   "langs": {
     "mn": {
       "title": "Нарны хавтан | Partastar Solar",
       "description": "Монокристалл 100–720 Вт, эвхдэг зөөврийн 60–400 Вт, уян 50–300 Вт нарны хавтан. Каталогт чадал, хүчдэл заасан. Хэмжээ, үр ашгийн мэдээллийг хүсэлтээр өгнө.",
       "ogImage": "img/solar-mono.webp",
-      "h1": "Нарны хавтан",
-      "crumb": "Нарны хавтан",
-      "introHtml": "Монокристалл, эвхдэг, уян хавтан. Каталогт чадал, хүчдэл заасан. Хэмжээ, үр ашгийн мэдээллийг хүсэлтээр өгнө.",
       "sections": [
         {
           "type": "line",
@@ -138,15 +136,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Нарны хавтан",
+      "crumb": "Нарны хавтан",
+      "introHtml": "Монокристалл, эвхдэг, уян хавтан. Каталогт чадал, хүчдэл заасан. Хэмжээ, үр ашгийн мэдээллийг хүсэлтээр өгнө."
     },
     "en": {
       "title": "Solar panels | Partastar Solar",
       "description": "Monocrystalline 100–720 W, foldable portable 60–400 W, flexible 50–300 W solar panels. The catalog lists power and voltage.",
       "ogImage": "img/solar-mono.webp",
-      "h1": "Solar panels",
-      "crumb": "Solar panels",
-      "introHtml": "Monocrystalline, foldable and flexible panels. The catalog lists power and voltage. Dimensions and efficiency are provided on request.",
       "sections": [
         {
           "type": "line",
@@ -276,15 +274,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Solar panels",
+      "crumb": "Solar panels",
+      "introHtml": "Monocrystalline, foldable and flexible panels. The catalog lists power and voltage. Dimensions and efficiency are provided on request."
     },
     "zh": {
       "title": "太阳能板 | Partastar Solar",
       "description": "单晶 100–720 W、折叠便携 60–400 W、柔性 50–300 W 太阳能板。目录标明功率和电压。尺寸与效率信息可按需提供。",
       "ogImage": "img/solar-mono.webp",
-      "h1": "太阳能板",
-      "crumb": "太阳能板",
-      "introHtml": "单晶、折叠式和柔性太阳能板。目录标明功率和电压。尺寸与效率信息可按需提供。",
       "sections": [
         {
           "type": "line",
@@ -414,15 +412,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "太阳能板",
+      "crumb": "太阳能板",
+      "introHtml": "单晶、折叠式和柔性太阳能板。目录标明功率和电压。尺寸与效率信息可按需提供。"
     },
     "ru": {
       "title": "Солнечные панели | Partastar Solar",
       "description": "Солнечные панели: монокристаллические 100–720 Вт, складные портативные 60–400 Вт, гибкие 50–300 Вт. В каталоге указаны мощность и напряжение.",
       "ogImage": "img/solar-mono.webp",
-      "h1": "Солнечные панели",
-      "crumb": "Солнечные панели",
-      "introHtml": "Монокристаллические, складные и гибкие панели. В каталоге указаны мощность и напряжение. Размеры и КПД предоставляются по запросу.",
       "sections": [
         {
           "type": "line",
@@ -552,15 +550,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Солнечные панели",
+      "crumb": "Солнечные панели",
+      "introHtml": "Монокристаллические, складные и гибкие панели. В каталоге указаны мощность и напряжение. Размеры и КПД предоставляются по запросу."
     },
     "kk": {
       "title": "Күн панельдері | Partastar Solar",
       "description": "Күн панельдері: моно кристалды 100–720 Вт, жиналмалы тасымал 60–400 Вт, икемді 50–300 Вт. Каталогта қуаты мен кернеуі көрсетілген.",
       "ogImage": "img/solar-mono.webp",
-      "h1": "Күн панельдері",
-      "crumb": "Күн панельдері",
-      "introHtml": "Моно кристалды, жиналмалы және икемді панельдер. Каталогта қуаты мен кернеуі көрсетілген. Өлшемі мен тиімділігі сұраныс бойынша беріледі.",
       "sections": [
         {
           "type": "line",
@@ -690,7 +688,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Күн панельдері",
+      "crumb": "Күн панельдері",
+      "introHtml": "Моно кристалды, жиналмалы және икемді панельдер. Каталогта қуаты мен кернеуі көрсетілген. Өлшемі мен тиімділігі сұраныс бойынша беріледі."
     }
   }
 }

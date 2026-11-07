@@ -1,14 +1,12 @@
 {
   "slug": "heat-pumps",
+  "kind": "category",
   "scene": "house",
   "langs": {
     "mn": {
       "title": "Агаарын дулааны насос | Partastar Solar",
       "description": "Гадна агаараас халаалт, хөргөлт, халуун ус. Гадна −20℃-д ч халаана. Гэр, худалдаа, үйлдвэрийн халаалт, хөргөлт, халуун усны дулааны насос. Үйлдвэрлэгч: Efurker.",
       "ogImage": "img/hp-zun.webp",
-      "h1": "Агаар-ус дулааны насос",
-      "crumb": "Агаар-ус дулааны насос",
-      "introHtml": "Гэр, худалдаа, үйлдвэрийн халаалт, хөргөлт, халуун усны дулааны насос. Үйлдвэрлэгч: Efurker.",
       "sections": [
         {
           "type": "raw",
@@ -4034,15 +4032,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Агаар-ус дулааны насос",
+      "crumb": "Агаар-ус дулааны насос",
+      "introHtml": "Гэр, худалдаа, үйлдвэрийн халаалт, хөргөлт, халуун усны дулааны насос. Үйлдвэрлэгч: Efurker."
     },
     "en": {
       "title": "Air-source heat pumps | Partastar Solar",
       "description": "Efurker air-source heat pumps for heating, cooling and hot water. 8–43 kW for homes, up to 171 kW for buildings; some models run down to −35℃.",
       "ogImage": "img/hp-zun.webp",
-      "h1": "Air-source heat pumps",
-      "crumb": "Air-source heat pumps",
-      "introHtml": "Heat pumps for heating, cooling and hot water in homes, commercial buildings and industry. Manufacturer: Efurker.",
       "sections": [
         {
           "type": "raw",
@@ -8068,15 +8066,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Air-source heat pumps",
+      "crumb": "Air-source heat pumps",
+      "introHtml": "Heat pumps for heating, cooling and hot water in homes, commercial buildings and industry. Manufacturer: Efurker."
     },
     "zh": {
       "title": "空气源热泵 | Partastar Solar",
       "description": "利用室外空气实现采暖、制冷和热水，室外 −20℃ 仍可制热。用于住宅、商业与工业的供暖、制冷及热水热泵。制造商:Efurker。",
       "ogImage": "img/hp-zun.webp",
-      "h1": "空气源热泵",
-      "crumb": "空气源热泵",
-      "introHtml": "用于住宅、商业与工业的供暖、制冷及热水热泵。制造商:Efurker。",
       "sections": [
         {
           "type": "raw",
@@ -12102,15 +12100,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "空气源热泵",
+      "crumb": "空气源热泵",
+      "introHtml": "用于住宅、商业与工业的供暖、制冷及热水热泵。制造商:Efurker。"
     },
     "ru": {
       "title": "Воздушные тепловые насосы | Partastar Solar",
       "description": "Тепловые насосы Efurker: отопление, охлаждение и горячая вода. 8–43 кВт для дома, до 171 кВт для зданий; некоторые модели работают до −35℃.",
       "ogImage": "img/hp-zun.webp",
-      "h1": "Воздушные тепловые насосы",
-      "crumb": "Воздушные тепловые насосы",
-      "introHtml": "Тепловые насосы для отопления, охлаждения и горячей воды в домах, коммерческих и промышленных объектах. Производитель: Efurker.",
       "sections": [
         {
           "type": "raw",
@@ -16136,15 +16134,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Воздушные тепловые насосы",
+      "crumb": "Воздушные тепловые насосы",
+      "introHtml": "Тепловые насосы для отопления, охлаждения и горячей воды в домах, коммерческих и промышленных объектах. Производитель: Efurker."
     },
     "kk": {
       "title": "Ауа көзді жылу сорғылары | Partastar Solar",
       "description": "Efurker ауа көзді жылу сорғылары: жылыту, салқындату және ыстық су. Үйге 8–43 кВт, ғимараттарға 171 кВт-қа дейін; кейбір үлгілері −35℃-қа дейін жұмыс істейді.",
       "ogImage": "img/hp-zun.webp",
-      "h1": "Ауа көзді жылу сорғылары",
-      "crumb": "Ауа көзді жылу сорғылары",
-      "introHtml": "Үйлерді, сауда және өнеркәсіп нысандарын жылытуға, салқындатуға және ыстық сумен қамтамасыз етуге арналған жылу сорғылары. Өндіруші: Efurker.",
       "sections": [
         {
           "type": "raw",
@@ -20170,7 +20168,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Ауа көзді жылу сорғылары",
+      "crumb": "Ауа көзді жылу сорғылары",
+      "introHtml": "Үйлерді, сауда және өнеркәсіп нысандарын жылытуға, салқындатуға және ыстық сумен қамтамасыз етуге арналған жылу сорғылары. Өндіруші: Efurker."
     }
   }
 }

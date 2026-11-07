@@ -1,14 +1,12 @@
 {
   "slug": "ev-chargers",
+  "kind": "category",
   "scene": "car",
   "langs": {
     "mn": {
       "title": "Цахилгаан машины цэнэглэгч | Partastar Solar",
       "description": "Зөөврийн, ханын болон 160 кВт хүртэл DC хурдан цэнэглэгч. GB/T, Type 2, Type 1 залгуур. Үйлдвэрлэгч: Zhejiang Yuma (TOUGH брэнд), IP54 хамгаалалт.",
       "ogImage": "img/ev-dc-floor.webp",
-      "h1": "Цахилгаан машины цэнэглэгч",
-      "crumb": "Цахилгаан машины цэнэглэгч",
-      "introHtml": "AC болон DC цэнэглэгч: зөөврийн, ханын, тулгууртай, арилжааны. Үйлдвэрлэгч: Zhejiang Yuma (TOUGH брэнд).",
       "sections": [
         {
           "type": "raw",
@@ -3329,15 +3327,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Цахилгаан машины цэнэглэгч",
+      "crumb": "Цахилгаан машины цэнэглэгч",
+      "introHtml": "AC болон DC цэнэглэгч: зөөврийн, ханын, тулгууртай, арилжааны. Үйлдвэрлэгч: Zhejiang Yuma (TOUGH брэнд)."
     },
     "en": {
       "title": "EV chargers | Partastar Solar",
       "description": "Portable chargers, wallboxes and DC fast chargers up to 160 kW. GB/T, Type 2 and Type 1 connectors. Made by Zhejiang Yuma (TOUGH brand), IP54 rated.",
       "ogImage": "img/ev-dc-floor.webp",
-      "h1": "Electric vehicle chargers",
-      "crumb": "Electric vehicle chargers",
-      "introHtml": "AC and DC chargers: portable, wall-mounted, pillar and commercial. Manufacturer: Zhejiang Yuma (TOUGH brand).",
       "sections": [
         {
           "type": "raw",
@@ -6658,15 +6656,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Electric vehicle chargers",
+      "crumb": "Electric vehicle chargers",
+      "introHtml": "AC and DC chargers: portable, wall-mounted, pillar and commercial. Manufacturer: Zhejiang Yuma (TOUGH brand)."
     },
     "zh": {
       "title": "电动汽车充电桩 | Partastar Solar",
       "description": "便携式充电器、壁挂充电桩、最高 160 kW 直流快充桩。GB/T、Type 2、Type 1 接口。交流与直流充电设备:便携式、壁挂式、立柱式及商用。制造商:Zhejiang Yuma(TOUGH 品牌)。",
       "ogImage": "img/ev-dc-floor.webp",
-      "h1": "电动汽车充电设备",
-      "crumb": "电动汽车充电设备",
-      "introHtml": "交流与直流充电设备:便携式、壁挂式、立柱式及商用。制造商:Zhejiang Yuma(TOUGH 品牌)。",
       "sections": [
         {
           "type": "raw",
@@ -9987,15 +9985,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "电动汽车充电设备",
+      "crumb": "电动汽车充电设备",
+      "introHtml": "交流与直流充电设备:便携式、壁挂式、立柱式及商用。制造商:Zhejiang Yuma(TOUGH 品牌)。"
     },
     "ru": {
       "title": "Зарядные устройства для электромобилей | Partastar Solar",
       "description": "Портативные зарядки, настенные и быстрые DC-станции до 160 кВт. Разъёмы GB/T, Type 2, Type 1. Производитель Zhejiang Yuma (бренд TOUGH), защита IP54.",
       "ogImage": "img/ev-dc-floor.webp",
-      "h1": "Зарядные станции для электромобилей",
-      "crumb": "Зарядные станции для электромобилей",
-      "introHtml": "AC- и DC-зарядки: переносные, настенные, на стойке и коммерческие. Производитель: Zhejiang Yuma (бренд TOUGH).",
       "sections": [
         {
           "type": "raw",
@@ -13316,15 +13314,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Зарядные станции для электромобилей",
+      "crumb": "Зарядные станции для электромобилей",
+      "introHtml": "AC- и DC-зарядки: переносные, настенные, на стойке и коммерческие. Производитель: Zhejiang Yuma (бренд TOUGH)."
     },
     "kk": {
       "title": "Электромобиль зарядтау құрылғылары | Partastar Solar",
       "description": "Тасымал зарядтағыштар, қабырға станциялары және 160 кВт-қа дейінгі DC жылдам станциялар. GB/T, Type 2, Type 1 қосқыштары.",
       "ogImage": "img/ev-dc-floor.webp",
-      "h1": "Электромобиль зарядтау станциялары",
-      "crumb": "Электромобиль зарядтау станциялары",
-      "introHtml": "AC және DC зарядтағыштар: тасымал, қабырғалық, тіреуішті және коммерциялық. Өндіруші: Zhejiang Yuma (TOUGH брэнді).",
       "sections": [
         {
           "type": "raw",
@@ -16645,7 +16643,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Электромобиль зарядтау станциялары",
+      "crumb": "Электромобиль зарядтау станциялары",
+      "introHtml": "AC және DC зарядтағыштар: тасымал, қабырғалық, тіреуішті және коммерциялық. Өндіруші: Zhejiang Yuma (TOUGH брэнді)."
     }
   }
 }

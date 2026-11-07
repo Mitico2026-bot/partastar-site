@@ -1,14 +1,12 @@
 {
   "slug": "portable",
+  "kind": "category",
   "scene": "cabin",
   "langs": {
     "mn": {
       "title": "Зөөврийн цахилгаан станц | Partastar Solar",
       "description": "CN-300W-аас CN-5500W хүртэл зөөврийн цахилгаан станц. Кемпинг, аялал, нөөц тэжээлд. 300 Вт-аас 5.5 кВт хүртэл.",
       "ogImage": "img/portable-a.webp",
-      "h1": "Зөөврийн цахилгаан станц",
-      "crumb": "Зөөврийн цахилгаан станц",
-      "introHtml": "Кемпинг, аялал, нөөц тэжээлд. 300 Вт-аас 5.5 кВт хүртэл.",
       "sections": [
         {
           "type": "line",
@@ -480,15 +478,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Зөөврийн цахилгаан станц",
+      "crumb": "Зөөврийн цахилгаан станц",
+      "introHtml": "Кемпинг, аялал, нөөц тэжээлд. 300 Вт-аас 5.5 кВт хүртэл."
     },
     "en": {
       "title": "Portable power station | Partastar Solar",
       "description": "Portable power stations from CN-300W to CN-5500W. For camping, travel and backup power. From 300 W to 5.5 kW.",
       "ogImage": "img/portable-a.webp",
-      "h1": "Portable power station",
-      "crumb": "Portable power station",
-      "introHtml": "For camping, travel and backup power. From 300 W to 5.5 kW.",
       "sections": [
         {
           "type": "line",
@@ -960,15 +958,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Portable power station",
+      "crumb": "Portable power station",
+      "introHtml": "For camping, travel and backup power. From 300 W to 5.5 kW."
     },
     "zh": {
       "title": "便携储能电站 | Partastar Solar",
       "description": "CN-300W 至 CN-5500W 便携储能电站,适用于露营、旅行和备用电源。110V/220V 输出,可用太阳能板充电;大功率型号采用 LiFePO4、纯正弦波。",
       "ogImage": "img/portable-a.webp",
-      "h1": "便携储能电站",
-      "crumb": "便携储能电站",
-      "introHtml": "适用于露营、旅行和备用电源。300 W 至 5.5 kW。",
       "sections": [
         {
           "type": "line",
@@ -1440,15 +1438,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "便携储能电站",
+      "crumb": "便携储能电站",
+      "introHtml": "适用于露营、旅行和备用电源。300 W 至 5.5 kW。"
     },
     "ru": {
       "title": "Портативная электростанция | Partastar Solar",
       "description": "Портативные электростанции от CN-300W до CN-5500W. Для кемпинга, путешествий и резервного питания. От 300 Вт до 5,5 кВт.",
       "ogImage": "img/portable-a.webp",
-      "h1": "Портативная электростанция",
-      "crumb": "Портативная электростанция",
-      "introHtml": "Для кемпинга, путешествий и резервного питания. От 300 Вт до 5,5 кВт.",
       "sections": [
         {
           "type": "line",
@@ -1920,15 +1918,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Портативная электростанция",
+      "crumb": "Портативная электростанция",
+      "introHtml": "Для кемпинга, путешествий и резервного питания. От 300 Вт до 5,5 кВт."
     },
     "kk": {
       "title": "Тасымал электр станциясы | Partastar Solar",
       "description": "CN-300W-тан CN-5500W-қа дейінгі тасымал электр станциялары. Кемпинг, саяхат және резервтік қуатқа арналған. 300 Вт-тан 5.5 кВт-қа дейін.",
       "ogImage": "img/portable-a.webp",
-      "h1": "Тасымал электр станциясы",
-      "crumb": "Тасымал электр станциясы",
-      "introHtml": "Кемпинг, саяхат және резервтік қуатқа арналған. 300 Вт-тан 5.5 кВт-қа дейін.",
       "sections": [
         {
           "type": "line",
@@ -2400,7 +2398,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Тасымал электр станциясы",
+      "crumb": "Тасымал электр станциясы",
+      "introHtml": "Кемпинг, саяхат және резервтік қуатқа арналған. 300 Вт-тан 5.5 кВт-қа дейін."
     }
   }
 }

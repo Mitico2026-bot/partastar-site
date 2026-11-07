@@ -1,12 +1,14 @@
-// One-off extractor: reads the hand-written HTML category pages (all 5 languages)
+// One-off extractor: reads the hand-written HTML pages (all 5 languages)
 // and writes structured JSON into src/data/. Re-runnable; the original pages are never modified.
 //
 //   npm run extract
 //
 // Output:
-//   src/data/site.json                 shared header/footer/UI strings per language
-//   src/data/categories/<slug>.json    one file per category, all 5 languages side by side
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+//   src/data/site.json            shared header/footer/UI strings per language
+//   src/data/pages/<slug>.json    one file per page, all 5 languages side by side
+//                                 kind: "category" (product list) | "content" (about, green-loan) | "home"
+// 404.html is not extracted: it is a small Mongolian-only page ported by hand (src/pages/404.astro).
+import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "node-html-parser";
@@ -65,28 +67,47 @@ for (const l of LANGS) {
 }
 for (const l of LANGS) site[l].langNames = Object.fromEntries(LANGS.map((t) => [t, site[t].langName]));
 
-// ---------- per-category content ----------
+// ---------- per-page content ----------
+const PAGES = [
+  ...cats.map((slug) => ({ slug, kind: "category" })),
+  { slug: "about", kind: "content" },
+  { slug: "green-loan", kind: "content" },
+  { slug: "index", kind: "home" }
+];
+site.pages = PAGES;
 let structured = 0, raw = 0, explicitCopy = 0;
-mkdirSync(join(DATA, "categories"), { recursive: true });
-for (const slug of cats) {
-  const out = { slug, scene: null, langs: {} };
+rmSync(join(DATA, "categories"), { recursive: true, force: true }); // older layout of this folder
+rmSync(join(DATA, "pages"), { recursive: true, force: true });
+mkdirSync(join(DATA, "pages"), { recursive: true });
+for (const { slug, kind } of PAGES) {
+  const out = { slug, kind, scene: null, langs: {} };
   for (const l of LANGS) {
     const d = load(l, slug);
     const meta = (sel) => d.querySelector(sel)?.getAttribute("content");
     const head = d.querySelector("main > section.page-head");
+    if ((kind === "home") !== !head) throw new Error(`${l}/${slug}: unexpected page-head presence`);
     const i18nScript = d.querySelectorAll("script").map((s) => s.text).find((t) => t.startsWith("window.I18N="));
     if (i18nScript && JSON.stringify(JSON.parse(i18nScript.slice(12).replace(/;\s*$/, ""))) !== JSON.stringify(site.i18n[l]))
       throw new Error(`${l}/${slug}: page-specific I18N dictionary not supported yet`);
-    out.scene = head.querySelector(".s3d")?.getAttribute("data-scene") ?? null;
     const page = {
       title: txt(d.querySelector("title")),
       description: must(meta('meta[name="description"]'), "description"),
       ogImage: meta('meta[property="og:image"]').replace("https://partastar.solar/", ""),
-      h1: txt(head.querySelector("h1")),
-      crumb: head.querySelector(".crumbs").text.split("/").slice(1).join("/").trim(),
-      introHtml: head.querySelector(".wrap > p:not(.crumbs)").innerHTML,
       sections: []
     };
+    if (head) {
+      out.scene = head.querySelector(".s3d")?.getAttribute("data-scene") ?? null;
+      const h1 = head.querySelector("h1");
+      Object.assign(page, {
+        h1: txt(h1),
+        ...(h1.getAttribute("style") !== "font-size:clamp(1.9rem,4.4vw,3rem)" ? { h1Style: h1.getAttribute("style") ?? null } : {}),
+        crumb: head.querySelector(".crumbs").text.split("/").slice(1).join("/").trim(),
+        introHtml: head.querySelector(".wrap > p:not(.crumbs)").innerHTML
+      });
+      const headKids = head.querySelector(".wrap").childNodes.filter((n) => n.nodeType === 1).map((n) => n.tagName + "." + n.classList.value.join("."));
+      const expected = ["P.crumbs", "H1.", "P.", ...(out.scene ? ["DIV.s3d"] : [])].join(",");
+      if (headKids.join(",") !== expected) throw new Error(`${l}/${slug}: unsupported page-head shape ${headKids}`);
+    }
     for (const sec of d.querySelector("main").childNodes.filter((n) => n.nodeType === 1 && n !== head)) {
       const line = sec.tagName === "SECTION" && sec.classList.contains("line") ? toLine(sec, l) : null;
       if (line) { page.sections.push(line); structured++; explicitCopy += line.blocks.filter((b) => b.copy).length; }
@@ -94,10 +115,10 @@ for (const slug of cats) {
     }
     out.langs[l] = page;
   }
-  writeFileSync(join(DATA, "categories", slug + ".json"), JSON.stringify(out, null, 2) + "\n");
+  writeFileSync(join(DATA, "pages", slug + ".json"), JSON.stringify(out, null, 2) + "\n");
 }
 writeFileSync(join(DATA, "site.json"), JSON.stringify(site, null, 2) + "\n");
-console.log(`categories=${cats.length} langs=${LANGS.length} structured lines=${structured} raw sections=${raw} lines with non-template copy text=${explicitCopy}`);
+console.log(`pages=${PAGES.length} langs=${LANGS.length} structured lines=${structured} raw sections=${raw} lines with non-template copy text=${explicitCopy}`);
 
 // A product line is an ordered list of blocks inside .wrap:
 //   top      picture column + header column (h2, ordered parts, one Messenger button)

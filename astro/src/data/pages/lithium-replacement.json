@@ -1,14 +1,12 @@
 {
   "slug": "lithium-replacement",
+  "kind": "category",
   "scene": "factory",
   "langs": {
     "mn": {
       "title": "Хар тугалгыг орлох литий | Partastar Solar",
       "description": "Хар тугалгын батарейг орлох 12.8V, 25.6V, 51.2V LiFePO4 батарей. 12.8V цуврал 100Ah-аас 450Ah хүртэл, 6000+ цикл.",
       "ogImage": "img/lead-acid.webp",
-      "h1": "Хар тугалгыг орлох литийн цуврал",
-      "crumb": "Хар тугалгыг орлох литийн цуврал",
-      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Хар тугалгын батарейг орлоно, 6000+ цикл.",
       "sections": [
         {
           "type": "line",
@@ -710,15 +708,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Хар тугалгыг орлох литийн цуврал",
+      "crumb": "Хар тугалгыг орлох литийн цуврал",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Хар тугалгын батарейг орлоно, 6000+ цикл."
     },
     "en": {
       "title": "Lithium replacing lead-acid | Partastar Solar",
       "description": "12.8V, 25.6V and 51.2V LiFePO4 batteries that replace lead-acid. The 12.8V series runs from 100Ah to 450Ah, rated for 6000+ cycles.",
       "ogImage": "img/lead-acid.webp",
-      "h1": "Lithium series replacing lead-acid",
-      "crumb": "Lithium series replacing lead-acid",
-      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Replaces lead-acid batteries, 6000+ cycles.",
       "sections": [
         {
           "type": "line",
@@ -1420,15 +1418,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Lithium series replacing lead-acid",
+      "crumb": "Lithium series replacing lead-acid",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Replaces lead-acid batteries, 6000+ cycles."
     },
     "zh": {
       "title": "锂电池替代铅酸 | Partastar Solar",
       "description": "替代铅酸电池的 12.8V、25.6V、51.2V LiFePO4 电池。12.8V 系列容量 100Ah 至 450Ah,循环寿命 6000+ 次。",
       "ogImage": "img/lead-acid.webp",
-      "h1": "锂电池替代铅酸系列",
-      "crumb": "锂电池替代铅酸系列",
-      "introHtml": "12.8V、25.6V、51.2V LiFePO4。替代铅酸电池,6000+ 次循环。",
       "sections": [
         {
           "type": "line",
@@ -2130,15 +2128,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "锂电池替代铅酸系列",
+      "crumb": "锂电池替代铅酸系列",
+      "introHtml": "12.8V、25.6V、51.2V LiFePO4。替代铅酸电池,6000+ 次循环。"
     },
     "ru": {
       "title": "Литий вместо свинцовых | Partastar Solar",
       "description": "Батареи LiFePO4 12,8 В, 25,6 В и 51,2 В на замену свинцово-кислотным. Серия 12,8 В — от 100 до 450 Ач, ресурс 6000+ циклов.",
       "ogImage": "img/lead-acid.webp",
-      "h1": "Серия литиевых батарей вместо свинцово-кислотных",
-      "crumb": "Серия литиевых батарей вместо свинцово-кислотных",
-      "introHtml": "LiFePO4 12,8 В, 25,6 В, 51,2 В. Заменяет свинцово-кислотные батареи, 6000+ циклов.",
       "sections": [
         {
           "type": "line",
@@ -2840,15 +2838,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Серия литиевых батарей вместо свинцово-кислотных",
+      "crumb": "Серия литиевых батарей вместо свинцово-кислотных",
+      "introHtml": "LiFePO4 12,8 В, 25,6 В, 51,2 В. Заменяет свинцово-кислотные батареи, 6000+ циклов."
     },
     "kk": {
       "title": "Қорғасын орнына литий | Partastar Solar",
       "description": "Қорғасын батареяларды алмастыратын 12.8V, 25.6V, 51.2V LiFePO4 батареялар. 12.8V сериясы 100Ah-тан 450Ah-қа дейін, 6000+ цикл.",
       "ogImage": "img/lead-acid.webp",
-      "h1": "Қорғасын батареяларды алмастыратын литий сериясы",
-      "crumb": "Қорғасын батареяларды алмастыратын литий сериясы",
-      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Қорғасын батареяларды алмастырады, 6000+ цикл.",
       "sections": [
         {
           "type": "line",
@@ -3550,7 +3548,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Қорғасын батареяларды алмастыратын литий сериясы",
+      "crumb": "Қорғасын батареяларды алмастыратын литий сериясы",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Қорғасын батареяларды алмастырады, 6000+ цикл."
     }
   }
 }

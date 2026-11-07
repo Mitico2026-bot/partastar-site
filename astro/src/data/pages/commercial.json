@@ -1,14 +1,12 @@
 {
   "slug": "commercial",
+  "kind": "category",
   "scene": "factory",
   "langs": {
     "mn": {
       "title": "Аж үйлдвэрийн хадгалалт | Partastar Solar",
       "description": "60 кВт·ц-аас 3290 кВт·ц хүртэл аж үйлдвэрийн эрчим хүч хадгалах систем. Шүүгээ, шингэн хөргөлттэй систем, контейнер. Аж ахуйн нэгж, барилга, станцад зориулсан.",
       "ogImage": "img/ci-60.webp",
-      "h1": "Аж үйлдвэрийн хадгалалт",
-      "crumb": "Аж үйлдвэрийн хадгалалт",
-      "introHtml": "Шүүгээ, шингэн хөргөлттэй систем, контейнер. Аж ахуйн нэгж, барилга, станцад зориулсан.",
       "sections": [
         {
           "type": "line",
@@ -465,15 +463,15 @@
             "img": "img/ci-150.webp"
           }
         }
-      ]
+      ],
+      "h1": "Аж үйлдвэрийн хадгалалт",
+      "crumb": "Аж үйлдвэрийн хадгалалт",
+      "introHtml": "Шүүгээ, шингэн хөргөлттэй систем, контейнер. Аж ахуйн нэгж, барилга, станцад зориулсан."
     },
     "en": {
       "title": "Industrial storage | Partastar Solar",
       "description": "Industrial energy storage systems from 60 kWh to 3290 kWh. Cabinets, liquid-cooled systems and containers. For businesses, buildings and stations.",
       "ogImage": "img/ci-60.webp",
-      "h1": "Industrial storage",
-      "crumb": "Industrial storage",
-      "introHtml": "Cabinets, liquid-cooled systems and containers. For businesses, buildings and stations.",
       "sections": [
         {
           "type": "line",
@@ -930,15 +928,15 @@
             "img": "img/ci-150.webp"
           }
         }
-      ]
+      ],
+      "h1": "Industrial storage",
+      "crumb": "Industrial storage",
+      "introHtml": "Cabinets, liquid-cooled systems and containers. For businesses, buildings and stations."
     },
     "zh": {
       "title": "工商业储能 | Partastar Solar",
       "description": "60 kWh 至 3290 kWh 工商业储能系统:户外低压防水型、光储一体系统、风光柴储、液冷及集装箱储能。适用于企业、建筑和站点。",
       "ogImage": "img/ci-60.webp",
-      "h1": "工商业储能",
-      "crumb": "工商业储能",
-      "introHtml": "储能柜、液冷系统和集装箱。适用于企业、建筑和站点。",
       "sections": [
         {
           "type": "line",
@@ -1395,15 +1393,15 @@
             "img": "img/ci-150.webp"
           }
         }
-      ]
+      ],
+      "h1": "工商业储能",
+      "crumb": "工商业储能",
+      "introHtml": "储能柜、液冷系统和集装箱。适用于企业、建筑和站点。"
     },
     "ru": {
       "title": "Промышленные накопители | Partastar Solar",
       "description": "Промышленные системы накопления энергии от 60 до 3290 кВт·ч. Шкафы, системы с жидкостным охлаждением и контейнеры. Для предприятий, зданий и станций.",
       "ogImage": "img/ci-60.webp",
-      "h1": "Промышленные накопители",
-      "crumb": "Промышленные накопители",
-      "introHtml": "Шкафы, системы с жидкостным охлаждением и контейнеры. Для предприятий, зданий и станций.",
       "sections": [
         {
           "type": "line",
@@ -1860,15 +1858,15 @@
             "img": "img/ci-150.webp"
           }
         }
-      ]
+      ],
+      "h1": "Промышленные накопители",
+      "crumb": "Промышленные накопители",
+      "introHtml": "Шкафы, системы с жидкостным охлаждением и контейнеры. Для предприятий, зданий и станций."
     },
     "kk": {
       "title": "Өнеркәсіптік жинағыш | Partastar Solar",
       "description": "60-тан 3290 кВт·сағ-қа дейінгі өнеркәсіптік энергия жинақтау жүйелері. Шкафтар, сұйықпен салқындатылатын жүйелер және контейнерлер.",
       "ogImage": "img/ci-60.webp",
-      "h1": "Өнеркәсіптік жинағыш",
-      "crumb": "Өнеркәсіптік жинағыш",
-      "introHtml": "Шкафтар, сұйықпен салқындатылатын жүйелер және контейнерлер. Кәсіпорындарға, ғимараттарға және станцияларға арналған.",
       "sections": [
         {
           "type": "line",
@@ -2325,7 +2323,10 @@
             "img": "img/ci-150.webp"
           }
         }
-      ]
+      ],
+      "h1": "Өнеркәсіптік жинағыш",
+      "crumb": "Өнеркәсіптік жинағыш",
+      "introHtml": "Шкафтар, сұйықпен салқындатылатын жүйелер және контейнерлер. Кәсіпорындарға, ғимараттарға және станцияларға арналған."
     }
   }
 }

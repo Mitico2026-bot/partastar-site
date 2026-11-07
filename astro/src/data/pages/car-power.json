@@ -1,14 +1,12 @@
 {
   "slug": "car-power",
+  "kind": "category",
   "scene": "car",
   "langs": {
     "mn": {
       "title": "Автомашины тэжээл | Partastar Solar",
       "description": "3.23–8.02 кВт·ц автомашины нэмэлт батарей. Машин бүрийн загварт тусгайлан тохируулагдаж, ачааны тасалгааны таган доор далд суурилуулагдана.",
       "ogImage": "img/car-trunk.webp",
-      "h1": "Автомашины тэжээл",
-      "crumb": "Автомашины тэжээл",
-      "introHtml": "Машин бүрийн загварт тусгайлан тохируулагдаж, ачааны тасалгааны таган доор далд суурилуулагдана.",
       "sections": [
         {
           "type": "line",
@@ -259,15 +257,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Автомашины тэжээл",
+      "crumb": "Автомашины тэжээл",
+      "introHtml": "Машин бүрийн загварт тусгайлан тохируулагдаж, ачааны тасалгааны таган доор далд суурилуулагдана."
     },
     "en": {
       "title": "Car power | Partastar Solar",
       "description": "3.23–8.02 kWh additional car battery. Tailored to each car model and installed out of sight under the cargo-area floor.",
       "ogImage": "img/car-trunk.webp",
-      "h1": "Car power",
-      "crumb": "Car power",
-      "introHtml": "Tailored to each car model and installed out of sight under the cargo-area floor.",
       "sections": [
         {
           "type": "line",
@@ -518,15 +516,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Car power",
+      "crumb": "Car power",
+      "introHtml": "Tailored to each car model and installed out of sight under the cargo-area floor."
     },
     "zh": {
       "title": "车载电源 | Partastar Solar",
       "description": "3.23–8.02 kWh 汽车附加电池,根据每款车型定制,隐藏安装在行李厢底板下方,不占额外空间,可通过 App 随时监控电池状态。",
       "ogImage": "img/car-trunk.webp",
-      "h1": "车载电源",
-      "crumb": "车载电源",
-      "introHtml": "根据每款车型定制,隐藏安装在行李厢底板下方。",
       "sections": [
         {
           "type": "line",
@@ -777,15 +775,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "车载电源",
+      "crumb": "车载电源",
+      "introHtml": "根据每款车型定制,隐藏安装在行李厢底板下方。"
     },
     "ru": {
       "title": "Питание для авто | Partastar Solar",
       "description": "Дополнительная автомобильная батарея 3.23–8.02 кВт·ч. Подбирается под каждую модель автомобиля и скрытно устанавливается под полом багажника.",
       "ogImage": "img/car-trunk.webp",
-      "h1": "Питание для авто",
-      "crumb": "Питание для авто",
-      "introHtml": "Подбирается под каждую модель автомобиля и скрытно устанавливается под полом багажника.",
       "sections": [
         {
           "type": "line",
@@ -1036,15 +1034,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Питание для авто",
+      "crumb": "Питание для авто",
+      "introHtml": "Подбирается под каждую модель автомобиля и скрытно устанавливается под полом багажника."
     },
     "kk": {
       "title": "Автокөлік қуаты | Partastar Solar",
       "description": "3.23–8.02 кВт·сағ автокөлікке арналған қосымша батарея. Әр көлік үлгісіне арнайы бейімделіп, жүк бөлімінің еденінің астына жасырын орнатылады.",
       "ogImage": "img/car-trunk.webp",
-      "h1": "Автокөлік қуаты",
-      "crumb": "Автокөлік қуаты",
-      "introHtml": "Әр көлік үлгісіне арнайы бейімделіп, жүк бөлімінің еденінің астына жасырын орнатылады.",
       "sections": [
         {
           "type": "line",
@@ -1295,7 +1293,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Автокөлік қуаты",
+      "crumb": "Автокөлік қуаты",
+      "introHtml": "Әр көлік үлгісіне арнайы бейімделіп, жүк бөлімінің еденінің астына жасырын орнатылады."
     }
   }
 }

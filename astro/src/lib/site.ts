@@ -14,7 +14,8 @@ export const HREFLANG: Record<Lang, string> = { mn: "mn", en: "en", zh: "zh-Hans
 export const dirOf = (l: Lang) => (l === "mn" ? "" : `${l}/`);
 /** Relative prefix from a page in `l` back to the site root (for img/, style.css, ...). */
 export const rootPrefix = (l: Lang) => (l === "mn" ? "" : "../");
-export const pageUrl = (l: Lang, slug: string) => `${ORIGIN}${dirOf(l)}${slug}.html`;
+/** Canonical URL. The home page is the directory itself (https://partastar.solar/en/), not index.html. */
+export const pageUrl = (l: Lang, slug: string) => `${ORIGIN}${dirOf(l)}${slug === "index" ? "" : slug + ".html"}`;
 /** Relative link from a page in `from` to the same page in `to`. */
 export const langHref = (from: Lang, to: Lang, slug: string) =>
   from === to ? `${slug}.html` : `${rootPrefix(from)}${dirOf(to)}${slug}.html`;
@@ -22,6 +23,8 @@ export const langHref = (from: Lang, to: Lang, slug: string) =>
 export const ui = (l: Lang) => (site as any)[l];
 export const i18nDict = (l: Lang) => (site.i18n as Record<string, unknown>)[l];
 export const categories = site.categories as string[];
+export type PageKind = "category" | "content" | "home";
+export const pages = site.pages as { slug: string; kind: PageKind }[];
 
 /** Messenger "ask for a quote" text: explicit text wins, otherwise the per-language template. */
 export const quoteText = (l: Lang, name: string, explicit?: string) =>
@@ -40,21 +43,38 @@ export function productOf(section: any) {
   return { id: section.id ?? null, name: section.name, lead, img: top.imgs[0]?.src ?? null };
 }
 
-export function jsonLd(l: Lang, slug: string, page: any) {
+/**
+ * schema.org graph per page kind (matches the original pages):
+ *   home      Organization, WebSite, WebPage
+ *   content   + BreadcrumbList (WebPage links to it)
+ *   category  + BreadcrumbList + ItemList of products (WebPage mainEntity)
+ */
+export function jsonLd(l: Lang, slug: string, kind: PageKind, page: any) {
   const url = pageUrl(l, slug);
   const products = page.sections.map(productOf).filter(Boolean);
+  const org = { "@type": "Organization", "@id": `${ORIGIN}#org`, name: "Partastar Solar", url: ORIGIN, sameAs: [FACEBOOK] };
+  const website = { "@type": "WebSite", "@id": `${ORIGIN}#website`, name: "Partastar Solar", url: ORIGIN, publisher: { "@id": `${ORIGIN}#org` } };
+  const webPage = {
+    "@type": "WebPage", "@id": `${url}#webpage`, url, name: page.title, description: page.description,
+    inLanguage: ui(l).htmlLang, isPartOf: { "@id": `${ORIGIN}#website` }, publisher: { "@id": `${ORIGIN}#org` },
+    ...(kind !== "home" ? { breadcrumb: { "@id": `${url}#breadcrumb` } } : {}),
+    ...(kind === "category" ? { mainEntity: { "@id": `${url}#products` } } : {})
+  };
+  if (kind === "home") return { "@context": "https://schema.org", "@graph": [org, website, webPage] };
+  const breadcrumb = {
+    "@type": "BreadcrumbList", "@id": `${url}#breadcrumb`,
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: ui(l).crumbsHome, item: `${ORIGIN}${dirOf(l)}` },
+      { "@type": "ListItem", position: 2, name: page.crumb, item: url }
+    ]
+  };
+  if (kind === "content") return { "@context": "https://schema.org", "@graph": [org, website, breadcrumb, webPage] };
   return {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Organization", "@id": `${ORIGIN}#org`, name: "Partastar Solar", url: ORIGIN, sameAs: [FACEBOOK] },
-      { "@type": "WebSite", "@id": `${ORIGIN}#website`, name: "Partastar Solar", url: ORIGIN, publisher: { "@id": `${ORIGIN}#org` } },
-      {
-        "@type": "BreadcrumbList", "@id": `${url}#breadcrumb`,
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: ui(l).crumbsHome, item: `${ORIGIN}${dirOf(l)}` },
-          { "@type": "ListItem", position: 2, name: page.crumb, item: url }
-        ]
-      },
+      org,
+      website,
+      breadcrumb,
       {
         "@type": "ItemList", "@id": `${url}#products`,
         itemListElement: products.map((p: any, i: number) => ({
@@ -67,11 +87,7 @@ export function jsonLd(l: Lang, slug: string, page: any) {
           }
         }))
       },
-      {
-        "@type": "WebPage", "@id": `${url}#webpage`, url, name: page.title, description: page.description,
-        inLanguage: ui(l).htmlLang, isPartOf: { "@id": `${ORIGIN}#website` }, publisher: { "@id": `${ORIGIN}#org` },
-        breadcrumb: { "@id": `${url}#breadcrumb` }, mainEntity: { "@id": `${url}#products` }
-      }
+      webPage
     ]
   };
 }

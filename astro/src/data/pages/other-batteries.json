@@ -1,14 +1,12 @@
 {
   "slug": "other-batteries",
+  "kind": "category",
   "scene": "factory",
   "langs": {
     "mn": {
       "title": "Тээвэр, багажны батарей | Partastar Solar",
       "description": "Тээврийн, гольфын тэрэгний, багажны болон OEM/ODM жижиг батарей. Цахилгаан тээвэр, гольфын тэрэг, багаж болон жижиг төхөөрөмжид зориулсан батарей.",
       "ogImage": "img/transport.webp",
-      "h1": "Тээвэр, багажны батарей",
-      "crumb": "Тээвэр, багажны батарей",
-      "introHtml": "Цахилгаан тээвэр, гольфын тэрэг, багаж болон жижиг төхөөрөмжид зориулсан батарей.",
       "sections": [
         {
           "type": "line",
@@ -190,15 +188,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Тээвэр, багажны батарей",
+      "crumb": "Тээвэр, багажны батарей",
+      "introHtml": "Цахилгаан тээвэр, гольфын тэрэг, багаж болон жижиг төхөөрөмжид зориулсан батарей."
     },
     "en": {
       "title": "Batteries for vehicles and tools | Partastar Solar",
       "description": "Batteries for e-bikes, low-speed EVs and golf carts (48V, 60V, 72V; 37–120Ah), plus tool batteries and custom OEM/ODM small batteries.",
       "ogImage": "img/transport.webp",
-      "h1": "Batteries for vehicles and tools",
-      "crumb": "Batteries for vehicles and tools",
-      "introHtml": "Batteries for electric vehicles, golf carts, tools and small devices.",
       "sections": [
         {
           "type": "line",
@@ -380,15 +378,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Batteries for vehicles and tools",
+      "crumb": "Batteries for vehicles and tools",
+      "introHtml": "Batteries for electric vehicles, golf carts, tools and small devices."
     },
     "zh": {
       "title": "交通与工具电池 | Partastar Solar",
       "description": "适用于电动自行车、低速电动车和高尔夫球车的 48V/60V/72V 电池(37–120Ah),以及工具电池和 OEM/ODM 定制小型电池。",
       "ogImage": "img/transport.webp",
-      "h1": "交通与工具电池",
-      "crumb": "交通与工具电池",
-      "introHtml": "适用于电动车辆、高尔夫球车、工具和小型设备的电池。",
       "sections": [
         {
           "type": "line",
@@ -570,15 +568,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "交通与工具电池",
+      "crumb": "交通与工具电池",
+      "introHtml": "适用于电动车辆、高尔夫球车、工具和小型设备的电池。"
     },
     "ru": {
       "title": "Батареи для транспорта и инструмента | Partastar Solar",
       "description": "Батареи для электровелосипедов, тихоходного электротранспорта и гольф-каров (48, 60, 72 В; 37–120 Ач), а также для инструмента и OEM/ODM.",
       "ogImage": "img/transport.webp",
-      "h1": "Батареи для транспорта и инструмента",
-      "crumb": "Батареи для транспорта и инструмента",
-      "introHtml": "Батареи для электротранспорта, гольф-каров, инструмента и малых устройств.",
       "sections": [
         {
           "type": "line",
@@ -760,15 +758,15 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Батареи для транспорта и инструмента",
+      "crumb": "Батареи для транспорта и инструмента",
+      "introHtml": "Батареи для электротранспорта, гольф-каров, инструмента и малых устройств."
     },
     "kk": {
       "title": "Көлік пен құралдарға арналған батареялар | Partastar Solar",
       "description": "Электр велосипедтері, төмен жылдамдықты электр көліктері мен гольф арбаларына арналған батареялар (48V, 60V, 72V; 37–120Ah), құрал және OEM/ODM батареялары.",
       "ogImage": "img/transport.webp",
-      "h1": "Көлік пен құралдарға арналған батареялар",
-      "crumb": "Көлік пен құралдарға арналған батареялар",
-      "introHtml": "Электр көлігі, гольф арбалары, құралдар мен шағын құрылғыларға арналған батареялар.",
       "sections": [
         {
           "type": "line",
@@ -950,7 +948,10 @@
             }
           ]
         }
-      ]
+      ],
+      "h1": "Көлік пен құралдарға арналған батареялар",
+      "crumb": "Көлік пен құралдарға арналған батареялар",
+      "introHtml": "Электр көлігі, гольф арбалары, құралдар мен шағын құрылғыларға арналған батареялар."
     }
   }
 }
