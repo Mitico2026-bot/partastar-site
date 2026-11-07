@@ -9,9 +9,50 @@
       "ogImage": "img/stack-ip65.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<div class=\"wrap\"><ul class=\"chips\" aria-label=\"Цувралууд\"><li><a href=\"#stack-ip65\" style=\"text-decoration:none\">Stack IP65 10–20 кВт·ц</a></li><li><a href=\"#stack-ip65-6kw\" style=\"text-decoration:none\">Stack IP65 5–15 кВт·ц</a></li><li><a href=\"#stack-512\" style=\"text-decoration:none\">Давхарладаг 5.12</a></li><li><a href=\"#stack-768\" style=\"text-decoration:none\">Давхарладаг 7.68</a></li><li><a href=\"#stack-1085\" style=\"text-decoration:none\">Давхарладаг 10.85</a></li><li><a href=\"#leaning\" style=\"text-decoration:none\">Дугуйтай</a></li><li><a href=\"#rack\" style=\"text-decoration:none\">Тавиурт</a></li><li><a href=\"#all-in-one\" style=\"text-decoration:none\">Инвертер нэгдсэн</a></li><li><a href=\"#wall-mounted\" style=\"text-decoration:none\">Хананд өлгөх</a></li><li><a href=\"#hv\" style=\"text-decoration:none\">Өндөр хүчдэл</a></li></ul></div>",
-          "product": null
+          "type": "anchors",
+          "label": "Цувралууд",
+          "items": [
+            {
+              "href": "#stack-ip65",
+              "text": "Stack IP65 10–20 кВт·ц"
+            },
+            {
+              "href": "#stack-ip65-6kw",
+              "text": "Stack IP65 5–15 кВт·ц"
+            },
+            {
+              "href": "#stack-512",
+              "text": "Давхарладаг 5.12"
+            },
+            {
+              "href": "#stack-768",
+              "text": "Давхарладаг 7.68"
+            },
+            {
+              "href": "#stack-1085",
+              "text": "Давхарладаг 10.85"
+            },
+            {
+              "href": "#leaning",
+              "text": "Дугуйтай"
+            },
+            {
+              "href": "#rack",
+              "text": "Тавиурт"
+            },
+            {
+              "href": "#all-in-one",
+              "text": "Инвертер нэгдсэн"
+            },
+            {
+              "href": "#wall-mounted",
+              "text": "Хананд өлгөх"
+            },
+            {
+              "href": "#hv",
+              "text": "Өндөр хүчдэл"
+            }
+          ]
         },
         {
           "type": "line",
@@ -4599,9 +4640,50 @@
       "ogImage": "img/stack-ip65.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<div class=\"wrap\"><ul class=\"chips\" aria-label=\"Series\"><li><a href=\"#stack-ip65\" style=\"text-decoration:none\">Stack IP65 10–20 kWh</a></li><li><a href=\"#stack-ip65-6kw\" style=\"text-decoration:none\">Stack IP65 5–15 kWh</a></li><li><a href=\"#stack-512\" style=\"text-decoration:none\">Stackable 5.12</a></li><li><a href=\"#stack-768\" style=\"text-decoration:none\">Stackable 7.68</a></li><li><a href=\"#stack-1085\" style=\"text-decoration:none\">Stackable 10.85</a></li><li><a href=\"#leaning\" style=\"text-decoration:none\">Wheeled</a></li><li><a href=\"#rack\" style=\"text-decoration:none\">Rack-mount</a></li><li><a href=\"#all-in-one\" style=\"text-decoration:none\">Inverter-integrated</a></li><li><a href=\"#wall-mounted\" style=\"text-decoration:none\">Wall-mounted</a></li><li><a href=\"#hv\" style=\"text-decoration:none\">High voltage</a></li></ul></div>",
-          "product": null
+          "type": "anchors",
+          "label": "Series",
+          "items": [
+            {
+              "href": "#stack-ip65",
+              "text": "Stack IP65 10–20 kWh"
+            },
+            {
+              "href": "#stack-ip65-6kw",
+              "text": "Stack IP65 5–15 kWh"
+            },
+            {
+              "href": "#stack-512",
+              "text": "Stackable 5.12"
+            },
+            {
+              "href": "#stack-768",
+              "text": "Stackable 7.68"
+            },
+            {
+              "href": "#stack-1085",
+              "text": "Stackable 10.85"
+            },
+            {
+              "href": "#leaning",
+              "text": "Wheeled"
+            },
+            {
+              "href": "#rack",
+              "text": "Rack-mount"
+            },
+            {
+              "href": "#all-in-one",
+              "text": "Inverter-integrated"
+            },
+            {
+              "href": "#wall-mounted",
+              "text": "Wall-mounted"
+            },
+            {
+              "href": "#hv",
+              "text": "High voltage"
+            }
+          ]
         },
         {
           "type": "line",
@@ -9189,9 +9271,50 @@
       "ogImage": "img/stack-ip65.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<div class=\"wrap\"><ul class=\"chips\" aria-label=\"系列\"><li><a href=\"#stack-ip65\" style=\"text-decoration:none\">Stack IP65 10–20 kWh</a></li><li><a href=\"#stack-ip65-6kw\" style=\"text-decoration:none\">Stack IP65 5–15 kWh</a></li><li><a href=\"#stack-512\" style=\"text-decoration:none\">叠层式 5.12</a></li><li><a href=\"#stack-768\" style=\"text-decoration:none\">叠层式 7.68</a></li><li><a href=\"#stack-1085\" style=\"text-decoration:none\">叠层式 10.85</a></li><li><a href=\"#leaning\" style=\"text-decoration:none\">带轮式</a></li><li><a href=\"#rack\" style=\"text-decoration:none\">机架式</a></li><li><a href=\"#all-in-one\" style=\"text-decoration:none\">逆变器一体式</a></li><li><a href=\"#wall-mounted\" style=\"text-decoration:none\">壁挂式</a></li><li><a href=\"#hv\" style=\"text-decoration:none\">高压</a></li></ul></div>",
-          "product": null
+          "type": "anchors",
+          "label": "系列",
+          "items": [
+            {
+              "href": "#stack-ip65",
+              "text": "Stack IP65 10–20 kWh"
+            },
+            {
+              "href": "#stack-ip65-6kw",
+              "text": "Stack IP65 5–15 kWh"
+            },
+            {
+              "href": "#stack-512",
+              "text": "叠层式 5.12"
+            },
+            {
+              "href": "#stack-768",
+              "text": "叠层式 7.68"
+            },
+            {
+              "href": "#stack-1085",
+              "text": "叠层式 10.85"
+            },
+            {
+              "href": "#leaning",
+              "text": "带轮式"
+            },
+            {
+              "href": "#rack",
+              "text": "机架式"
+            },
+            {
+              "href": "#all-in-one",
+              "text": "逆变器一体式"
+            },
+            {
+              "href": "#wall-mounted",
+              "text": "壁挂式"
+            },
+            {
+              "href": "#hv",
+              "text": "高压"
+            }
+          ]
         },
         {
           "type": "line",
@@ -13779,9 +13902,50 @@
       "ogImage": "img/stack-ip65.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<div class=\"wrap\"><ul class=\"chips\" aria-label=\"Серии\"><li><a href=\"#stack-ip65\" style=\"text-decoration:none\">Stack IP65 10–20 кВт·ч</a></li><li><a href=\"#stack-ip65-6kw\" style=\"text-decoration:none\">Stack IP65 5–15 кВт·ч</a></li><li><a href=\"#stack-512\" style=\"text-decoration:none\">Штабелируемая 5.12</a></li><li><a href=\"#stack-768\" style=\"text-decoration:none\">Штабелируемая 7.68</a></li><li><a href=\"#stack-1085\" style=\"text-decoration:none\">Штабелируемая 10.85</a></li><li><a href=\"#leaning\" style=\"text-decoration:none\">На колёсах</a></li><li><a href=\"#rack\" style=\"text-decoration:none\">Стоечная</a></li><li><a href=\"#all-in-one\" style=\"text-decoration:none\">С встроенным инвертором</a></li><li><a href=\"#wall-mounted\" style=\"text-decoration:none\">Настенная</a></li><li><a href=\"#hv\" style=\"text-decoration:none\">Высоковольтная</a></li></ul></div>",
-          "product": null
+          "type": "anchors",
+          "label": "Серии",
+          "items": [
+            {
+              "href": "#stack-ip65",
+              "text": "Stack IP65 10–20 кВт·ч"
+            },
+            {
+              "href": "#stack-ip65-6kw",
+              "text": "Stack IP65 5–15 кВт·ч"
+            },
+            {
+              "href": "#stack-512",
+              "text": "Штабелируемая 5.12"
+            },
+            {
+              "href": "#stack-768",
+              "text": "Штабелируемая 7.68"
+            },
+            {
+              "href": "#stack-1085",
+              "text": "Штабелируемая 10.85"
+            },
+            {
+              "href": "#leaning",
+              "text": "На колёсах"
+            },
+            {
+              "href": "#rack",
+              "text": "Стоечная"
+            },
+            {
+              "href": "#all-in-one",
+              "text": "С встроенным инвертором"
+            },
+            {
+              "href": "#wall-mounted",
+              "text": "Настенная"
+            },
+            {
+              "href": "#hv",
+              "text": "Высоковольтная"
+            }
+          ]
         },
         {
           "type": "line",
@@ -18369,9 +18533,50 @@
       "ogImage": "img/stack-ip65.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<div class=\"wrap\"><ul class=\"chips\" aria-label=\"Сериялар\"><li><a href=\"#stack-ip65\" style=\"text-decoration:none\">Stack IP65 10–20 кВт·сағ</a></li><li><a href=\"#stack-ip65-6kw\" style=\"text-decoration:none\">Stack IP65 5–15 кВт·сағ</a></li><li><a href=\"#stack-512\" style=\"text-decoration:none\">Үйме 5.12</a></li><li><a href=\"#stack-768\" style=\"text-decoration:none\">Үйме 7.68</a></li><li><a href=\"#stack-1085\" style=\"text-decoration:none\">Үйме 10.85</a></li><li><a href=\"#leaning\" style=\"text-decoration:none\">Дөңгелекті</a></li><li><a href=\"#rack\" style=\"text-decoration:none\">Сөреге орнатылатын</a></li><li><a href=\"#all-in-one\" style=\"text-decoration:none\">Инвертор біріктірілген</a></li><li><a href=\"#wall-mounted\" style=\"text-decoration:none\">Қабырғаға ілінетін</a></li><li><a href=\"#hv\" style=\"text-decoration:none\">Жоғары вольтты</a></li></ul></div>",
-          "product": null
+          "type": "anchors",
+          "label": "Сериялар",
+          "items": [
+            {
+              "href": "#stack-ip65",
+              "text": "Stack IP65 10–20 кВт·сағ"
+            },
+            {
+              "href": "#stack-ip65-6kw",
+              "text": "Stack IP65 5–15 кВт·сағ"
+            },
+            {
+              "href": "#stack-512",
+              "text": "Үйме 5.12"
+            },
+            {
+              "href": "#stack-768",
+              "text": "Үйме 7.68"
+            },
+            {
+              "href": "#stack-1085",
+              "text": "Үйме 10.85"
+            },
+            {
+              "href": "#leaning",
+              "text": "Дөңгелекті"
+            },
+            {
+              "href": "#rack",
+              "text": "Сөреге орнатылатын"
+            },
+            {
+              "href": "#all-in-one",
+              "text": "Инвертор біріктірілген"
+            },
+            {
+              "href": "#wall-mounted",
+              "text": "Қабырғаға ілінетін"
+            },
+            {
+              "href": "#hv",
+              "text": "Жоғары вольтты"
+            }
+          ]
         },
         {
           "type": "line",

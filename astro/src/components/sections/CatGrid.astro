@@ -1,0 +1,13 @@
+---
+// Home page category cards.
+import Img from "../Img.astro";
+const { s, P } = Astro.props;
+---
+<section class="section" id="products">
+  <div class="wrap">
+    <div class="section-head"><h2>{s.title}</h2><p set:html={s.intro} /></div>
+    <div class="cat-grid">{s.cards.map((c: any) => (
+      <a class={c.size ? `cat-card ${c.size}` : "cat-card"} href={c.href}><div class="pic"><Img img={c.img} P={P} /></div><div class="txt"><h3>{c.title}</h3><p set:html={c.text} /><span class="go">{s.go}</span></div></a>
+    ))}</div>
+  </div>
+</section>

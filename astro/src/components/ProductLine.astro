@@ -25,6 +25,11 @@ const Btn = (b: any) => ({ href: MESSENGER, copy: quoteText(lang, line.name, b.c
   if (b.k === "button") return <div class="btns"><a class="btn" href={Btn(b).href} target="_blank" rel="noopener" data-copy={Btn(b).copy}>{t.lineButton}</a></div>;
   if (b.k === "tblTitle") return <p class="tbl-title">{b.text}</p>;
   if (b.k === "note") return <p class="note" set:html={b.html} />;
+  if (b.k === "gallery") return (
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px">{b.imgs.map((i: any) => (
+      <div class="pic" style="aspect-ratio:4/3"><img src={P + i.src} alt={i.alt} width={i.w} height={i.h} class={i.cls} loading="lazy" decoding="async"></div>
+    ))}</div>
+  );
   if (b.k === "table") return (
     <div class="tbl-wrap" tabindex="0" role="region" aria-label={b.label}><table class="spec">
       {b.table.head.length > 0 && <thead>{b.table.head.map((row: any[]) => <tr>{row.map(([tag, html, attrs]) => tag === "th" ? <th {...attrs} set:html={html} /> : <td {...attrs} set:html={html} />)}</tr>)}</thead>}

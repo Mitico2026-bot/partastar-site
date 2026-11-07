@@ -1,0 +1,24 @@
+---
+// Battery runtime calculator shell; app.js fills in the sizes, loads and models.
+const { s } = Astro.props;
+---
+<section class="runtime wrap" id="runtime" aria-labelledby="rt-h">
+  <div class="panel">
+    <h2 id="rt-h">{s.title}</h2>
+    <p class="sub" set:html={s.sub} />
+    <fieldset class="sizes"><legend>{s.legend}</legend></fieldset>
+    <div class="rt-body">
+      <div class="cell" aria-hidden="true">
+        <svg viewBox="0 0 100 150" role="img" aria-label={s.svgLabel}>
+          <rect class="cap" x="34" y="4" width="32" height="12" rx="3"></rect>
+          <rect class="shell" x="10" y="16" width="80" height="128" rx="12"></rect>
+          <rect class="level" x="17" y="86" width="66" height="50" rx="6"></rect>
+          <text class="kwh" x="50" y="82">{s.kwh}</text>
+        </svg>
+      </div>
+      <ul class="loads" aria-live="polite"></ul>
+    </div>
+    <div class="rt-foot"><span><b>{s.modelsLabel}</b></span><span class="models"></span></div>
+    <p class="note" set:html={s.note} />
+  </div>
+</section>

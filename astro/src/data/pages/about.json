@@ -9,14 +9,36 @@
       "ogImage": "img/hero-house.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap trust\">\n  <div class=\"prose\">\n    <h2>Partastar</h2>\n    <p style=\"margin-top:14px\">Partastar-ийн маркетингийн төв Шэньжэнь хотод байрладаг. Брэнд 2023 онд байгуулагдсан бөгөөд батарейн салбарт 16 жилийн туршлагатай. Өөрийн элементийн үйлдвэр, 3 угсралтын үйлдвэр, дотоодод 15 охин компани, гадаадад 6 салбартай.</p>\n    <p>Бүтээгдэхүүн нь ROHS, CE, UN38.3, MSDS, IEC болон бусад олон улсын гэрчилгээтэй. Олон улсын 43 гэрчилгээ, 26 патент авсан. АНУ, Канад, Европ, Өмнөд Солонгос, Австрали, Ойрх Дорнод, Африк зэрэг 64 гаруй улс, бүс нутагт борлогдсон.</p>\n  </div>\n  <div>\n    <h3>Холбоо барих</h3>\n    <p style=\"margin-top:10px;color:var(--muted)\">Facebook Messenger дээр бичнэ үү.</p>\n    <div class=\"btns\" style=\"display:flex;flex-wrap:wrap;gap:12px;margin-top:16px\">\n      <a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сайн байна уу! Partastar бүтээгдэхүүний талаар лавлах гэсэн юм.\">Facebook Messenger</a>\n    </div>\n  </div>\n</div></section>",
-          "product": null
+          "type": "aboutTrust",
+          "title": "Partastar",
+          "paras": [
+            "Partastar-ийн маркетингийн төв Шэньжэнь хотод байрладаг. Брэнд 2023 онд байгуулагдсан бөгөөд батарейн салбарт 16 жилийн туршлагатай. Өөрийн элементийн үйлдвэр, 3 угсралтын үйлдвэр, дотоодод 15 охин компани, гадаадад 6 салбартай.",
+            "Бүтээгдэхүүн нь ROHS, CE, UN38.3, MSDS, IEC болон бусад олон улсын гэрчилгээтэй. Олон улсын 43 гэрчилгээ, 26 патент авсан. АНУ, Канад, Европ, Өмнөд Солонгос, Австрали, Ойрх Дорнод, Африк зэрэг 64 гаруй улс, бүс нутагт борлогдсон."
+          ],
+          "contactTitle": "Холбоо барих",
+          "contactText": "Facebook Messenger дээр бичнэ үү.",
+          "button": {
+            "text": "Facebook Messenger",
+            "copy": "Сайн байна уу! Partastar бүтээгдэхүүний талаар лавлах гэсэн юм."
+          }
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Түгээмэл асуулт</h2><details class=\"faq\"><summary>Өвлийн хүйтэнд батарей ажиллах уу?</summary><p>Температурын муж загвар бүрд өөр. Жишээ нь ихэнх загвар 0~60℃-д цэнэглэж, −20~60℃-д гаргана. Stack IP65 цуврал −10~55℃-д цэнэглэнэ. Өвлийн нөхцөлд тохирох загвар, суурилуулах байрлалыг бид зөвлөнө.</p></details><details class=\"faq\"><summary>Батарей хэдэн жил ажиллах вэ?</summary><p>Каталогт 6000+ циклийн тоо заасан. Бодит насжилт хэрэглээ, температураас хамаарна.</p></details><details class=\"faq\"><summary>Үнэ хэд вэ?</summary><p>Үнийг систем бүрээр тооцож санал болгоно. Messenger дээр бичнэ үү.</p></details></div></section>",
-          "product": null
+          "type": "faq",
+          "title": "Түгээмэл асуулт",
+          "items": [
+            {
+              "q": "Өвлийн хүйтэнд батарей ажиллах уу?",
+              "a": "Температурын муж загвар бүрд өөр. Жишээ нь ихэнх загвар 0~60℃-д цэнэглэж, −20~60℃-д гаргана. Stack IP65 цуврал −10~55℃-д цэнэглэнэ. Өвлийн нөхцөлд тохирох загвар, суурилуулах байрлалыг бид зөвлөнө."
+            },
+            {
+              "q": "Батарей хэдэн жил ажиллах вэ?",
+              "a": "Каталогт 6000+ циклийн тоо заасан. Бодит насжилт хэрэглээ, температураас хамаарна."
+            },
+            {
+              "q": "Үнэ хэд вэ?",
+              "a": "Үнийг систем бүрээр тооцож санал болгоно. Messenger дээр бичнэ үү."
+            }
+          ]
         }
       ],
       "h1": "Бидний тухай",
@@ -29,14 +51,36 @@
       "ogImage": "img/hero-house.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap trust\">\n  <div class=\"prose\">\n    <h2>Partastar</h2>\n    <p style=\"margin-top:14px\">Partastar's marketing center is located in Shenzhen. The brand was founded in 2023 and has 16 years of experience in the battery industry. It has its own cell factory, 3 assembly plants, 15 subsidiaries in China and 6 branches abroad.</p>\n    <p>The products carry ROHS, CE, UN38.3, MSDS, IEC and other international certifications. 43 international certificates and 26 patents have been obtained. Sold in more than 64 countries and regions including the USA, Canada, Europe, South Korea, Australia, the Middle East and Africa.</p>\n  </div>\n  <div>\n    <h3>Contact</h3>\n    <p style=\"margin-top:10px;color:var(--muted)\">Write to us on Facebook Messenger.</p>\n    <div class=\"btns\" style=\"display:flex;flex-wrap:wrap;gap:12px;margin-top:16px\">\n      <a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Hello! I&#x27;d like to ask about Partastar products.\">Facebook Messenger</a>\n    </div>\n  </div>\n</div></section>",
-          "product": null
+          "type": "aboutTrust",
+          "title": "Partastar",
+          "paras": [
+            "Partastar's marketing center is located in Shenzhen. The brand was founded in 2023 and has 16 years of experience in the battery industry. It has its own cell factory, 3 assembly plants, 15 subsidiaries in China and 6 branches abroad.",
+            "The products carry ROHS, CE, UN38.3, MSDS, IEC and other international certifications. 43 international certificates and 26 patents have been obtained. Sold in more than 64 countries and regions including the USA, Canada, Europe, South Korea, Australia, the Middle East and Africa."
+          ],
+          "contactTitle": "Contact",
+          "contactText": "Write to us on Facebook Messenger.",
+          "button": {
+            "text": "Facebook Messenger",
+            "copy": "Hello! I'd like to ask about Partastar products."
+          }
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Frequently asked questions</h2><details class=\"faq\"><summary>Will the battery work in winter cold?</summary><p>The temperature range differs by model. For example, most models charge at 0~60℃ and discharge at −20~60℃. The Stack IP65 series charges at −10~55℃. We will advise on a suitable model and installation location for winter conditions.</p></details><details class=\"faq\"><summary>How many years will the battery last?</summary><p>The catalog states 6000+ cycles. Actual service life depends on usage and temperature.</p></details><details class=\"faq\"><summary>How much does it cost?</summary><p>We quote a price for each system. Write to us on Messenger.</p></details></div></section>",
-          "product": null
+          "type": "faq",
+          "title": "Frequently asked questions",
+          "items": [
+            {
+              "q": "Will the battery work in winter cold?",
+              "a": "The temperature range differs by model. For example, most models charge at 0~60℃ and discharge at −20~60℃. The Stack IP65 series charges at −10~55℃. We will advise on a suitable model and installation location for winter conditions."
+            },
+            {
+              "q": "How many years will the battery last?",
+              "a": "The catalog states 6000+ cycles. Actual service life depends on usage and temperature."
+            },
+            {
+              "q": "How much does it cost?",
+              "a": "We quote a price for each system. Write to us on Messenger."
+            }
+          ]
         }
       ],
       "h1": "About us",
@@ -49,14 +93,36 @@
       "ogImage": "img/hero-house.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap trust\">\n  <div class=\"prose\">\n    <h2>Partastar</h2>\n    <p style=\"margin-top:14px\">Partastar 的营销中心位于深圳。品牌成立于 2023 年,在电池行业拥有 16 年经验。拥有自有电芯工厂、3 座组装工厂、国内 15 家子公司和海外 6 家分支机构。</p>\n    <p>产品通过 ROHS、CE、UN38.3、MSDS、IEC 等多项国际认证,已获 43 项国际认证和 26 项专利。产品销往美国、加拿大、欧洲、韩国、澳大利亚、中东、非洲等 64 个以上国家和地区。</p>\n  </div>\n  <div>\n    <h3>联系我们</h3>\n    <p style=\"margin-top:10px;color:var(--muted)\">请通过 Facebook Messenger 联系我们。</p>\n    <div class=\"btns\" style=\"display:flex;flex-wrap:wrap;gap:12px;margin-top:16px\">\n      <a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"您好!我想咨询 Partastar 产品。\">Facebook Messenger</a>\n    </div>\n  </div>\n</div></section>",
-          "product": null
+          "type": "aboutTrust",
+          "title": "Partastar",
+          "paras": [
+            "Partastar 的营销中心位于深圳。品牌成立于 2023 年,在电池行业拥有 16 年经验。拥有自有电芯工厂、3 座组装工厂、国内 15 家子公司和海外 6 家分支机构。",
+            "产品通过 ROHS、CE、UN38.3、MSDS、IEC 等多项国际认证,已获 43 项国际认证和 26 项专利。产品销往美国、加拿大、欧洲、韩国、澳大利亚、中东、非洲等 64 个以上国家和地区。"
+          ],
+          "contactTitle": "联系我们",
+          "contactText": "请通过 Facebook Messenger 联系我们。",
+          "button": {
+            "text": "Facebook Messenger",
+            "copy": "您好!我想咨询 Partastar 产品。"
+          }
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">常见问题</h2><details class=\"faq\"><summary>батарей在冬季严寒中能工作吗?</summary><p>温度范围因型号而异。例如,大多数型号充电温度为 0~60℃,放电温度为 −20~60℃;Stack IP65 系列充电温度为 −10~55℃。我们会根据冬季条件推荐合适的型号和安装位置。</p></details><details class=\"faq\"><summary>电池能用多少年?</summary><p>目录标注循环次数为 6000+ 次。实际寿命取决于使用方式和温度。</p></details><details class=\"faq\"><summary>价格是多少?</summary><p>我们按每套系统单独报价。请通过 Messenger 联系我们。</p></details></div></section>",
-          "product": null
+          "type": "faq",
+          "title": "常见问题",
+          "items": [
+            {
+              "q": "батарей在冬季严寒中能工作吗?",
+              "a": "温度范围因型号而异。例如,大多数型号充电温度为 0~60℃,放电温度为 −20~60℃;Stack IP65 系列充电温度为 −10~55℃。我们会根据冬季条件推荐合适的型号和安装位置。"
+            },
+            {
+              "q": "电池能用多少年?",
+              "a": "目录标注循环次数为 6000+ 次。实际寿命取决于使用方式和温度。"
+            },
+            {
+              "q": "价格是多少?",
+              "a": "我们按每套系统单独报价。请通过 Messenger 联系我们。"
+            }
+          ]
         }
       ],
       "h1": "关于我们",
@@ -69,14 +135,36 @@
       "ogImage": "img/hero-house.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap trust\">\n  <div class=\"prose\">\n    <h2>Partastar</h2>\n    <p style=\"margin-top:14px\">Маркетинговый центр Partastar находится в Шэньчжэне. Бренд основан в 2023 году и имеет 16 лет опыта в аккумуляторной отрасли. Есть собственный завод по производству элементов, 3 сборочных завода, 15 дочерних компаний в Китае и 6 филиалов за рубежом.</p>\n    <p>Продукция имеет сертификаты ROHS, CE, UN38.3, MSDS, IEC и другие международные сертификаты. Получено 43 международных сертификата и 26 патентов. Продаётся более чем в 64 странах и регионах, включая США, Канаду, Европу, Южную Корею, Австралию, Ближний Восток и Африку.</p>\n  </div>\n  <div>\n    <h3>Контакты</h3>\n    <p style=\"margin-top:10px;color:var(--muted)\">Напишите нам в Facebook Messenger.</p>\n    <div class=\"btns\" style=\"display:flex;flex-wrap:wrap;gap:12px;margin-top:16px\">\n      <a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Здравствуйте! Хочу узнать о продукции Partastar.\">Facebook Messenger</a>\n    </div>\n  </div>\n</div></section>",
-          "product": null
+          "type": "aboutTrust",
+          "title": "Partastar",
+          "paras": [
+            "Маркетинговый центр Partastar находится в Шэньчжэне. Бренд основан в 2023 году и имеет 16 лет опыта в аккумуляторной отрасли. Есть собственный завод по производству элементов, 3 сборочных завода, 15 дочерних компаний в Китае и 6 филиалов за рубежом.",
+            "Продукция имеет сертификаты ROHS, CE, UN38.3, MSDS, IEC и другие международные сертификаты. Получено 43 международных сертификата и 26 патентов. Продаётся более чем в 64 странах и регионах, включая США, Канаду, Европу, Южную Корею, Австралию, Ближний Восток и Африку."
+          ],
+          "contactTitle": "Контакты",
+          "contactText": "Напишите нам в Facebook Messenger.",
+          "button": {
+            "text": "Facebook Messenger",
+            "copy": "Здравствуйте! Хочу узнать о продукции Partastar."
+          }
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Частые вопросы</h2><details class=\"faq\"><summary>Будет ли батарея работать в зимние морозы?</summary><p>Диапазон температур зависит от модели. Например, большинство моделей заряжаются при 0~60℃ и разряжаются при −20~60℃. Серия Stack IP65 заряжается при −10~55℃. Мы подскажем подходящую модель и место установки для зимних условий.</p></details><details class=\"faq\"><summary>Сколько лет прослужит батарея?</summary><p>В каталоге указано 6000+ циклов. Фактический срок службы зависит от использования и температуры.</p></details><details class=\"faq\"><summary>Сколько это стоит?</summary><p>Цена рассчитывается для каждой системы отдельно. Напишите нам в Messenger.</p></details></div></section>",
-          "product": null
+          "type": "faq",
+          "title": "Частые вопросы",
+          "items": [
+            {
+              "q": "Будет ли батарея работать в зимние морозы?",
+              "a": "Диапазон температур зависит от модели. Например, большинство моделей заряжаются при 0~60℃ и разряжаются при −20~60℃. Серия Stack IP65 заряжается при −10~55℃. Мы подскажем подходящую модель и место установки для зимних условий."
+            },
+            {
+              "q": "Сколько лет прослужит батарея?",
+              "a": "В каталоге указано 6000+ циклов. Фактический срок службы зависит от использования и температуры."
+            },
+            {
+              "q": "Сколько это стоит?",
+              "a": "Цена рассчитывается для каждой системы отдельно. Напишите нам в Messenger."
+            }
+          ]
         }
       ],
       "h1": "О нас",
@@ -89,14 +177,36 @@
       "ogImage": "img/hero-house.webp",
       "sections": [
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap trust\">\n  <div class=\"prose\">\n    <h2>Partastar</h2>\n    <p style=\"margin-top:14px\">Partastar маркетинг орталығы Шэньчжэнь қаласында орналасқан. Бренд 2023 жылы құрылған, аккумулятор саласында 16 жылдық тәжірибесі бар. Өз элемент зауыты, 3 құрастыру зауыты, елде 15 еншілес компания және шетелде 6 филиалы бар.</p>\n    <p>Өнімдер ROHS, CE, UN38.3, MSDS, IEC және басқа да халықаралық сертификаттарға ие. 43 халықаралық сертификат пен 26 патент алынған. АҚШ, Канада, Еуропа, Оңтүстік Корея, Австралия, Таяу Шығыс, Африка сияқты 64-тен астам ел мен аймаққа сатылған.</p>\n  </div>\n  <div>\n    <h3>Байланыс</h3>\n    <p style=\"margin-top:10px;color:var(--muted)\">Facebook Messenger арқылы жазыңыз.</p>\n    <div class=\"btns\" style=\"display:flex;flex-wrap:wrap;gap:12px;margin-top:16px\">\n      <a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сәлеметсіз бе! Partastar өнімдері туралы сұрағым келеді.\">Facebook Messenger</a>\n    </div>\n  </div>\n</div></section>",
-          "product": null
+          "type": "aboutTrust",
+          "title": "Partastar",
+          "paras": [
+            "Partastar маркетинг орталығы Шэньчжэнь қаласында орналасқан. Бренд 2023 жылы құрылған, аккумулятор саласында 16 жылдық тәжірибесі бар. Өз элемент зауыты, 3 құрастыру зауыты, елде 15 еншілес компания және шетелде 6 филиалы бар.",
+            "Өнімдер ROHS, CE, UN38.3, MSDS, IEC және басқа да халықаралық сертификаттарға ие. 43 халықаралық сертификат пен 26 патент алынған. АҚШ, Канада, Еуропа, Оңтүстік Корея, Австралия, Таяу Шығыс, Африка сияқты 64-тен астам ел мен аймаққа сатылған."
+          ],
+          "contactTitle": "Байланыс",
+          "contactText": "Facebook Messenger арқылы жазыңыз.",
+          "button": {
+            "text": "Facebook Messenger",
+            "copy": "Сәлеметсіз бе! Partastar өнімдері туралы сұрағым келеді."
+          }
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Жиі қойылатын сұрақтар</h2><details class=\"faq\"><summary>Батарея қысқы аязда жұмыс істей ме?</summary><p>Температура аралығы үлгіге байланысты. Мысалы, көп үлгілер 0~60℃-та зарядталып, −20~60℃-та разрядталады. Stack IP65 сериясы −10~55℃-та зарядталады. Қысқы жағдайға сай үлгі мен орнату орнын ұсынамыз.</p></details><details class=\"faq\"><summary>Батарея неше жыл қызмет етеді?</summary><p>Каталогта 6000+ цикл көрсетілген. Нақты қызмет мерзімі пайдалану мен температураға байланысты.</p></details><details class=\"faq\"><summary>Бағасы қанша?</summary><p>Бағаны әр жүйеге жеке есептеп ұсынамыз. Messenger-де жазыңыз.</p></details></div></section>",
-          "product": null
+          "type": "faq",
+          "title": "Жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "q": "Батарея қысқы аязда жұмыс істей ме?",
+              "a": "Температура аралығы үлгіге байланысты. Мысалы, көп үлгілер 0~60℃-та зарядталып, −20~60℃-та разрядталады. Stack IP65 сериясы −10~55℃-та зарядталады. Қысқы жағдайға сай үлгі мен орнату орнын ұсынамыз."
+            },
+            {
+              "q": "Батарея неше жыл қызмет етеді?",
+              "a": "Каталогта 6000+ цикл көрсетілген. Нақты қызмет мерзімі пайдалану мен температураға байланысты."
+            },
+            {
+              "q": "Бағасы қанша?",
+              "a": "Бағаны әр жүйеге жеке есептеп ұсынамыз. Messenger-де жазыңыз."
+            }
+          ]
         }
       ],
       "h1": "Біз туралы",

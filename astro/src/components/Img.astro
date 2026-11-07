@@ -1,0 +1,9 @@
+---
+// <img> from extracted image data ({ src, alt, w, h, cls?, lazy?, priority? }), with the page's root prefix.
+interface Props { img: any; P: string; class?: string; }
+const { img, P } = Astro.props;
+const cls = Astro.props.class ?? img.cls;
+---
+{img.lazy
+  ? <img src={P + img.src} alt={img.alt} width={img.w} height={img.h} class={cls} loading="lazy" decoding="async" fetchpriority={img.priority}>
+  : <img class={cls} src={P + img.src} alt={img.alt} width={img.w} height={img.h} fetchpriority={img.priority}>}

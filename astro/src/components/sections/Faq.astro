@@ -1,0 +1,5 @@
+---
+// Frequently asked questions (about, green-loan).
+const { s } = Astro.props;
+---
+<section class="line"><div class="wrap prose"><h2 style="margin-bottom:14px">{s.title}</h2>{s.items.map((i: any) => <details class="faq"><summary>{i.q}</summary><p set:html={i.a} /></details>)}</div></section>

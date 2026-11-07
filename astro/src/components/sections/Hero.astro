@@ -1,0 +1,18 @@
+---
+// Home page hero: background photo, 3D scene, headline and two buttons.
+import Img from "../Img.astro";
+import { MESSENGER } from "../../lib/site";
+const { s, P } = Astro.props;
+---
+<section class="hero">
+  <Img img={s.img} P={P} class="bg" />
+  <div class="s3d" data-scene={s.scene} aria-hidden="true"></div>
+  <div class="wrap">
+    <h1 set:html={s.h1} />
+    <p class="lead" set:html={s.lead} />
+    <div class="actions">
+      <a class="btn lamp" href={MESSENGER} target="_blank" rel="noopener" data-copy={s.order.copy}>{s.order.text}</a>
+      <a class="btn on-dark" href={s.catalog.href}>{s.catalog.text}</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,5 @@
+---
+// A short catalog note between sections (heat pumps, EV chargers).
+const { s } = Astro.props;
+---
+<section class="section tight"><div class="wrap"><p class="note" set:html={s.html} /></div></section>

@@ -454,14 +454,580 @@
           ]
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150 кВт·ц-аас 3290 кВт·ц хүртэл</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Салхи-нар-дизель, шингэн хөргөлттэй болон контейнер хадгалалт.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-150.webp\" alt=\"150 кВт·ц нар-салхи-дизель\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-261.webp\" alt=\"261 кВт·ц шингэн хөргөлттэй\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-522.webp\" alt=\"522 кВт·ц шингэн хөргөлттэй\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-3290.webp\" alt=\"3290 кВт·ц контейнер, агаар хөргөлттэй\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сайн байна уу! Аж үйлдвэрийн хадгалалт-ийн үнийн санал авмаар байна.\">Facebook-ээр асуух</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Техникийн үзүүлэлт\"><table class=\"spec\"><thead><tr><th scope=\"col\">Үзүүлэлт</th><th scope=\"col\">150 кВт·ц нар-салхи-дизель</th><th scope=\"col\">261 кВт·ц шингэн хөргөлттэй</th><th scope=\"col\">522 кВт·ц шингэн хөргөлттэй</th><th scope=\"col\">3290 кВт·ц контейнер, агаар хөргөлттэй</th></tr></thead><tbody><tr><th scope=\"row\">Элементийн төрөл</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Нэрлэсэн энерги</th><td>150.5 кВт·ц</td><td>261 кВт·ц</td><td>522.49 кВт·ц</td><td>3290.11 кВт·ц</td></tr><tr><th scope=\"row\">Цэнэглэх/гаргах хурд</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Нэрлэсэн хүчдэл</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Батарейн хүчдэлийн муж</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 түвшин</td><td>2 түвшин</td><td>3 түвшин</td><td>3 түвшин</td></tr><tr><th scope=\"row\">Хэмжээ (Н×Г×Ө)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Жин</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Хамгаалалтын зэрэг</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Ажлын температур</th><td>−30~+55°C (&gt;45°C чадал бууруулна)</td><td>−30~+50°C (&gt;45°C чадал бууруулна)</td><td>−30~+45°C</td><td>−30~+50°C (&gt;45°C чадал бууруулна)</td></tr><tr><th scope=\"row\">Ажлын чийгшил</th><td>5–95%RH (конденсацгүй)</td><td>0–95%RH (конденсацгүй)</td><td>0–95%RH</td><td>0–95%RH (конденсацгүй)</td></tr><tr><th scope=\"row\">Туслах тэжээл</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Галын хамгаалалт</th><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Суурилуулах арга</th><td class=\"merged\" colspan=\"4\">Гадаа суурилуулалт</td></tr><tr><th scope=\"row\">Зэврэлтээс хамгаалах зэрэг</th><td>C3 (C4/C5 сонголттой)</td><td>C3 (C4/C5 сонголттой)</td><td>C3</td><td>C3 (C4/C5 сонголттой)</td></tr><tr><th scope=\"row\">Өндөршил</th><td class=\"merged\" colspan=\"4\">3000 м хүртэл</td></tr><tr><th scope=\"row\">Ажлын горим</th><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td><td>1 цэнэглэлт, 1 гаргалт</td><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td></tr><tr><th scope=\"row\">Холбооны интерфейс</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Гадаад холбооны протокол</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Гэрчилгээ</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
-          "product": {
-            "id": "ci-large",
-            "name": "150 кВт·ц-аас 3290 кВт·ц хүртэл",
-            "lead": null,
-            "img": "img/ci-150.webp"
-          }
+          "type": "line",
+          "id": "ci-large",
+          "name": "150 кВт·ц-аас 3290 кВт·ц хүртэл",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "150 кВт·ц-аас 3290 кВт·ц хүртэл"
+            },
+            {
+              "k": "lead",
+              "text": "Салхи-нар-дизель, шингэн хөргөлттэй болон контейнер хадгалалт.",
+              "style": "color:var(--muted);margin-top:10px;max-width:60ch"
+            },
+            {
+              "k": "gallery",
+              "imgs": [
+                {
+                  "src": "img/ci-150.webp",
+                  "alt": "150 кВт·ц нар-салхи-дизель",
+                  "w": 741,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-261.webp",
+                  "alt": "261 кВт·ц шингэн хөргөлттэй",
+                  "w": 599,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-522.webp",
+                  "alt": "522 кВт·ц шингэн хөргөлттэй",
+                  "w": 699,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-3290.webp",
+                  "alt": "3290 кВт·ц контейнер, агаар хөргөлттэй",
+                  "w": 958,
+                  "h": 527,
+                  "lazy": true
+                }
+              ]
+            },
+            {
+              "k": "button",
+              "copy": "Сайн байна уу! Аж үйлдвэрийн хадгалалт-ийн үнийн санал авмаар байна."
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "150 кВт·ц нар-салхи-дизель",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "261 кВт·ц шингэн хөргөлттэй",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "522 кВт·ц шингэн хөргөлттэй",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "3290 кВт·ц контейнер, агаар хөргөлттэй",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Элементийн төрөл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн энерги",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150.5 кВт·ц"
+                    ],
+                    [
+                      "td",
+                      "261 кВт·ц"
+                    ],
+                    [
+                      "td",
+                      "522.49 кВт·ц"
+                    ],
+                    [
+                      "td",
+                      "3290.11 кВт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэнэглэх/гаргах хурд",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.25CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "537.6V"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн хүчдэлийн муж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "470.4–604.8V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "1142–1468.8V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "BMS",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3 түвшин"
+                    ],
+                    [
+                      "td",
+                      "2 түвшин"
+                    ],
+                    [
+                      "td",
+                      "3 түвшин"
+                    ],
+                    [
+                      "td",
+                      "3 түвшин"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хэмжээ (Н×Г×Ө)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1600×1700×2591 мм"
+                    ],
+                    [
+                      "td",
+                      "950×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "1850×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "6058×2438×2896 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жин",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈3 т"
+                    ],
+                    [
+                      "td",
+                      "≈2.3 т"
+                    ],
+                    [
+                      "td",
+                      "≈4.5 т"
+                    ],
+                    [
+                      "td",
+                      "≈33 т"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хамгаалалтын зэрэг",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP55"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ажлын температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−30~+55°C (&gt;45°C чадал бууруулна)"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (&gt;45°C чадал бууруулна)"
+                    ],
+                    [
+                      "td",
+                      "−30~+45°C"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (&gt;45°C чадал бууруулна)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ажлын чийгшил",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "5–95%RH (конденсацгүй)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH (конденсацгүй)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH (конденсацгүй)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Туслах тэжээл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "6 кВт, 380V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Галын хамгаалалт",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "S төрлийн аэрозоль / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "S төрлийн аэрозоль / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "Перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "S төрлийн аэрозоль / гептафторпропан / перфторгексанон"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Суурилуулах арга",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Гадаа суурилуулалт",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зэврэлтээс хамгаалах зэрэг",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 сонголттой)"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 сонголттой)"
+                    ],
+                    [
+                      "td",
+                      "C3"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 сонголттой)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Өндөршил",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3000 м хүртэл",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ажлын горим",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Өдөрт макс. 2 цэнэглэлт, 2 гаргалт"
+                    ],
+                    [
+                      "td",
+                      "Өдөрт макс. 2 цэнэглэлт, 2 гаргалт"
+                    ],
+                    [
+                      "td",
+                      "1 цэнэглэлт, 1 гаргалт"
+                    ],
+                    [
+                      "td",
+                      "Өдөрт макс. 2 цэнэглэлт, 2 гаргалт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Холбооны интерфейс",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гадаад холбооны протокол",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / Modbus RTU"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / IEC61850 / Modbus RTU"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гэрчилгээ",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, GB/T 34120"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, UL 1973"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ],
       "h1": "Аж үйлдвэрийн хадгалалт",
@@ -919,14 +1485,580 @@
           ]
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>From 150 kWh to 3290 kWh</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Wind-solar-diesel, liquid-cooled and container storage.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 kWh solar-wind-diesel\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 kWh liquid-cooled\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 kWh liquid-cooled\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 kWh container, air-cooled\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Hello! I&#x27;d like a quote for: Industrial storage.\">Ask on Facebook</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Specifications\"><table class=\"spec\"><thead><tr><th scope=\"col\">Parameter</th><th scope=\"col\">150 kWh solar-wind-diesel</th><th scope=\"col\">261 kWh liquid-cooled</th><th scope=\"col\">522 kWh liquid-cooled</th><th scope=\"col\">3290 kWh container, air-cooled</th></tr></thead><tbody><tr><th scope=\"row\">Cell type</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Rated energy</th><td>150.5 kWh</td><td>261 kWh</td><td>522.49 kWh</td><td>3290.11 kWh</td></tr><tr><th scope=\"row\">Charge/discharge rate</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Rated voltage</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Battery voltage range</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 levels</td><td>2 levels</td><td>3 levels</td><td>3 levels</td></tr><tr><th scope=\"row\">Dimensions (H×W×D)</th><td>1600×1700×2591 mm</td><td>950×1300×2200 mm</td><td>1850×1300×2200 mm</td><td>6058×2438×2896 mm</td></tr><tr><th scope=\"row\">Weight</th><td>≈3 t</td><td>≈2.3 t</td><td>≈4.5 t</td><td>≈33 t</td></tr><tr><th scope=\"row\">Protection rating</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Operating temperature</th><td>−30~+55°C (derating above 45°C)</td><td>−30~+50°C (derating above 45°C)</td><td>−30~+45°C</td><td>−30~+50°C (derating above 45°C)</td></tr><tr><th scope=\"row\">Operating humidity</th><td>5–95% RH (non-condensing)</td><td>0–95% RH (non-condensing)</td><td>0–95%RH</td><td>0–95% RH (non-condensing)</td></tr><tr><th scope=\"row\">Auxiliary power</th><td>25 kW, 380V/480V, 50Hz</td><td>6 kW, 380V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td></tr><tr><th scope=\"row\">Fire protection</th><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td><td>Perfluorohexanone</td><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td></tr><tr><th scope=\"row\">Installation method</th><td class=\"merged\" colspan=\"4\">Outdoor installation</td></tr><tr><th scope=\"row\">Corrosion protection class</th><td>C3 (C4/C5 optional)</td><td>C3 (C4/C5 optional)</td><td>C3</td><td>C3 (C4/C5 optional)</td></tr><tr><th scope=\"row\">Altitude</th><td class=\"merged\" colspan=\"4\">Up to 3000 m</td></tr><tr><th scope=\"row\">Operating mode</th><td>Up to 2 charges and 2 discharges per day</td><td>Up to 2 charges and 2 discharges per day</td><td>1 charge, 1 discharge</td><td>Up to 2 charges and 2 discharges per day</td></tr><tr><th scope=\"row\">Communication interface</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">External communication protocol</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Certification</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
-          "product": {
-            "id": "ci-large",
-            "name": "From 150 kWh to 3290 kWh",
-            "lead": null,
-            "img": "img/ci-150.webp"
-          }
+          "type": "line",
+          "id": "ci-large",
+          "name": "From 150 kWh to 3290 kWh",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "From 150 kWh to 3290 kWh"
+            },
+            {
+              "k": "lead",
+              "text": "Wind-solar-diesel, liquid-cooled and container storage.",
+              "style": "color:var(--muted);margin-top:10px;max-width:60ch"
+            },
+            {
+              "k": "gallery",
+              "imgs": [
+                {
+                  "src": "img/ci-150.webp",
+                  "alt": "150 kWh solar-wind-diesel",
+                  "w": 741,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-261.webp",
+                  "alt": "261 kWh liquid-cooled",
+                  "w": 599,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-522.webp",
+                  "alt": "522 kWh liquid-cooled",
+                  "w": 699,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-3290.webp",
+                  "alt": "3290 kWh container, air-cooled",
+                  "w": 958,
+                  "h": 527,
+                  "lazy": true
+                }
+              ]
+            },
+            {
+              "k": "button",
+              "copy": "Hello! I'd like a quote for: Industrial storage."
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "150 kWh solar-wind-diesel",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "261 kWh liquid-cooled",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "522 kWh liquid-cooled",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "3290 kWh container, air-cooled",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Cell type",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated energy",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150.5 kWh"
+                    ],
+                    [
+                      "td",
+                      "261 kWh"
+                    ],
+                    [
+                      "td",
+                      "522.49 kWh"
+                    ],
+                    [
+                      "td",
+                      "3290.11 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Charge/discharge rate",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.25CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "537.6V"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery voltage range",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "470.4–604.8V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "1142–1468.8V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "BMS",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3 levels"
+                    ],
+                    [
+                      "td",
+                      "2 levels"
+                    ],
+                    [
+                      "td",
+                      "3 levels"
+                    ],
+                    [
+                      "td",
+                      "3 levels"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Dimensions (H×W×D)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1600×1700×2591 mm"
+                    ],
+                    [
+                      "td",
+                      "950×1300×2200 mm"
+                    ],
+                    [
+                      "td",
+                      "1850×1300×2200 mm"
+                    ],
+                    [
+                      "td",
+                      "6058×2438×2896 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Weight",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈3 t"
+                    ],
+                    [
+                      "td",
+                      "≈2.3 t"
+                    ],
+                    [
+                      "td",
+                      "≈4.5 t"
+                    ],
+                    [
+                      "td",
+                      "≈33 t"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Protection rating",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP55"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Operating temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−30~+55°C (derating above 45°C)"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (derating above 45°C)"
+                    ],
+                    [
+                      "td",
+                      "−30~+45°C"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (derating above 45°C)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Operating humidity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "5–95% RH (non-condensing)"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (non-condensing)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (non-condensing)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Auxiliary power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "6 kW, 380V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Fire protection",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Type S aerosol / heptafluoropropane / perfluorohexanone"
+                    ],
+                    [
+                      "td",
+                      "Type S aerosol / heptafluoropropane / perfluorohexanone"
+                    ],
+                    [
+                      "td",
+                      "Perfluorohexanone"
+                    ],
+                    [
+                      "td",
+                      "Type S aerosol / heptafluoropropane / perfluorohexanone"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Installation method",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Outdoor installation",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Corrosion protection class",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 optional)"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 optional)"
+                    ],
+                    [
+                      "td",
+                      "C3"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 optional)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Altitude",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Up to 3000 m",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Operating mode",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Up to 2 charges and 2 discharges per day"
+                    ],
+                    [
+                      "td",
+                      "Up to 2 charges and 2 discharges per day"
+                    ],
+                    [
+                      "td",
+                      "1 charge, 1 discharge"
+                    ],
+                    [
+                      "td",
+                      "Up to 2 charges and 2 discharges per day"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Communication interface",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "External communication protocol",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / Modbus RTU"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / IEC61850 / Modbus RTU"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Certification",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, GB/T 34120"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, UL 1973"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ],
       "h1": "Industrial storage",
@@ -1384,14 +2516,580 @@
           ]
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150 kWh 至 3290 kWh</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">风光柴储、液冷及集装箱储能。</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 kWh 光风柴储\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 kWh 液冷\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 kWh 液冷\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 kWh 集装箱,风冷\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"您好!我想获取报价:工商业储能。\">通过 Facebook 咨询</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"技术参数\"><table class=\"spec\"><thead><tr><th scope=\"col\">参数</th><th scope=\"col\">150 kWh 光风柴储</th><th scope=\"col\">261 kWh 液冷</th><th scope=\"col\">522 kWh 液冷</th><th scope=\"col\">3290 kWh 集装箱,风冷</th></tr></thead><tbody><tr><th scope=\"row\">电芯类型</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">额定能量</th><td>150.5 kWh</td><td>261 kWh</td><td>522.49 kWh</td><td>3290.11 kWh</td></tr><tr><th scope=\"row\">充放电倍率</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">额定电压</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">电池电压范围</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 级</td><td>2 级</td><td>3 级</td><td>3 级</td></tr><tr><th scope=\"row\">尺寸(高×宽×深)</th><td>1600×1700×2591 mm</td><td>950×1300×2200 mm</td><td>1850×1300×2200 mm</td><td>6058×2438×2896 mm</td></tr><tr><th scope=\"row\">重量</th><td>≈3 t</td><td>≈2.3 t</td><td>≈4.5 t</td><td>≈33 t</td></tr><tr><th scope=\"row\">防护等级</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">工作温度</th><td>−30~+55°C(超过 45°C 降额)</td><td>−30~+50°C(超过 45°C 降额)</td><td>−30~+45°C</td><td>−30~+50°C(超过 45°C 降额)</td></tr><tr><th scope=\"row\">工作湿度</th><td>5–95% RH(无冷凝)</td><td>0–95% RH(无冷凝)</td><td>0–95%RH</td><td>0–95% RH(无冷凝)</td></tr><tr><th scope=\"row\">辅助电源</th><td>25 kW, 380V/480V, 50Hz</td><td>6 kW, 380V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td></tr><tr><th scope=\"row\">消防保护</th><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td><td>全氟己酮</td><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td></tr><tr><th scope=\"row\">安装方式</th><td class=\"merged\" colspan=\"4\">户外安装</td></tr><tr><th scope=\"row\">防腐等级</th><td>C3(可选 C4/C5)</td><td>C3(可选 C4/C5)</td><td>C3</td><td>C3(可选 C4/C5)</td></tr><tr><th scope=\"row\">海拔</th><td class=\"merged\" colspan=\"4\">最高 3000 m</td></tr><tr><th scope=\"row\">工作模式</th><td>每天最多 2 充 2 放</td><td>每天最多 2 充 2 放</td><td>1 充 1 放</td><td>每天最多 2 充 2 放</td></tr><tr><th scope=\"row\">通信接口</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">对外通信协议</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">认证</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
-          "product": {
-            "id": "ci-large",
-            "name": "150 kWh 至 3290 kWh",
-            "lead": null,
-            "img": "img/ci-150.webp"
-          }
+          "type": "line",
+          "id": "ci-large",
+          "name": "150 kWh 至 3290 kWh",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "150 kWh 至 3290 kWh"
+            },
+            {
+              "k": "lead",
+              "text": "风光柴储、液冷及集装箱储能。",
+              "style": "color:var(--muted);margin-top:10px;max-width:60ch"
+            },
+            {
+              "k": "gallery",
+              "imgs": [
+                {
+                  "src": "img/ci-150.webp",
+                  "alt": "150 kWh 光风柴储",
+                  "w": 741,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-261.webp",
+                  "alt": "261 kWh 液冷",
+                  "w": 599,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-522.webp",
+                  "alt": "522 kWh 液冷",
+                  "w": 699,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-3290.webp",
+                  "alt": "3290 kWh 集装箱,风冷",
+                  "w": 958,
+                  "h": 527,
+                  "lazy": true
+                }
+              ]
+            },
+            {
+              "k": "button",
+              "copy": "您好!我想获取报价:工商业储能。"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "150 kWh 光风柴储",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "261 kWh 液冷",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "522 kWh 液冷",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "3290 kWh 集装箱,风冷",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电芯类型",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定能量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150.5 kWh"
+                    ],
+                    [
+                      "td",
+                      "261 kWh"
+                    ],
+                    [
+                      "td",
+                      "522.49 kWh"
+                    ],
+                    [
+                      "td",
+                      "3290.11 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "充放电倍率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.25CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "537.6V"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池电压范围",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "470.4–604.8V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "1142–1468.8V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "BMS",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3 级"
+                    ],
+                    [
+                      "td",
+                      "2 级"
+                    ],
+                    [
+                      "td",
+                      "3 级"
+                    ],
+                    [
+                      "td",
+                      "3 级"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "尺寸(高×宽×深)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1600×1700×2591 mm"
+                    ],
+                    [
+                      "td",
+                      "950×1300×2200 mm"
+                    ],
+                    [
+                      "td",
+                      "1850×1300×2200 mm"
+                    ],
+                    [
+                      "td",
+                      "6058×2438×2896 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "重量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈3 t"
+                    ],
+                    [
+                      "td",
+                      "≈2.3 t"
+                    ],
+                    [
+                      "td",
+                      "≈4.5 t"
+                    ],
+                    [
+                      "td",
+                      "≈33 t"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "防护等级",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP55"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "工作温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−30~+55°C(超过 45°C 降额)"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C(超过 45°C 降额)"
+                    ],
+                    [
+                      "td",
+                      "−30~+45°C"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C(超过 45°C 降额)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "工作湿度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "5–95% RH(无冷凝)"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH(无冷凝)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH(无冷凝)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "辅助电源",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "6 kW, 380V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ],
+                    [
+                      "td",
+                      "25 kW, 380V/480V, 50Hz"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "消防保护",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "S 型气溶胶 / 七氟丙烷 / 全氟己酮"
+                    ],
+                    [
+                      "td",
+                      "S 型气溶胶 / 七氟丙烷 / 全氟己酮"
+                    ],
+                    [
+                      "td",
+                      "全氟己酮"
+                    ],
+                    [
+                      "td",
+                      "S 型气溶胶 / 七氟丙烷 / 全氟己酮"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "安装方式",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "户外安装",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "防腐等级",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "C3(可选 C4/C5)"
+                    ],
+                    [
+                      "td",
+                      "C3(可选 C4/C5)"
+                    ],
+                    [
+                      "td",
+                      "C3"
+                    ],
+                    [
+                      "td",
+                      "C3(可选 C4/C5)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "海拔",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "最高 3000 m",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "工作模式",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "每天最多 2 充 2 放"
+                    ],
+                    [
+                      "td",
+                      "每天最多 2 充 2 放"
+                    ],
+                    [
+                      "td",
+                      "1 充 1 放"
+                    ],
+                    [
+                      "td",
+                      "每天最多 2 充 2 放"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "通信接口",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "对外通信协议",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / Modbus RTU"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / IEC61850 / Modbus RTU"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "认证",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, GB/T 34120"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, UL 1973"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ],
       "h1": "工商业储能",
@@ -1849,14 +3547,580 @@
           ]
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>От 150 до 3290 кВт·ч</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Ветро-солнечно-дизельные, жидкостно-охлаждаемые и контейнерные накопители.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 кВт·ч «солнце–ветер–дизель»\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 кВт·ч с жидкостным охлаждением\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 кВт·ч с жидкостным охлаждением\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 кВт·ч контейнер с воздушным охлаждением\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Здравствуйте! Хочу получить предложение: Промышленные накопители.\">Спросить в Facebook</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Технические характеристики\"><table class=\"spec\"><thead><tr><th scope=\"col\">Параметр</th><th scope=\"col\">150 кВт·ч «солнце–ветер–дизель»</th><th scope=\"col\">261 кВт·ч с жидкостным охлаждением</th><th scope=\"col\">522 кВт·ч с жидкостным охлаждением</th><th scope=\"col\">3290 кВт·ч контейнер с воздушным охлаждением</th></tr></thead><tbody><tr><th scope=\"row\">Тип элементов</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Номинальная энергия</th><td>150.5 кВт·ч</td><td>261 кВт·ч</td><td>522.49 кВт·ч</td><td>3290.11 кВт·ч</td></tr><tr><th scope=\"row\">Скорость заряда/разряда</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Номинальное напряжение</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Диапазон напряжения батареи</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 уровня</td><td>2 уровня</td><td>3 уровня</td><td>3 уровня</td></tr><tr><th scope=\"row\">Размеры (В×Ш×Г)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Вес</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Степень защиты</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Рабочая температура</th><td>−30~+55°C (снижение мощности выше 45°C)</td><td>−30~+50°C (снижение мощности выше 45°C)</td><td>−30~+45°C</td><td>−30~+50°C (снижение мощности выше 45°C)</td></tr><tr><th scope=\"row\">Рабочая влажность</th><td>5–95% RH (без конденсации)</td><td>0–95% RH (без конденсации)</td><td>0–95%RH</td><td>0–95% RH (без конденсации)</td></tr><tr><th scope=\"row\">Вспомогательное питание</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Пожарная защита</th><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Способ установки</th><td class=\"merged\" colspan=\"4\">Установка на улице</td></tr><tr><th scope=\"row\">Класс защиты от коррозии</th><td>C3 (C4/C5 по выбору)</td><td>C3 (C4/C5 по выбору)</td><td>C3</td><td>C3 (C4/C5 по выбору)</td></tr><tr><th scope=\"row\">Высота над уровнем моря</th><td class=\"merged\" colspan=\"4\">До 3000 м</td></tr><tr><th scope=\"row\">Режим работы</th><td>До 2 зарядов и 2 разрядов в сутки</td><td>До 2 зарядов и 2 разрядов в сутки</td><td>1 заряд, 1 разряд</td><td>До 2 зарядов и 2 разрядов в сутки</td></tr><tr><th scope=\"row\">Интерфейс связи</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Внешний протокол связи</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Сертификаты</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
-          "product": {
-            "id": "ci-large",
-            "name": "От 150 до 3290 кВт·ч",
-            "lead": null,
-            "img": "img/ci-150.webp"
-          }
+          "type": "line",
+          "id": "ci-large",
+          "name": "От 150 до 3290 кВт·ч",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "От 150 до 3290 кВт·ч"
+            },
+            {
+              "k": "lead",
+              "text": "Ветро-солнечно-дизельные, жидкостно-охлаждаемые и контейнерные накопители.",
+              "style": "color:var(--muted);margin-top:10px;max-width:60ch"
+            },
+            {
+              "k": "gallery",
+              "imgs": [
+                {
+                  "src": "img/ci-150.webp",
+                  "alt": "150 кВт·ч «солнце–ветер–дизель»",
+                  "w": 741,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-261.webp",
+                  "alt": "261 кВт·ч с жидкостным охлаждением",
+                  "w": 599,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-522.webp",
+                  "alt": "522 кВт·ч с жидкостным охлаждением",
+                  "w": 699,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-3290.webp",
+                  "alt": "3290 кВт·ч контейнер с воздушным охлаждением",
+                  "w": 958,
+                  "h": 527,
+                  "lazy": true
+                }
+              ]
+            },
+            {
+              "k": "button",
+              "copy": "Здравствуйте! Хочу получить предложение: Промышленные накопители."
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "150 кВт·ч «солнце–ветер–дизель»",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "261 кВт·ч с жидкостным охлаждением",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "522 кВт·ч с жидкостным охлаждением",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "3290 кВт·ч контейнер с воздушным охлаждением",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Тип элементов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная энергия",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150.5 кВт·ч"
+                    ],
+                    [
+                      "td",
+                      "261 кВт·ч"
+                    ],
+                    [
+                      "td",
+                      "522.49 кВт·ч"
+                    ],
+                    [
+                      "td",
+                      "3290.11 кВт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Скорость заряда/разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.25CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "537.6V"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Диапазон напряжения батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "470.4–604.8V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "1142–1468.8V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "BMS",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3 уровня"
+                    ],
+                    [
+                      "td",
+                      "2 уровня"
+                    ],
+                    [
+                      "td",
+                      "3 уровня"
+                    ],
+                    [
+                      "td",
+                      "3 уровня"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Размеры (В×Ш×Г)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1600×1700×2591 мм"
+                    ],
+                    [
+                      "td",
+                      "950×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "1850×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "6058×2438×2896 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вес",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈3 т"
+                    ],
+                    [
+                      "td",
+                      "≈2.3 т"
+                    ],
+                    [
+                      "td",
+                      "≈4.5 т"
+                    ],
+                    [
+                      "td",
+                      "≈33 т"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Степень защиты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP55"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Рабочая температура",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−30~+55°C (снижение мощности выше 45°C)"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (снижение мощности выше 45°C)"
+                    ],
+                    [
+                      "td",
+                      "−30~+45°C"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (снижение мощности выше 45°C)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Рабочая влажность",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "5–95% RH (без конденсации)"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (без конденсации)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (без конденсации)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вспомогательное питание",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "6 кВт, 380V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Пожарная защита",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Аэрозоль типа S / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "Аэрозоль типа S / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "Перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "Аэрозоль типа S / гептафторпропан / перфторгексанон"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Способ установки",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Установка на улице",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Класс защиты от коррозии",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 по выбору)"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 по выбору)"
+                    ],
+                    [
+                      "td",
+                      "C3"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 по выбору)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Высота над уровнем моря",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "До 3000 м",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Режим работы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "До 2 зарядов и 2 разрядов в сутки"
+                    ],
+                    [
+                      "td",
+                      "До 2 зарядов и 2 разрядов в сутки"
+                    ],
+                    [
+                      "td",
+                      "1 заряд, 1 разряд"
+                    ],
+                    [
+                      "td",
+                      "До 2 зарядов и 2 разрядов в сутки"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Интерфейс связи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Внешний протокол связи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / Modbus RTU"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / IEC61850 / Modbus RTU"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сертификаты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, GB/T 34120"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, UL 1973"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ],
       "h1": "Промышленные накопители",
@@ -2314,14 +4578,580 @@
           ]
         },
         {
-          "type": "raw",
-          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150-ден 3290 кВт·сағ-қа дейін</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Жел-күн-дизель, сұйықпен салқындатылатын және контейнерлік жинағыштар.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 кВт·сағ күн-жел-дизель\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 кВт·сағ сұйықпен салқындатылатын\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 кВт·сағ сұйықпен салқындатылатын\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 кВт·сағ контейнер, ауамен салқындатылатын\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: Өнеркәсіптік жинағыш.\">Facebook-тен сұрау</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Техникалық сипаттамалар\"><table class=\"spec\"><thead><tr><th scope=\"col\">Параметр</th><th scope=\"col\">150 кВт·сағ күн-жел-дизель</th><th scope=\"col\">261 кВт·сағ сұйықпен салқындатылатын</th><th scope=\"col\">522 кВт·сағ сұйықпен салқындатылатын</th><th scope=\"col\">3290 кВт·сағ контейнер, ауамен салқындатылатын</th></tr></thead><tbody><tr><th scope=\"row\">Элемент түрі</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Номиналды энергия</th><td>150.5 кВт·сағ</td><td>261 кВт·сағ</td><td>522.49 кВт·сағ</td><td>3290.11 кВт·сағ</td></tr><tr><th scope=\"row\">Зарядтау/разрядтау жылдамдығы</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Номиналды кернеу</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Батарея кернеуінің ауқымы</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 деңгей</td><td>2 деңгей</td><td>3 деңгей</td><td>3 деңгей</td></tr><tr><th scope=\"row\">Өлшемдері (Б×Е×Т)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Салмағы</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Қорғаныс дәрежесі</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Жұмыс температурасы</th><td>−30~+55°C (45°C-тан жоғары қуат азаяды)</td><td>−30~+50°C (45°C-тан жоғары қуат азаяды)</td><td>−30~+45°C</td><td>−30~+50°C (45°C-тан жоғары қуат азаяды)</td></tr><tr><th scope=\"row\">Жұмыс ылғалдылығы</th><td>5–95% RH (конденсациясыз)</td><td>0–95% RH (конденсациясыз)</td><td>0–95%RH</td><td>0–95% RH (конденсациясыз)</td></tr><tr><th scope=\"row\">Қосалқы қоректендіру</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Өрттен қорғау</th><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Орнату тәсілі</th><td class=\"merged\" colspan=\"4\">Далада орнату</td></tr><tr><th scope=\"row\">Коррозиядан қорғау класы</th><td>C3 (C4/C5 таңдау бойынша)</td><td>C3 (C4/C5 таңдау бойынша)</td><td>C3</td><td>C3 (C4/C5 таңдау бойынша)</td></tr><tr><th scope=\"row\">Биіктік</th><td class=\"merged\" colspan=\"4\">3000 м-ге дейін</td></tr><tr><th scope=\"row\">Жұмыс режимі</th><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td><td>1 зарядтау, 1 разрядтау</td><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td></tr><tr><th scope=\"row\">Байланыс интерфейсі</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Сыртқы байланыс протоколы</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Сертификаттау</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
-          "product": {
-            "id": "ci-large",
-            "name": "150-ден 3290 кВт·сағ-қа дейін",
-            "lead": null,
-            "img": "img/ci-150.webp"
-          }
+          "type": "line",
+          "id": "ci-large",
+          "name": "150-ден 3290 кВт·сағ-қа дейін",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "150-ден 3290 кВт·сағ-қа дейін"
+            },
+            {
+              "k": "lead",
+              "text": "Жел-күн-дизель, сұйықпен салқындатылатын және контейнерлік жинағыштар.",
+              "style": "color:var(--muted);margin-top:10px;max-width:60ch"
+            },
+            {
+              "k": "gallery",
+              "imgs": [
+                {
+                  "src": "img/ci-150.webp",
+                  "alt": "150 кВт·сағ күн-жел-дизель",
+                  "w": 741,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-261.webp",
+                  "alt": "261 кВт·сағ сұйықпен салқындатылатын",
+                  "w": 599,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-522.webp",
+                  "alt": "522 кВт·сағ сұйықпен салқындатылатын",
+                  "w": 699,
+                  "h": 900,
+                  "lazy": true
+                },
+                {
+                  "src": "img/ci-3290.webp",
+                  "alt": "3290 кВт·сағ контейнер, ауамен салқындатылатын",
+                  "w": 958,
+                  "h": 527,
+                  "lazy": true
+                }
+              ]
+            },
+            {
+              "k": "button",
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: Өнеркәсіптік жинағыш."
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "150 кВт·сағ күн-жел-дизель",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "261 кВт·сағ сұйықпен салқындатылатын",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "522 кВт·сағ сұйықпен салқындатылатын",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "3290 кВт·сағ контейнер, ауамен салқындатылатын",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Элемент түрі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды энергия",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150.5 кВт·сағ"
+                    ],
+                    [
+                      "td",
+                      "261 кВт·сағ"
+                    ],
+                    [
+                      "td",
+                      "522.49 кВт·сағ"
+                    ],
+                    [
+                      "td",
+                      "3290.11 кВт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зарядтау/разрядтау жылдамдығы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.25CP"
+                    ],
+                    [
+                      "td",
+                      "≤0.5CP"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "537.6V"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарея кернеуінің ауқымы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "470.4–604.8V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "650–949V"
+                    ],
+                    [
+                      "td",
+                      "1142–1468.8V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "BMS",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3 деңгей"
+                    ],
+                    [
+                      "td",
+                      "2 деңгей"
+                    ],
+                    [
+                      "td",
+                      "3 деңгей"
+                    ],
+                    [
+                      "td",
+                      "3 деңгей"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Өлшемдері (Б×Е×Т)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1600×1700×2591 мм"
+                    ],
+                    [
+                      "td",
+                      "950×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "1850×1300×2200 мм"
+                    ],
+                    [
+                      "td",
+                      "6058×2438×2896 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Салмағы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈3 т"
+                    ],
+                    [
+                      "td",
+                      "≈2.3 т"
+                    ],
+                    [
+                      "td",
+                      "≈4.5 т"
+                    ],
+                    [
+                      "td",
+                      "≈33 т"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Қорғаныс дәрежесі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ],
+                    [
+                      "td",
+                      "IP55"
+                    ],
+                    [
+                      "td",
+                      "IP54"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жұмыс температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−30~+55°C (45°C-тан жоғары қуат азаяды)"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (45°C-тан жоғары қуат азаяды)"
+                    ],
+                    [
+                      "td",
+                      "−30~+45°C"
+                    ],
+                    [
+                      "td",
+                      "−30~+50°C (45°C-тан жоғары қуат азаяды)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жұмыс ылғалдылығы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "5–95% RH (конденсациясыз)"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (конденсациясыз)"
+                    ],
+                    [
+                      "td",
+                      "0–95%RH"
+                    ],
+                    [
+                      "td",
+                      "0–95% RH (конденсациясыз)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Қосалқы қоректендіру",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "6 кВт, 380V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ],
+                    [
+                      "td",
+                      "25 кВт, 380V/480V, 50Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Өрттен қорғау",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "S түрлі аэрозоль / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "S түрлі аэрозоль / гептафторпропан / перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "Перфторгексанон"
+                    ],
+                    [
+                      "td",
+                      "S түрлі аэрозоль / гептафторпропан / перфторгексанон"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Орнату тәсілі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Далада орнату",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Коррозиядан қорғау класы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 таңдау бойынша)"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 таңдау бойынша)"
+                    ],
+                    [
+                      "td",
+                      "C3"
+                    ],
+                    [
+                      "td",
+                      "C3 (C4/C5 таңдау бойынша)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Биіктік",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3000 м-ге дейін",
+                      {
+                        "class": "merged",
+                        "colspan": "4"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жұмыс режимі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Тәулігіне ең көбі 2 зарядтау, 2 разрядтау"
+                    ],
+                    [
+                      "td",
+                      "Тәулігіне ең көбі 2 зарядтау, 2 разрядтау"
+                    ],
+                    [
+                      "td",
+                      "1 зарядтау, 1 разрядтау"
+                    ],
+                    [
+                      "td",
+                      "Тәулігіне ең көбі 2 зарядтау, 2 разрядтау"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Байланыс интерфейсі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ],
+                    [
+                      "td",
+                      "Ethernet / RS485"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сыртқы байланыс протоколы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / Modbus RTU"
+                    ],
+                    [
+                      "td",
+                      "ModbusTCP / IEC61850 / Modbus RTU"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сертификаттау",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "—"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, GB/T 34120"
+                    ],
+                    [
+                      "td",
+                      "GB/T 36276, GB/T 34131, UL 1973"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
         }
       ],
       "h1": "Өнеркәсіптік жинағыш",

@@ -1,0 +1,18 @@
+---
+// Company introduction and contact column (about).
+import { MESSENGER } from "../../lib/site";
+const { s } = Astro.props;
+---
+<section class="line"><div class="wrap trust">
+  <div class="prose">
+    <h2>{s.title}</h2>
+    {s.paras.map((p: string, i: number) => <p style={i === 0 ? "margin-top:14px" : undefined} set:html={p} />)}
+  </div>
+  <div>
+    <h3>{s.contactTitle}</h3>
+    <p style="margin-top:10px;color:var(--muted)" set:html={s.contactText} />
+    <div class="btns" style="display:flex;flex-wrap:wrap;gap:12px;margin-top:16px">
+      <a class="btn" href={MESSENGER} target="_blank" rel="noopener" data-copy={s.button.copy}>{s.button.text}</a>
+    </div>
+  </div>
+</div></section>
