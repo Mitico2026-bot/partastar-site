@@ -135,7 +135,7 @@
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ lang: lang, messages: history.slice(-12) })
     }).then(function (r) {
-      if (r.status === 429) throw new Error("busy");
+      if (r.status === 429 || r.status === 503) throw new Error("busy");
       if (!r.ok || !r.body) throw new Error("fail");
       var reader = r.body.getReader();
       var dec = new TextDecoder();
