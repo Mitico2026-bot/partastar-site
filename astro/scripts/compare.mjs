@@ -1,15 +1,26 @@
-// Compares every generated page in dist/ against the hand-written original in the repo root.
+// Compares every generated page in dist/ against the hand-written original site.
 // Ignores formatting-only whitespace, attribute order and HTML entity spelling;
 // compares JSON-LD by parsed value. Exits 1 on any difference.
 //
-//   npm run compare          (after npm run build)
+//   npm run compare                      (after npm run build)
+//   COMPARE_REF=<git-ref> npm run compare
+//
+// The original HTML was removed from the repository root when the deploy switched to this build.
+// Originals are read from git at ORIGINALS_REF (e6a2a40fcdb3, the last commit that had them), so this
+// stays a regression check for refactors. It is expected to report differences once content is
+// edited on purpose; at that point move ORIGINALS_REF forward or stop running it.
 import { readFileSync, existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "node-html-parser";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const ORIG = join(here, "..", "..");
+const REPO = join(here, "..", "..");
+const ORIGINALS_REF = process.env.COMPARE_REF || "e6a2a40fcdb3";
+const original = (rel) => existsSync(join(REPO, rel)) && !process.env.COMPARE_REF
+  ? readFileSync(join(REPO, rel), "utf8")
+  : execFileSync("git", ["-C", REPO, "show", `${ORIGINALS_REF}:${rel}`], { encoding: "utf8", maxBuffer: 64 << 20 });
 const DIST = join(here, "..", "dist");
 const site = JSON.parse(readFileSync(join(here, "..", "src", "data", "site.json"), "utf8"));
 
@@ -45,18 +56,18 @@ function diff(a, b, path) {
   }
   return null;
 }
-const load = (p) => canon(parse(readFileSync(p, "utf8").replace(/^<!doctype html>/i, ""), { comment: false }));
+const canonOf = (html) => canon(parse(html.replace(/^<!doctype html>/i, ""), { comment: false }));
 
 let ok = 0, bad = 0;
 const targets = [...site.langs.flatMap((l) => site.pages.map(({ slug }) => (l === "mn" ? "" : l + "/") + slug + ".html")), "404.html"];
 for (const rel of targets) {
   if (!existsSync(join(DIST, rel))) { console.log(`MISSING ${rel}`); bad++; continue; }
-  const d = diff(load(join(ORIG, rel)), load(join(DIST, rel)), "");
+  const d = diff(canonOf(original(rel)), canonOf(readFileSync(join(DIST, rel), "utf8")), "");
   if (d) { console.log(`DIFF    ${rel}\n        ${d}`); bad++; } else ok++;
 }
 // sitemap.xml: same set of <url> lines (order is not significant to search engines).
-const lines = (p) => readFileSync(p, "utf8").split("\n").map((x) => x.trim()).filter((x) => x.startsWith("<url>")).sort();
-const sa = lines(join(ORIG, "sitemap.xml")), sb = existsSync(join(DIST, "sitemap.xml")) ? lines(join(DIST, "sitemap.xml")) : [];
+const lines = (text) => text.split("\n").map((x) => x.trim()).filter((x) => x.startsWith("<url>")).sort();
+const sa = lines(original("sitemap.xml")), sb = existsSync(join(DIST, "sitemap.xml")) ? lines(readFileSync(join(DIST, "sitemap.xml"), "utf8")) : [];
 if (JSON.stringify(sa) === JSON.stringify(sb)) ok++; else { bad++; console.log(`DIFF    sitemap.xml: ${sa.length} vs ${sb.length} URLs, or different entries`); }
 console.log(`\n${ok} identical, ${bad} different (original vs generated; ${targets.length} pages + sitemap.xml)`);
 process.exit(bad ? 1 : 0);

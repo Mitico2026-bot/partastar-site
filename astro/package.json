@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "node-html-parser": "9.0.7"
+  },
+  "engines": {
+    "node": ">=22.23.4"
   }
 }
