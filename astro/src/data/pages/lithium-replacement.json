@@ -1,0 +1,3557 @@
+{
+  "slug": "lithium-replacement",
+  "kind": "category",
+  "scene": "factory",
+  "langs": {
+    "mn": {
+      "title": "Хар тугалгыг орлох литий | Partastar Solar",
+      "description": "Хар тугалгын батарейг орлох 12.8V, 25.6V, 51.2V LiFePO4 батарей. 12.8V цуврал 100Ah-аас 450Ah хүртэл, 6000+ цикл.",
+      "ogImage": "img/lead-acid.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "lead-12",
+          "name": "12.8V цуврал",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/lead-acid.webp",
+                  "alt": "Литийн батарей",
+                  "w": 1000,
+                  "h": 708,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "12.8V цуврал",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "100Ah-аас 450Ah хүртэл."
+                }
+              ],
+              "copy": "Сайн байна уу! 12.8V литийн батарей-ийн үнийн санал авмаар байна."
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 450Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарейн энерги",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1280 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "1920 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "2560 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "5760 Вт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12.8V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "450Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ажлын хүчдэлийн муж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10–14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандарт цэнэглэх хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаргалт таслах хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандарт цэнэглэх гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "30A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. цэнэглэх гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Оргил гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Элементийн төрөл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Циклийн тоо",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ удаа",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэнэглэх температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаргах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хадгалах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "lead-25",
+          "name": "25.6V ба 51.2V цуврал",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "25.6V ба 51.2V цуврал"
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарейн энерги",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. цэнэглэх гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Элементийн төрөл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Циклийн тоо",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ удаа",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэнэглэх температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаргах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хадгалах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "note",
+              "html": "Дэлгэрэнгүй үзүүлэлтийг хүсэлтээр өгнө."
+            },
+            {
+              "k": "button",
+              "copy": "Сайн байна уу! 25.6V/51.2V литийн батарей-ийн үнийн санал авмаар байна."
+            }
+          ]
+        }
+      ],
+      "h1": "Хар тугалгыг орлох литийн цуврал",
+      "crumb": "Хар тугалгыг орлох литийн цуврал",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Хар тугалгын батарейг орлоно, 6000+ цикл."
+    },
+    "en": {
+      "title": "Lithium replacing lead-acid | Partastar Solar",
+      "description": "12.8V, 25.6V and 51.2V LiFePO4 batteries that replace lead-acid. The 12.8V series runs from 100Ah to 450Ah, rated for 6000+ cycles.",
+      "ogImage": "img/lead-acid.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "lead-12",
+          "name": "12.8V series",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/lead-acid.webp",
+                  "alt": "Lithium battery",
+                  "w": 1000,
+                  "h": 708,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "12.8V series",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "From 100Ah to 450Ah."
+                }
+              ],
+              "copy": "Hello! I'd like a quote for: 12.8V lithium battery."
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 450Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Battery energy",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1280 Wh"
+                    ],
+                    [
+                      "td",
+                      "1920 Wh"
+                    ],
+                    [
+                      "td",
+                      "2560 Wh"
+                    ],
+                    [
+                      "td",
+                      "3840 Wh"
+                    ],
+                    [
+                      "td",
+                      "5760 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12.8V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "450Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Operating voltage range",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10–14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Standard charge voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Discharge cut-off voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Standard charge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "30A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. charge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Peak discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Cell type",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Cycle count",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ cycles",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Charging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Discharging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Storage temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "lead-25",
+          "name": "25.6V and 51.2V series",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "25.6V and 51.2V series"
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Battery energy",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3840 Wh"
+                    ],
+                    [
+                      "td",
+                      "5120 Wh"
+                    ],
+                    [
+                      "td",
+                      "7680 Wh"
+                    ],
+                    [
+                      "td",
+                      "5120 Wh"
+                    ],
+                    [
+                      "td",
+                      "7680 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. charge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Cell type",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Cycle count",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ cycles",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Charging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Discharging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Storage temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "note",
+              "html": "Detailed specifications are provided on request."
+            },
+            {
+              "k": "button",
+              "copy": "Hello! I'd like a quote for: 25.6V/51.2V lithium battery."
+            }
+          ]
+        }
+      ],
+      "h1": "Lithium series replacing lead-acid",
+      "crumb": "Lithium series replacing lead-acid",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Replaces lead-acid batteries, 6000+ cycles."
+    },
+    "zh": {
+      "title": "锂电池替代铅酸 | Partastar Solar",
+      "description": "替代铅酸电池的 12.8V、25.6V、51.2V LiFePO4 电池。12.8V 系列容量 100Ah 至 450Ah,循环寿命 6000+ 次。",
+      "ogImage": "img/lead-acid.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "lead-12",
+          "name": "12.8V 系列",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/lead-acid.webp",
+                  "alt": "锂电池",
+                  "w": 1000,
+                  "h": 708,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "12.8V 系列",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "100Ah 至 450Ah。"
+                }
+              ],
+              "copy": "您好!我想获取报价:12.8V 锂电池。"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 450Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电池能量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1280 Wh"
+                    ],
+                    [
+                      "td",
+                      "1920 Wh"
+                    ],
+                    [
+                      "td",
+                      "2560 Wh"
+                    ],
+                    [
+                      "td",
+                      "3840 Wh"
+                    ],
+                    [
+                      "td",
+                      "5760 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12.8V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "450Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "工作电压范围",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10–14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "标准充电电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "放电截止电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "标准充电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "30A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大充电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "峰值放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电芯类型",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "循环次数",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ 次",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "充电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "放电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "存储温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "lead-25",
+          "name": "25.6V 和 51.2V 系列",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "25.6V 和 51.2V 系列"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电池能量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3840 Wh"
+                    ],
+                    [
+                      "td",
+                      "5120 Wh"
+                    ],
+                    [
+                      "td",
+                      "7680 Wh"
+                    ],
+                    [
+                      "td",
+                      "5120 Wh"
+                    ],
+                    [
+                      "td",
+                      "7680 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大充电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电芯类型",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "循环次数",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ 次",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "充电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "放电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "存储温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "note",
+              "html": "详细参数可按需提供。"
+            },
+            {
+              "k": "button",
+              "copy": "您好!我想获取报价:25.6V/51.2V 锂电池。"
+            }
+          ]
+        }
+      ],
+      "h1": "锂电池替代铅酸系列",
+      "crumb": "锂电池替代铅酸系列",
+      "introHtml": "12.8V、25.6V、51.2V LiFePO4。替代铅酸电池,6000+ 次循环。"
+    },
+    "ru": {
+      "title": "Литий вместо свинцовых | Partastar Solar",
+      "description": "Батареи LiFePO4 12,8 В, 25,6 В и 51,2 В на замену свинцово-кислотным. Серия 12,8 В — от 100 до 450 Ач, ресурс 6000+ циклов.",
+      "ogImage": "img/lead-acid.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "lead-12",
+          "name": "Серия 12,8 В",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/lead-acid.webp",
+                  "alt": "Литиевая батарея",
+                  "w": 1000,
+                  "h": 708,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Серия 12,8 В",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "От 100 до 450 А·ч."
+                }
+              ],
+              "copy": "Здравствуйте! Хочу получить предложение: литиевая батарея 12,8 В."
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 450Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Энергия батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1280 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "1920 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "2560 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "5760 Вт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12.8V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная ёмкость",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "450Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Диапазон рабочего напряжения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10–14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандартное напряжение заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Напряжение отсечки разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандартный ток заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "30A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Пиковый ток разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Тип элементов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Количество циклов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ циклов",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура хранения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "lead-25",
+          "name": "Серии 25,6 В и 51,2 В",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "Серии 25,6 В и 51,2 В"
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Энергия батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная ёмкость",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Тип элементов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Количество циклов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ циклов",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура хранения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "note",
+              "html": "Подробные характеристики предоставляются по запросу."
+            },
+            {
+              "k": "button",
+              "copy": "Здравствуйте! Хочу получить предложение: литиевая батарея 25,6 В/51,2 В."
+            }
+          ]
+        }
+      ],
+      "h1": "Серия литиевых батарей вместо свинцово-кислотных",
+      "crumb": "Серия литиевых батарей вместо свинцово-кислотных",
+      "introHtml": "LiFePO4 12,8 В, 25,6 В, 51,2 В. Заменяет свинцово-кислотные батареи, 6000+ циклов."
+    },
+    "kk": {
+      "title": "Қорғасын орнына литий | Partastar Solar",
+      "description": "Қорғасын батареяларды алмастыратын 12.8V, 25.6V, 51.2V LiFePO4 батареялар. 12.8V сериясы 100Ah-тан 450Ah-қа дейін, 6000+ цикл.",
+      "ogImage": "img/lead-acid.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "lead-12",
+          "name": "12.8V сериясы",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/lead-acid.webp",
+                  "alt": "Литий батарея",
+                  "w": 1000,
+                  "h": 708,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "12.8V сериясы",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "100Ah-тан 450Ah-қа дейін."
+                }
+              ],
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: 12.8V литий батарея."
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "12.8V 450Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарея энергиясы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1280 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "1920 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "2560 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "5760 Вт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12.8V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды сыйымдылық",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "450Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жұмыс кернеуінің ауқымы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10–14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандартты зарядтау кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "14.6V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Разрядтауды тоқтату кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Стандартты зарядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "30A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ],
+                    [
+                      "td",
+                      "50A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. зарядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Пик разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "120A (30s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ],
+                    [
+                      "td",
+                      "400A (20s)"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Элемент түрі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цикл саны",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ рет",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зарядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Разрядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сақтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "lead-25",
+          "name": "25.6V және 51.2V сериясы",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "25.6V және 51.2V сериясы"
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 200Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "25.6V 300Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 100Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "51.2V 150Ah",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарея энергиясы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3840 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "5120 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "7680 Вт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "25.6V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ],
+                    [
+                      "td",
+                      "51.2V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды сыйымдылық",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "200Ah"
+                    ],
+                    [
+                      "td",
+                      "300Ah"
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. зарядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "200A"
+                    ],
+                    [
+                      "td",
+                      "150A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Элемент түрі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цикл саны",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000+ рет",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зарядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Разрядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~60°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сақтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "10~45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "note",
+              "html": "Толық сипаттамалар сұраныс бойынша беріледі."
+            },
+            {
+              "k": "button",
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: 25.6V/51.2V литий батарея."
+            }
+          ]
+        }
+      ],
+      "h1": "Қорғасын батареяларды алмастыратын литий сериясы",
+      "crumb": "Қорғасын батареяларды алмастыратын литий сериясы",
+      "introHtml": "12.8V, 25.6V, 51.2V LiFePO4. Қорғасын батареяларды алмастырады, 6000+ цикл."
+    }
+  }
+}

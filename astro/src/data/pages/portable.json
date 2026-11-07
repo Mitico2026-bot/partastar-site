@@ -1,0 +1,2407 @@
+{
+  "slug": "portable",
+  "kind": "category",
+  "scene": "cabin",
+  "langs": {
+    "mn": {
+      "title": "Зөөврийн цахилгаан станц | Partastar Solar",
+      "description": "CN-300W-аас CN-5500W хүртэл зөөврийн цахилгаан станц. Кемпинг, аялал, нөөц тэжээлд. 300 Вт-аас 5.5 кВт хүртэл.",
+      "ogImage": "img/portable-a.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "portable-small",
+          "name": "CN цуврал, 300–2000 Вт",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-a.webp",
+                  "alt": "Зөөврийн цахилгаан станц",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-b.webp",
+                  "alt": "Зөөврийн цахилгаан станц",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN цуврал, 300–2000 Вт",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "110V/220V гаралттай. Нарны хавтангаар цэнэглэнэ."
+                }
+              ],
+              "copy": "Сайн байна уу! Зөөврийн цахилгаан станц-ийн үнийн санал авмаар байна."
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-300W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1000W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-2000W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "AC гаралтын хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "110V / 220V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC гаралтын чадал",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300 Вт"
+                    ],
+                    [
+                      "td",
+                      "500 Вт"
+                    ],
+                    [
+                      "td",
+                      "1000 Вт"
+                    ],
+                    [
+                      "td",
+                      "1500 Вт"
+                    ],
+                    [
+                      "td",
+                      "2000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "86400 мАч"
+                    ],
+                    [
+                      "td",
+                      "129600 мАч"
+                    ],
+                    [
+                      "td",
+                      "270000 мАч"
+                    ],
+                    [
+                      "td",
+                      "432000 мАч"
+                    ],
+                    [
+                      "td",
+                      "570000 мАч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ашиглах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0–45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хадгалах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−5–35°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "portable-big",
+          "name": "CN-3500W ба CN-5500W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-c.webp",
+                  "alt": "Том зөөврийн станц",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-d.webp",
+                  "alt": "Том зөөврийн станц",
+                  "w": 900,
+                  "h": 469,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN-3500W ба CN-5500W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "LiFePO4, цэвэр синус долгион, бие даасан MPPT."
+                }
+              ],
+              "copy": "Сайн байна уу! CN-3500W/CN-5500W-ийн үнийн санал авмаар байна."
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-3500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-5500W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарейн төрөл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "740Ah / 3315.2 Вт·ц"
+                    ],
+                    [
+                      "td",
+                      "1000Ah / 4480 Вт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC гаралтын хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100V/60Гц, 220V/50Гц",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC гаралтын чадал",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3500 Вт"
+                    ],
+                    [
+                      "td",
+                      "5500 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Оргил чадал",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "7000 Вт"
+                    ],
+                    [
+                      "td",
+                      "11000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаралтын долгион",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Цэвэр синус долгион",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нарны цэнэглэлтийн оролт",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Бие даасан MPPT 660 Вт",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Адаптераар цэнэглэх хугацаа",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈7 цаг"
+                    ],
+                    [
+                      "td",
+                      "≈9.5 цаг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нарны цэнэглэлтийн хугацаа",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈6 цаг"
+                    ],
+                    [
+                      "td",
+                      "≈8.5 цаг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Автомашины цэнэглэлтийн оролт",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12–75V",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэвэр жин",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "37.7 кг"
+                    ],
+                    [
+                      "td",
+                      "51.5 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Бүтээгдэхүүний хэмжээ",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "658×487×250 мм",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "h1": "Зөөврийн цахилгаан станц",
+      "crumb": "Зөөврийн цахилгаан станц",
+      "introHtml": "Кемпинг, аялал, нөөц тэжээлд. 300 Вт-аас 5.5 кВт хүртэл."
+    },
+    "en": {
+      "title": "Portable power station | Partastar Solar",
+      "description": "Portable power stations from CN-300W to CN-5500W. For camping, travel and backup power. From 300 W to 5.5 kW.",
+      "ogImage": "img/portable-a.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "portable-small",
+          "name": "CN series, 300–2000 W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-a.webp",
+                  "alt": "Portable power station",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-b.webp",
+                  "alt": "Portable power station",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN series, 300–2000 W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "110V/220V output. Charges from solar panels."
+                }
+              ],
+              "copy": "Hello! I'd like a quote for: Portable power station."
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-300W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1000W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-2000W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "AC output voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "110V / 220V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC output power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300 W"
+                    ],
+                    [
+                      "td",
+                      "500 W"
+                    ],
+                    [
+                      "td",
+                      "1000 W"
+                    ],
+                    [
+                      "td",
+                      "1500 W"
+                    ],
+                    [
+                      "td",
+                      "2000 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "86400 mAh"
+                    ],
+                    [
+                      "td",
+                      "129600 mAh"
+                    ],
+                    [
+                      "td",
+                      "270000 mAh"
+                    ],
+                    [
+                      "td",
+                      "432000 mAh"
+                    ],
+                    [
+                      "td",
+                      "570000 mAh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Operating temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0–45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Storage temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−5–35°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "portable-big",
+          "name": "CN-3500W and CN-5500W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-c.webp",
+                  "alt": "Large portable power stations",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-d.webp",
+                  "alt": "Large portable power stations",
+                  "w": 900,
+                  "h": 469,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN-3500W and CN-5500W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "LiFePO4, pure sine wave, independent MPPT."
+                }
+              ],
+              "copy": "Hello! I'd like a quote for: CN-3500W/CN-5500W."
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-3500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-5500W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Battery type",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "740Ah / 3315.2 Wh"
+                    ],
+                    [
+                      "td",
+                      "1000Ah / 4480 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC output voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100V/60Hz, 220V/50Hz",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC output power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3500 W"
+                    ],
+                    [
+                      "td",
+                      "5500 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Peak power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "7000 W"
+                    ],
+                    [
+                      "td",
+                      "11000 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Output waveform",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Pure sine wave",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Solar charging input",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Independent MPPT 660 W",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Adapter charging time",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈7 h"
+                    ],
+                    [
+                      "td",
+                      "≈9.5 h"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Solar charging time",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈6 h"
+                    ],
+                    [
+                      "td",
+                      "≈8.5 h"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Car charging input",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12–75V",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Net weight",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "37.7 kg"
+                    ],
+                    [
+                      "td",
+                      "51.5 kg"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Product dimensions",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "658×487×250 mm",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "h1": "Portable power station",
+      "crumb": "Portable power station",
+      "introHtml": "For camping, travel and backup power. From 300 W to 5.5 kW."
+    },
+    "zh": {
+      "title": "便携储能电站 | Partastar Solar",
+      "description": "CN-300W 至 CN-5500W 便携储能电站,适用于露营、旅行和备用电源。110V/220V 输出,可用太阳能板充电;大功率型号采用 LiFePO4、纯正弦波。",
+      "ogImage": "img/portable-a.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "portable-small",
+          "name": "CN 系列,300–2000 W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-a.webp",
+                  "alt": "便携储能电站",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-b.webp",
+                  "alt": "便携储能电站",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN 系列,300–2000 W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "110V/220V 输出。可通过太阳能板充电。"
+                }
+              ],
+              "copy": "您好!我想获取报价:便携储能电站。"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-300W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1000W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-2000W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "交流输出电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "110V / 220V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "交流输出功率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300 W"
+                    ],
+                    [
+                      "td",
+                      "500 W"
+                    ],
+                    [
+                      "td",
+                      "1000 W"
+                    ],
+                    [
+                      "td",
+                      "1500 W"
+                    ],
+                    [
+                      "td",
+                      "2000 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "86400 mAh"
+                    ],
+                    [
+                      "td",
+                      "129600 mAh"
+                    ],
+                    [
+                      "td",
+                      "270000 mAh"
+                    ],
+                    [
+                      "td",
+                      "432000 mAh"
+                    ],
+                    [
+                      "td",
+                      "570000 mAh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "使用温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0–45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "存储温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−5–35°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "portable-big",
+          "name": "CN-3500W 和 CN-5500W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-c.webp",
+                  "alt": "大型便携储能电站",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-d.webp",
+                  "alt": "大型便携储能电站",
+                  "w": 900,
+                  "h": 469,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN-3500W 和 CN-5500W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "LiFePO4,纯正弦波,独立 MPPT。"
+                }
+              ],
+              "copy": "您好!我想获取报价:CN-3500W/CN-5500W。"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-3500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-5500W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电池类型",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "740Ah / 3315.2 Wh"
+                    ],
+                    [
+                      "td",
+                      "1000Ah / 4480 Wh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "交流输出电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100V/60Hz, 220V/50Hz",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "交流输出功率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3500 W"
+                    ],
+                    [
+                      "td",
+                      "5500 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "峰值功率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "7000 W"
+                    ],
+                    [
+                      "td",
+                      "11000 W"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "输出波形",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "纯正弦波",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "太阳能充电输入",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "独立 MPPT 660 W",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "适配器充电时间",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈7 h"
+                    ],
+                    [
+                      "td",
+                      "≈9.5 h"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "太阳能充电时间",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈6 h"
+                    ],
+                    [
+                      "td",
+                      "≈8.5 h"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "车载充电输入",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12–75V",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "净重",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "37.7 kg"
+                    ],
+                    [
+                      "td",
+                      "51.5 kg"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "产品尺寸",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "658×487×250 mm",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "h1": "便携储能电站",
+      "crumb": "便携储能电站",
+      "introHtml": "适用于露营、旅行和备用电源。300 W 至 5.5 kW。"
+    },
+    "ru": {
+      "title": "Портативная электростанция | Partastar Solar",
+      "description": "Портативные электростанции от CN-300W до CN-5500W. Для кемпинга, путешествий и резервного питания. От 300 Вт до 5,5 кВт.",
+      "ogImage": "img/portable-a.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "portable-small",
+          "name": "Серия CN, 300–2000 Вт",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-a.webp",
+                  "alt": "Портативная электростанция",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-b.webp",
+                  "alt": "Портативная электростанция",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Серия CN, 300–2000 Вт",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Выход 110 В/220 В. Заряжается от солнечных панелей."
+                }
+              ],
+              "copy": "Здравствуйте! Хочу получить предложение: Портативная электростанция."
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-300W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1000W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-2000W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Выходное напряжение AC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "110V / 220V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Выходная мощность AC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300 Вт"
+                    ],
+                    [
+                      "td",
+                      "500 Вт"
+                    ],
+                    [
+                      "td",
+                      "1000 Вт"
+                    ],
+                    [
+                      "td",
+                      "1500 Вт"
+                    ],
+                    [
+                      "td",
+                      "2000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ёмкость батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "86400 мА·ч"
+                    ],
+                    [
+                      "td",
+                      "129600 мА·ч"
+                    ],
+                    [
+                      "td",
+                      "270000 мА·ч"
+                    ],
+                    [
+                      "td",
+                      "432000 мА·ч"
+                    ],
+                    [
+                      "td",
+                      "570000 мА·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Рабочая температура",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0–45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура хранения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−5–35°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "portable-big",
+          "name": "CN-3500W и CN-5500W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-c.webp",
+                  "alt": "Большие портативные станции",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-d.webp",
+                  "alt": "Большие портативные станции",
+                  "w": 900,
+                  "h": 469,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN-3500W и CN-5500W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "LiFePO4, чистая синусоида, независимый MPPT."
+                }
+              ],
+              "copy": "Здравствуйте! Хочу получить предложение: CN-3500W/CN-5500W."
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-3500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-5500W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Тип батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Ёмкость батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "740Ah / 3315.2 Вт·ч"
+                    ],
+                    [
+                      "td",
+                      "1000Ah / 4480 Вт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Выходное напряжение AC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100V/60Гц, 220V/50Гц",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Выходная мощность AC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3500 Вт"
+                    ],
+                    [
+                      "td",
+                      "5500 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Пиковая мощность",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "7000 Вт"
+                    ],
+                    [
+                      "td",
+                      "11000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Форма выходного сигнала",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Чистая синусоида",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вход солнечной зарядки",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Независимый MPPT 660 Вт",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Время зарядки от адаптера",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈7 ч"
+                    ],
+                    [
+                      "td",
+                      "≈9.5 ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Время зарядки от солнца",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈6 ч"
+                    ],
+                    [
+                      "td",
+                      "≈8.5 ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вход автомобильной зарядки",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12–75V",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вес нетто",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "37.7 кг"
+                    ],
+                    [
+                      "td",
+                      "51.5 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Размеры изделия",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "658×487×250 мм",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "h1": "Портативная электростанция",
+      "crumb": "Портативная электростанция",
+      "introHtml": "Для кемпинга, путешествий и резервного питания. От 300 Вт до 5,5 кВт."
+    },
+    "kk": {
+      "title": "Тасымал электр станциясы | Partastar Solar",
+      "description": "CN-300W-тан CN-5500W-қа дейінгі тасымал электр станциялары. Кемпинг, саяхат және резервтік қуатқа арналған. 300 Вт-тан 5.5 кВт-қа дейін.",
+      "ogImage": "img/portable-a.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "portable-small",
+          "name": "CN сериясы, 300–2000 Вт",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-a.webp",
+                  "alt": "Тасымал электр станциясы",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-b.webp",
+                  "alt": "Тасымал электр станциясы",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN сериясы, 300–2000 Вт",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "110V/220V шығыс. Күн панельдерімен зарядталады."
+                }
+              ],
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: Тасымал электр станциясы."
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-300W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1000W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-1500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-2000W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "AC шығыс кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "110V / 220V",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC шығыс қуаты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300 Вт"
+                    ],
+                    [
+                      "td",
+                      "500 Вт"
+                    ],
+                    [
+                      "td",
+                      "1000 Вт"
+                    ],
+                    [
+                      "td",
+                      "1500 Вт"
+                    ],
+                    [
+                      "td",
+                      "2000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарея сыйымдылығы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "86400 мА·сағ"
+                    ],
+                    [
+                      "td",
+                      "129600 мА·сағ"
+                    ],
+                    [
+                      "td",
+                      "270000 мА·сағ"
+                    ],
+                    [
+                      "td",
+                      "432000 мА·сағ"
+                    ],
+                    [
+                      "td",
+                      "570000 мА·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Қолдану температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0–45°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сақтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−5–35°C",
+                      {
+                        "class": "merged",
+                        "colspan": "5"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "portable-big",
+          "name": "CN-3500W және CN-5500W",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/portable-c.webp",
+                  "alt": "Үлкен тасымал станциялар",
+                  "w": 900,
+                  "h": 600,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/portable-d.webp",
+                  "alt": "Үлкен тасымал станциялар",
+                  "w": 900,
+                  "h": 469,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "CN-3500W және CN-5500W",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "LiFePO4, таза синус толқыны, дербес MPPT."
+                }
+              ],
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: CN-3500W/CN-5500W."
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-3500W",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "CN-5500W",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарея түрі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "LiFePO4",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарея сыйымдылығы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "740Ah / 3315.2 Вт·сағ"
+                    ],
+                    [
+                      "td",
+                      "1000Ah / 4480 Вт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC шығыс кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100V/60Гц, 220V/50Гц",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC шығыс қуаты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3500 Вт"
+                    ],
+                    [
+                      "td",
+                      "5500 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Пик қуаты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "7000 Вт"
+                    ],
+                    [
+                      "td",
+                      "11000 Вт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Шығыс толқын пішіні",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Таза синус толқыны",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Күн зарядтау кірісі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Дербес MPPT 660 Вт",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Адаптермен зарядтау уақыты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈7 сағ"
+                    ],
+                    [
+                      "td",
+                      "≈9.5 сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Күнмен зарядтау уақыты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "≈6 сағ"
+                    ],
+                    [
+                      "td",
+                      "≈8.5 сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Автокөлікпен зарядтау кірісі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "12–75V",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Таза салмағы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "37.7 кг"
+                    ],
+                    [
+                      "td",
+                      "51.5 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Өнім өлшемдері",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "658×487×250 мм",
+                      {
+                        "class": "merged",
+                        "colspan": "2"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "h1": "Тасымал электр станциясы",
+      "crumb": "Тасымал электр станциясы",
+      "introHtml": "Кемпинг, саяхат және резервтік қуатқа арналған. 300 Вт-тан 5.5 кВт-қа дейін."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+---
+// Category and content pages in every language: /<slug>.html (Mongolian, site root) and /<lang>/<slug>.html.
+// The home page is [...lang]/index.astro; the not-found page is 404.astro.
+import PageView from "../../components/PageView.astro";
+import { LANGS, type Lang, type PageKind } from "../../lib/site";
+import { pageData, pagesOfKind } from "../../lib/pages";
+
+export async function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    pagesOfKind((k) => k !== "home").map(({ slug, kind }) => ({
+      params: { lang: lang === "mn" ? undefined : lang, slug },
+      props: { lang, slug, kind }
+    }))
+  );
+}
+const { lang, slug, kind } = Astro.props as { lang: Lang; slug: string; kind: PageKind };
+---
+<PageView lang={lang} slug={slug} kind={kind} data={pageData[slug]} />

@@ -1,0 +1,17 @@
+---
+// Renders one page (any kind) inside the shared layout. Used by both page routes.
+import Base from "../layouts/Base.astro";
+import ProductLine from "./ProductLine.astro";
+import { jsonLd, ui, type Lang, type PageKind } from "../lib/site";
+
+interface Props { lang: Lang; slug: string; kind: PageKind; data: any; }
+const { lang, slug, kind, data } = Astro.props;
+const page = data.langs[lang];
+const t = ui(lang);
+const h1Style = page.h1Style === undefined ? "font-size:clamp(1.9rem,4.4vw,3rem)" : page.h1Style ?? undefined;
+---
+<Base lang={lang} slug={slug} title={page.title} description={page.description} ogImage={page.ogImage} jsonLd={jsonLd(lang, slug, kind, page)}>
+{kind !== "home" && <section class="page-head"><div class="wrap"><p class="crumbs"><a href="index.html">{t.crumbsHome}</a> / {page.crumb}</p><h1 style={h1Style}>{page.h1}</h1><p set:html={page.introHtml} />{data.scene && <div class="s3d" data-scene={data.scene} aria-hidden="true"></div>}</div></section>}{page.sections.map((s: any) =>
+  s.type === "line" ? <ProductLine lang={lang} line={s} /> : <Fragment set:html={s.html} />
+)}
+</Base>

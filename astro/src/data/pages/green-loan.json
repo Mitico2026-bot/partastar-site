@@ -1,0 +1,107 @@
+{
+  "slug": "green-loan",
+  "kind": "content",
+  "scene": "city",
+  "langs": {
+    "mn": {
+      "title": "Ногоон зээл | Partastar Solar",
+      "description": "Нарны систем, батарейг ногоон зээлээр авах дараалал: загвар сонгох, үнийн санал авах, банканд материал өгөх, суурилуулах. Үнийн санал, гэрчилгээг бэлтгэнэ.",
+      "ogImage": "img/hero-house.webp",
+      "sections": [
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap\">\n  <h2>Дараалал</h2>\n  <ol class=\"steps\" style=\"color:var(--ink)\">\n    <li><b>Загвараа сонгоно</b><p style=\"color:var(--muted)\">Каталогоос гэрийн хэрэглээнд тохирох системийг сонгоно.</p></li>\n    <li><b>Үнийн санал авна</b><p style=\"color:var(--muted)\">Messenger дээр хүсэлтээ илгээнэ.</p></li>\n    <li><b>Банканд материал өгнө</b><p style=\"color:var(--muted)\">Үнийн санал, техникийн үзүүлэлт, гэрчилгээ.</p></li>\n    <li><b>Суурилуулна</b><p style=\"color:var(--muted)\">Зээл батлагдсаны дараа нийлүүлж, суурилуулна.</p></li>\n  </ol>\n  <div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сайн байна уу! Ногоон зээлийн үнийн санал-ийн үнийн санал авмаар байна.\">Facebook-ээр асуух</a></div>\n</div></section>",
+          "product": null
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Түгээмэл асуулт</h2><details class=\"faq\"><summary>Ногоон зээл бүх банкинд адилхан уу?</summary><p>Банк бүр өөрийн нөхцөл, шаардлагатай. Зээл авахаар төлөвлөж буй банкныхаа шаардлагыг эхлээд лавлаарай. Бид тухайн шаардлагад нийцэх техникийн мэдээллийг гаргаж өгнө.</p></details><details class=\"faq\"><summary>Банканд ямар материал хэрэгтэй вэ?</summary><p>Ихэвчлэн нийлүүлэгчийн үнийн санал, бүтээгдэхүүний техникийн үзүүлэлт, гэрчилгээ шаардана. Тодорхой жагсаалтыг банкаасаа лавлана уу.</p></details><details class=\"faq\"><summary>Ямар бүтээгдэхүүнийг зээлээр авч болох вэ?</summary><p>Нарны хавтан, инвертер, эрчим хүч хадгалах батарей зэрэг нарны системийн бүх бүрэлдэхүүнийг каталогоос сонгож болно. Банкны жагсаалтад орсон эсэхийг урьдчилан лавлана уу.</p></details><details class=\"faq\"><summary>Үнийн санал хэрхэн авах вэ?</summary><p>Messenger дээр сонирхсон бүтээгдэхүүнийхээ нэрийг бичнэ үү.</p></details></div></section>",
+          "product": null
+        }
+      ],
+      "h1": "Ногоон зээлээр авах",
+      "crumb": "Ногоон зээлээр авах",
+      "introHtml": "Нарны систем, батарейг ногоон зээлээр худалдан авахад бидний бэлтгэх материал, дараалал."
+    },
+    "en": {
+      "title": "Green loan | Partastar Solar",
+      "description": "How to buy a solar system and battery with a green loan: choose a model, get a quote, submit documents to the bank, then we supply and install.",
+      "ogImage": "img/hero-house.webp",
+      "sections": [
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap\">\n  <h2>Process</h2>\n  <ol class=\"steps\" style=\"color:var(--ink)\">\n    <li><b>Choose a model</b><p style=\"color:var(--muted)\">Choose a system suitable for home use from the catalog.</p></li>\n    <li><b>Get a quote</b><p style=\"color:var(--muted)\">Send your request on Messenger.</p></li>\n    <li><b>Submit documents to the bank</b><p style=\"color:var(--muted)\">Quote, technical specifications, certificates.</p></li>\n    <li><b>Installation</b><p style=\"color:var(--muted)\">After the loan is approved we supply and install.</p></li>\n  </ol>\n  <div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Hello! I&#x27;d like a quote for: green loan quote.\">Ask on Facebook</a></div>\n</div></section>",
+          "product": null
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Frequently asked questions</h2><details class=\"faq\"><summary>Is the green loan the same at every bank?</summary><p>Every bank has its own terms and requirements. First check the requirements of the bank you plan to borrow from. We will provide technical information that meets those requirements.</p></details><details class=\"faq\"><summary>What documents does the bank need?</summary><p>Usually the supplier's quote, the product's technical specifications and certificates. Ask your bank for the exact list.</p></details><details class=\"faq\"><summary>Which products can be bought on a loan?</summary><p>You can choose any component of a solar system from the catalog: solar panels, inverters and energy storage batteries. Check in advance whether it is on the bank's list.</p></details><details class=\"faq\"><summary>How do I get a quote?</summary><p>Write the name of the product you are interested in on Messenger.</p></details></div></section>",
+          "product": null
+        }
+      ],
+      "h1": "Buying with a green loan",
+      "crumb": "Buying with a green loan",
+      "introHtml": "The documents and steps we prepare for buying a solar system and battery with a green loan."
+    },
+    "zh": {
+      "title": "绿色贷款 | Partastar Solar",
+      "description": "通过绿色贷款购买太阳能系统和电池的流程:选择型号、获取报价、向银行提交报价单、技术参数和证书,贷款批准后供货并安装。",
+      "ogImage": "img/hero-house.webp",
+      "sections": [
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap\">\n  <h2>流程</h2>\n  <ol class=\"steps\" style=\"color:var(--ink)\">\n    <li><b>选择型号</b><p style=\"color:var(--muted)\">从目录中选择适合家庭使用的系统。</p></li>\n    <li><b>获取报价</b><p style=\"color:var(--muted)\">通过 Messenger 发送您的需求。</p></li>\n    <li><b>向银行提交材料</b><p style=\"color:var(--muted)\">报价、技术参数、证书。</p></li>\n    <li><b>安装</b><p style=\"color:var(--muted)\">贷款获批后供货并安装。</p></li>\n  </ol>\n  <div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"您好!我想获取报价:绿色贷款报价。\">通过 Facebook 咨询</a></div>\n</div></section>",
+          "product": null
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">常见问题</h2><details class=\"faq\"><summary>所有银行的绿色贷款都一样吗?</summary><p>每家银行都有各自的条件和要求。请先向您计划贷款的银行咨询其要求,我们会提供符合要求的技术资料。</p></details><details class=\"faq\"><summary>银行需要哪些材料?</summary><p>通常需要供应商报价、产品技术参数和证书。具体清单请向您的银行咨询。</p></details><details class=\"faq\"><summary>哪些产品可以贷款购买?</summary><p>可从目录中选择太阳能系统的各类部件,包括太阳能板、逆变器和储能电池。请事先向银行确认是否在其清单内。</p></details><details class=\"faq\"><summary>如何获取报价?</summary><p>请在 Messenger 上写明您感兴趣的产品名称。</p></details></div></section>",
+          "product": null
+        }
+      ],
+      "h1": "通过绿色贷款购买",
+      "crumb": "通过绿色贷款购买",
+      "introHtml": "通过绿色贷款购买太阳能系统和电池时,我们准备的材料与步骤。"
+    },
+    "ru": {
+      "title": "Зелёный кредит | Partastar Solar",
+      "description": "Как купить солнечную систему и батарею по зелёному кредиту: выбор модели, коммерческое предложение, документы для банка, поставка и монтаж.",
+      "ogImage": "img/hero-house.webp",
+      "sections": [
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap\">\n  <h2>Порядок действий</h2>\n  <ol class=\"steps\" style=\"color:var(--ink)\">\n    <li><b>Выберите модель</b><p style=\"color:var(--muted)\">Выберите в каталоге систему, подходящую для дома.</p></li>\n    <li><b>Получите предложение</b><p style=\"color:var(--muted)\">Отправьте запрос в Messenger.</p></li>\n    <li><b>Передайте документы в банк</b><p style=\"color:var(--muted)\">Коммерческое предложение, технические характеристики, сертификаты.</p></li>\n    <li><b>Установка</b><p style=\"color:var(--muted)\">После одобрения кредита мы поставляем и устанавливаем систему.</p></li>\n  </ol>\n  <div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Здравствуйте! Хочу получить предложение: зелёный кредит.\">Спросить в Facebook</a></div>\n</div></section>",
+          "product": null
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Частые вопросы</h2><details class=\"faq\"><summary>Одинаков ли зелёный кредит во всех банках?</summary><p>У каждого банка свои условия и требования. Сначала уточните требования банка, в котором планируете взять кредит. Мы подготовим технические сведения, соответствующие этим требованиям.</p></details><details class=\"faq\"><summary>Какие документы нужны банку?</summary><p>Обычно требуются предложение поставщика, технические характеристики продукта и сертификаты. Точный перечень уточните в банке.</p></details><details class=\"faq\"><summary>Какие продукты можно купить в кредит?</summary><p>Из каталога можно выбрать любые компоненты солнечной системы: солнечные панели, инверторы и аккумуляторы. Заранее уточните, входят ли они в список банка.</p></details><details class=\"faq\"><summary>Как получить предложение?</summary><p>Напишите в Messenger название интересующего вас продукта.</p></details></div></section>",
+          "product": null
+        }
+      ],
+      "h1": "Покупка по зелёному кредиту",
+      "crumb": "Покупка по зелёному кредиту",
+      "introHtml": "Документы и шаги, которые мы готовим для покупки солнечной системы и батареи по зелёному кредиту."
+    },
+    "kk": {
+      "title": "Жасыл несие | Partastar Solar",
+      "description": "Жасыл несиемен күн жүйесі мен батарея сатып алу тәртібі: үлгіні таңдау, баға ұсынысын алу, банкке құжат тапсыру, жеткізу және орнату.",
+      "ogImage": "img/hero-house.webp",
+      "sections": [
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap\">\n  <h2>Тәртібі</h2>\n  <ol class=\"steps\" style=\"color:var(--ink)\">\n    <li><b>Үлгіні таңдаңыз</b><p style=\"color:var(--muted)\">Каталогтан үйге жарайтын жүйені таңдаңыз.</p></li>\n    <li><b>Баға ұсынысын алыңыз</b><p style=\"color:var(--muted)\">Сұранысыңызды Messenger-ге жіберіңіз.</p></li>\n    <li><b>Банкке құжат тапсырыңыз</b><p style=\"color:var(--muted)\">Баға ұсынысы, техникалық сипаттамалар, сертификаттар.</p></li>\n    <li><b>Орнату</b><p style=\"color:var(--muted)\">Несие бекітілгеннен кейін жеткізіп, орнатамыз.</p></li>\n  </ol>\n  <div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: жасыл несие.\">Facebook-тен сұрау</a></div>\n</div></section>",
+          "product": null
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\"><div class=\"wrap prose\"><h2 style=\"margin-bottom:14px\">Жиі қойылатын сұрақтар</h2><details class=\"faq\"><summary>Жасыл несие барлық банкте бірдей ме?</summary><p>Әр банктің өз шарттары мен талаптары бар. Несие алғыңыз келетін банктің талаптарын алдымен нақтылаңыз. Біз сол талаптарға сай техникалық ақпаратты дайындап береміз.</p></details><details class=\"faq\"><summary>Банкке қандай құжат керек?</summary><p>Әдетте жеткізушінің баға ұсынысы, өнімнің техникалық сипаттамалары мен сертификаттары талап етіледі. Нақты тізімді банктен сұраңыз.</p></details><details class=\"faq\"><summary>Қандай өнімді несиеге алуға болады?</summary><p>Каталогтан күн жүйесінің кез келген құрамдасын таңдауға болады: күн панельдері, инверторлар және энергия жинақтайтын батареялар. Банктің тізіміне кіретінін алдын ала нақтылаңыз.</p></details><details class=\"faq\"><summary>Баға ұсынысын қалай алуға болады?</summary><p>Messenger-де қызыққан өнімнің атын жазыңыз.</p></details></div></section>",
+          "product": null
+        }
+      ],
+      "h1": "Жасыл несиемен сатып алу",
+      "crumb": "Жасыл несиемен сатып алу",
+      "introHtml": "Жасыл несиемен күн жүйесі мен батарея сатып алу кезінде біз дайындайтын құжаттар мен қадамдар."
+    }
+  }
+}

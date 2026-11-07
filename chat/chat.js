@@ -49,11 +49,20 @@
     return n;
   }
 
+  // Only links to our own site and Messenger/Facebook become clickable. The model can write
+  // any address (made up, or steered by what a visitor typed); other addresses stay plain text.
+  var LINK_HOSTS = ["partastar.solar", "www.partastar.solar", "m.me", "facebook.com", "www.facebook.com", "m.facebook.com"];
+  function linkable(href) {
+    try { var u = new URL(href); return u.protocol === "https:" && LINK_HOSTS.indexOf(u.hostname) !== -1 && !u.username && !u.password; }
+    catch (e) { return false; }
+  }
+
   // Render text with clickable https links, without ever inserting HTML.
   function renderText(node, text) {
     node.textContent = "";
     var re = /https:\/\/[^\s<>()"']+[^\s<>()"'.,;:!?)]/g, last = 0, m;
     while ((m = re.exec(text))) {
+      if (!linkable(m[0])) continue; // stays in the surrounding plain text
       node.appendChild(document.createTextNode(text.slice(last, m.index)));
       var a = el("a", null, m[0]);
       a.href = m[0]; a.target = "_blank"; a.rel = "noopener";
@@ -135,7 +144,7 @@
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ lang: lang, messages: history.slice(-12) })
     }).then(function (r) {
-      if (r.status === 429) throw new Error("busy");
+      if (r.status === 429 || r.status === 503) throw new Error("busy");
       if (!r.ok || !r.body) throw new Error("fail");
       var reader = r.body.getReader();
       var dec = new TextDecoder();

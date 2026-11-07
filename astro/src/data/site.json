@@ -1,0 +1,412 @@
+{
+  "langs": [
+    "mn",
+    "en",
+    "zh",
+    "ru",
+    "kk"
+  ],
+  "categories": [
+    "home-storage",
+    "inverters",
+    "solar-panels",
+    "commercial",
+    "car-power",
+    "lithium-replacement",
+    "portable",
+    "other-batteries",
+    "heat-pumps",
+    "ev-chargers"
+  ],
+  "i18n": {
+    "en": {
+      "140 Вт": "140 W",
+      "Усны халаагуур": "Water heater",
+      "Хөргөгч": "Refrigerator",
+      "Давхарладаг": "Stackable",
+      "Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү.": "Question text copied. Paste it into Messenger and send.",
+      "1500 Вт": "1500 W",
+      "Тавиурт": "Rack-mount",
+      "Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ": "Write the product name in Messenger:",
+      "Агааржуулагч": "Air conditioner",
+      "Зурагт": "TV",
+      "2200 Вт": "2200 W",
+      "Хананд өлгөх": "Wall-mounted",
+      "<small>цаг</small></span>": "<small>h</small></span>",
+      "150 Вт": "150 W",
+      "Нэгдсэн систем": "Integrated system",
+      "Давхарладаг IP65": "Stackable IP65",
+      "<small> кВт·ц</small>": "<small> kWh</small>",
+      "Дугуйтай": "Wheeled"
+    },
+    "zh": {
+      "140 Вт": "140 W",
+      "Усны халаагуур": "热水器",
+      "Хөргөгч": "冰箱",
+      "Давхарладаг": "叠层式",
+      "Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү.": "问题文本已复制。请粘贴到 Messenger 并发送。",
+      "1500 Вт": "1500 W",
+      "Тавиурт": "机架式",
+      "Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ": "请在 Messenger 中写明产品名称:",
+      "Агааржуулагч": "空调",
+      "Зурагт": "电视",
+      "2200 Вт": "2200 W",
+      "Хананд өлгөх": "壁挂式",
+      "<small>цаг</small></span>": "<small>h</small></span>",
+      "150 Вт": "150 W",
+      "Нэгдсэн систем": "一体化系统",
+      "Давхарладаг IP65": "叠层式 IP65",
+      "<small> кВт·ц</small>": "<small> kWh</small>",
+      "Дугуйтай": "带轮式"
+    },
+    "ru": {
+      "140 Вт": "140 Вт",
+      "Усны халаагуур": "Водонагреватель",
+      "Хөргөгч": "Холодильник",
+      "Давхарладаг": "Штабелируемая",
+      "Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү.": "Текст вопроса скопирован. Вставьте его в Messenger и отправьте.",
+      "1500 Вт": "1500 Вт",
+      "Тавиурт": "Стоечная",
+      "Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ": "Напишите название продукта в Messenger:",
+      "Агааржуулагч": "Кондиционер",
+      "Зурагт": "Телевизор",
+      "2200 Вт": "2200 Вт",
+      "Хананд өлгөх": "Настенная",
+      "<small>цаг</small></span>": "<small>ч</small></span>",
+      "150 Вт": "150 Вт",
+      "Нэгдсэн систем": "Интегрированная система",
+      "Давхарладаг IP65": "Штабелируемая IP65",
+      "<small> кВт·ц</small>": "<small> кВт·ч</small>",
+      "Дугуйтай": "На колёсах"
+    },
+    "kk": {
+      "140 Вт": "140 Вт",
+      "Усны халаагуур": "Су жылытқыш",
+      "Хөргөгч": "Тоңазытқыш",
+      "Давхарладаг": "Үйме",
+      "Асуултын текст хуулагдлаа. Messenger дээр буулгаж илгээнэ үү.": "Сұрақ мәтіні көшірілді. Messenger-ге қойып жіберіңіз.",
+      "1500 Вт": "1500 Вт",
+      "Тавиурт": "Сөреге орнатылатын",
+      "Messenger дээр бүтээгдэхүүний нэрийг бичнэ үү: ": "Messenger-де өнім атын жазыңыз:",
+      "Агааржуулагч": "Ауа баптағыш",
+      "Зурагт": "Теледидар",
+      "2200 Вт": "2200 Вт",
+      "Хананд өлгөх": "Қабырғаға ілінетін",
+      "<small>цаг</small></span>": "<small>сағ</small></span>",
+      "150 Вт": "150 Вт",
+      "Нэгдсэн систем": "Біріктірілген жүйе",
+      "Давхарладаг IP65": "Үйме IP65",
+      "<small> кВт·ц</small>": "<small> кВт·сағ</small>",
+      "Дугуйтай": "Дөңгелекті"
+    }
+  },
+  "mn": {
+    "htmlLang": "mn",
+    "ogLocale": "mn_MN",
+    "langName": "Монгол",
+    "skip": "Үндсэн агуулга руу",
+    "brandAria": "Partastar Solar, нүүр хуудас",
+    "topNavAria": "Үндсэн цэс",
+    "greenLoan": "Ногоон зээл",
+    "about": "Бидний тухай",
+    "order": {
+      "text": "Захиалах",
+      "copy": "Сайн байна уу! Partastar бүтээгдэхүүний талаар лавлах гэсэн юм."
+    },
+    "catsAria": "Бүтээгдэхүүний ангилал",
+    "catLabels": {
+      "home-storage": "Гэр ахуйн хадгалалт",
+      "inverters": "Инвертер",
+      "solar-panels": "Нарны хавтан",
+      "commercial": "Аж үйлдвэр",
+      "car-power": "Автомашины тэжээл",
+      "lithium-replacement": "Хар тугалгыг орлох литий",
+      "portable": "Зөөврийн станц",
+      "other-batteries": "Тээвэр, багаж",
+      "heat-pumps": "Дулааны насос",
+      "ev-chargers": "EV цэнэглэгч"
+    },
+    "crumbsHome": "Нүүр",
+    "footer": {
+      "tagline": "Нар, инвертер, хадгалалтын нэг цэгийн шийдэл. Partastar бүтээгдэхүүнийг Монголд санал болгож буй Partastar Solar.",
+      "productsTitle": "Бүтээгдэхүүн",
+      "contactTitle": "Холбоо барих",
+      "messenger": "Messenger",
+      "facebookPage": "Facebook хуудас",
+      "greenLoan": "Ногоон зээл",
+      "about": "Бидний тухай",
+      "legal": "Каталогийн мэдээлэл нь зөвхөн лавлагаа бөгөөд санал, амлалт биш. Guangdong Partastar New Energy Co., Ltd. үзүүлэлтийг урьдчилан мэдэгдэлгүйгээр өөрчилж болно. Үнэ, нөөц, хүргэлтийн нөхцөлийг захиалгын үеэр баталгаажуулна."
+    },
+    "mbar": {
+      "text": "Facebook-ээр захиалах",
+      "copy": "Сайн байна уу! Partastar бүтээгдэхүүний талаар лавлах гэсэн юм."
+    },
+    "lineButton": "Facebook-ээр асуух",
+    "copyTemplate": "Сайн байна уу! {name}-ийн үнийн санал авмаар байна.",
+    "langNames": {
+      "mn": "Монгол",
+      "en": "English",
+      "zh": "中文",
+      "ru": "Русский",
+      "kk": "Қазақша"
+    }
+  },
+  "en": {
+    "htmlLang": "en",
+    "ogLocale": "en_US",
+    "langName": "English",
+    "skip": "Skip to main content",
+    "brandAria": "Partastar Solar, home page",
+    "topNavAria": "Main menu",
+    "greenLoan": "Green loan",
+    "about": "About us",
+    "order": {
+      "text": "Order",
+      "copy": "Hello! I'd like to ask about Partastar products."
+    },
+    "catsAria": "Product categories",
+    "catLabels": {
+      "home-storage": "Home storage",
+      "inverters": "Inverters",
+      "solar-panels": "Solar panels",
+      "commercial": "Industrial",
+      "car-power": "Car power",
+      "lithium-replacement": "Lithium replacing lead-acid",
+      "portable": "Portable power",
+      "other-batteries": "Vehicles & tools",
+      "heat-pumps": "Heat pumps",
+      "ev-chargers": "EV chargers"
+    },
+    "crumbsHome": "Home",
+    "footer": {
+      "tagline": "A single-point solution for solar, inverters and storage. Partastar Solar offers Partastar products in Mongolia.",
+      "productsTitle": "Products",
+      "contactTitle": "Contact",
+      "messenger": "Messenger",
+      "facebookPage": "Facebook page",
+      "greenLoan": "Green loan",
+      "about": "About us",
+      "legal": "Catalog information is for reference only and is not an offer or a promise. Guangdong Partastar New Energy Co., Ltd. may change specifications without prior notice. Prices, stock and delivery terms are confirmed when ordering."
+    },
+    "mbar": {
+      "text": "Order via Facebook",
+      "copy": "Hello! I'd like to ask about Partastar products."
+    },
+    "lineButton": "Ask on Facebook",
+    "copyTemplate": "Hello! I'd like a quote for: {name}.",
+    "langNames": {
+      "mn": "Монгол",
+      "en": "English",
+      "zh": "中文",
+      "ru": "Русский",
+      "kk": "Қазақша"
+    }
+  },
+  "zh": {
+    "htmlLang": "zh-Hans",
+    "ogLocale": "zh_CN",
+    "langName": "中文",
+    "skip": "跳到主要内容",
+    "brandAria": "Partastar Solar,首页",
+    "topNavAria": "主菜单",
+    "greenLoan": "绿色贷款",
+    "about": "关于我们",
+    "order": {
+      "text": "订购",
+      "copy": "您好!我想咨询 Partastar 产品。"
+    },
+    "catsAria": "产品类别",
+    "catLabels": {
+      "home-storage": "家用储能",
+      "inverters": "逆变器",
+      "solar-panels": "太阳能板",
+      "commercial": "工商业",
+      "car-power": "车载电源",
+      "lithium-replacement": "锂电池替代铅酸",
+      "portable": "便携储能电站",
+      "other-batteries": "交通与工具",
+      "heat-pumps": "空气源热泵",
+      "ev-chargers": "充电桩"
+    },
+    "crumbsHome": "首页",
+    "footer": {
+      "tagline": "太阳能、逆变器与储能一站式方案。Partastar Solar 在蒙古提供 Partastar 产品。",
+      "productsTitle": "产品",
+      "contactTitle": "联系我们",
+      "messenger": "Messenger",
+      "facebookPage": "Facebook 主页",
+      "greenLoan": "绿色贷款",
+      "about": "关于我们",
+      "legal": "目录信息仅供参考,不构成要约或承诺。广东 Partastar 新能源有限公司(Guangdong Partastar New Energy Co., Ltd.)可能在不另行通知的情况下更改规格。价格、库存和交付条件以下单时确认为准。"
+    },
+    "mbar": {
+      "text": "通过 Facebook 订购",
+      "copy": "您好!我想咨询 Partastar 产品。"
+    },
+    "lineButton": "通过 Facebook 咨询",
+    "copyTemplate": "您好!我想获取报价:{name}。",
+    "langNames": {
+      "mn": "Монгол",
+      "en": "English",
+      "zh": "中文",
+      "ru": "Русский",
+      "kk": "Қазақша"
+    }
+  },
+  "ru": {
+    "htmlLang": "ru",
+    "ogLocale": "ru_RU",
+    "langName": "Русский",
+    "skip": "Перейти к основному содержимому",
+    "brandAria": "Partastar Solar, главная страница",
+    "topNavAria": "Главное меню",
+    "greenLoan": "Зелёный кредит",
+    "about": "О нас",
+    "order": {
+      "text": "Заказать",
+      "copy": "Здравствуйте! Хочу узнать о продукции Partastar."
+    },
+    "catsAria": "Категории продукции",
+    "catLabels": {
+      "home-storage": "Домашние накопители",
+      "inverters": "Инверторы",
+      "solar-panels": "Солнечные панели",
+      "commercial": "Промышленность",
+      "car-power": "Питание для авто",
+      "lithium-replacement": "Литий вместо свинцовых",
+      "portable": "Портативные станции",
+      "other-batteries": "Транспорт и инструмент",
+      "heat-pumps": "Тепловые насосы",
+      "ev-chargers": "Зарядные станции"
+    },
+    "crumbsHome": "Главная",
+    "footer": {
+      "tagline": "Единое решение: солнечные панели, инверторы и накопители. Partastar Solar предлагает продукцию Partastar в Монголии.",
+      "productsTitle": "Продукция",
+      "contactTitle": "Контакты",
+      "messenger": "Messenger",
+      "facebookPage": "Страница в Facebook",
+      "greenLoan": "Зелёный кредит",
+      "about": "О нас",
+      "legal": "Информация каталога носит справочный характер и не является офертой или обещанием. Guangdong Partastar New Energy Co., Ltd. может изменять характеристики без предварительного уведомления. Цены, наличие и условия поставки подтверждаются при заказе."
+    },
+    "mbar": {
+      "text": "Заказать через Facebook",
+      "copy": "Здравствуйте! Хочу узнать о продукции Partastar."
+    },
+    "lineButton": "Спросить в Facebook",
+    "copyTemplate": "Здравствуйте! Хочу получить предложение: {name}.",
+    "langNames": {
+      "mn": "Монгол",
+      "en": "English",
+      "zh": "中文",
+      "ru": "Русский",
+      "kk": "Қазақша"
+    }
+  },
+  "kk": {
+    "htmlLang": "kk",
+    "ogLocale": "kk_KZ",
+    "langName": "Қазақша",
+    "skip": "Негізгі мазмұнға өту",
+    "brandAria": "Partastar Solar, басты бет",
+    "topNavAria": "Басты мәзір",
+    "greenLoan": "Жасыл несие",
+    "about": "Біз туралы",
+    "order": {
+      "text": "Тапсырыс беру",
+      "copy": "Сәлеметсіз бе! Partastar өнімдері туралы сұрағым келеді."
+    },
+    "catsAria": "Өнім санаттары",
+    "catLabels": {
+      "home-storage": "Үйге арналған энергия жинағыш",
+      "inverters": "Инверторлар",
+      "solar-panels": "Күн панельдері",
+      "commercial": "Өнеркәсіп",
+      "car-power": "Автокөлік қуаты",
+      "lithium-replacement": "Қорғасын орнына литий",
+      "portable": "Тасымал станциялар",
+      "other-batteries": "Көлік және құрал",
+      "heat-pumps": "Жылу сорғылары",
+      "ev-chargers": "Зарядтау станциялары"
+    },
+    "crumbsHome": "Басты бет",
+    "footer": {
+      "tagline": "Күн энергиясы, инвертор және жинағыштың бір нүктелі шешімі. Partastar Solar Partastar өнімдерін Моңғолияда ұсынады.",
+      "productsTitle": "Өнімдер",
+      "contactTitle": "Байланыс",
+      "messenger": "Messenger",
+      "facebookPage": "Facebook беті",
+      "greenLoan": "Жасыл несие",
+      "about": "Біз туралы",
+      "legal": "Каталог ақпараты тек анықтама үшін, ұсыныс не уәде емес. Guangdong Partastar New Energy Co., Ltd. сипаттамаларды алдын ала ескертпей өзгерте алады. Баға, қор және жеткізу шарттары тапсырыс кезінде расталады."
+    },
+    "mbar": {
+      "text": "Facebook арқылы тапсырыс беру",
+      "copy": "Сәлеметсіз бе! Partastar өнімдері туралы сұрағым келеді."
+    },
+    "lineButton": "Facebook-тен сұрау",
+    "copyTemplate": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: {name}.",
+    "langNames": {
+      "mn": "Монгол",
+      "en": "English",
+      "zh": "中文",
+      "ru": "Русский",
+      "kk": "Қазақша"
+    }
+  },
+  "pages": [
+    {
+      "slug": "home-storage",
+      "kind": "category"
+    },
+    {
+      "slug": "inverters",
+      "kind": "category"
+    },
+    {
+      "slug": "solar-panels",
+      "kind": "category"
+    },
+    {
+      "slug": "commercial",
+      "kind": "category"
+    },
+    {
+      "slug": "car-power",
+      "kind": "category"
+    },
+    {
+      "slug": "lithium-replacement",
+      "kind": "category"
+    },
+    {
+      "slug": "portable",
+      "kind": "category"
+    },
+    {
+      "slug": "other-batteries",
+      "kind": "category"
+    },
+    {
+      "slug": "heat-pumps",
+      "kind": "category"
+    },
+    {
+      "slug": "ev-chargers",
+      "kind": "category"
+    },
+    {
+      "slug": "about",
+      "kind": "content"
+    },
+    {
+      "slug": "green-loan",
+      "kind": "content"
+    },
+    {
+      "slug": "index",
+      "kind": "home"
+    }
+  ]
+}

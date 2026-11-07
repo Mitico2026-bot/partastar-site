@@ -1,0 +1,957 @@
+{
+  "slug": "other-batteries",
+  "kind": "category",
+  "scene": "factory",
+  "langs": {
+    "mn": {
+      "title": "Тээвэр, багажны батарей | Partastar Solar",
+      "description": "Тээврийн, гольфын тэрэгний, багажны болон OEM/ODM жижиг батарей. Цахилгаан тээвэр, гольфын тэрэг, багаж болон жижиг төхөөрөмжид зориулсан батарей.",
+      "ogImage": "img/transport.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "transport",
+          "name": "Тээврийн батарейн цуврал",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/transport.webp",
+                  "alt": "Тээврийн батарей",
+                  "w": 675,
+                  "h": 900,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/ebike.webp",
+                  "alt": "Тээврийн батарей",
+                  "w": 574,
+                  "h": 383,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Тээврийн батарейн цуврал",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Хоёр, гурав, дөрвөн дугуйт бага хурдны цахилгаан тээвэр, аялалын тэрэг, цахилгаан дугуй, гольфын тэрэг, цэвэрлэгээний машинд. 48V, 60V, 72V; 37–120Ah. 50 Вт·ц-аас 5000 Вт·ц хүртэл."
+                },
+                {
+                  "k": "prose",
+                  "items": [
+                    "Түүхий эдийг нарийн сонгож, чанарыг эх үүсвэрээс нь хянана.",
+                    "Батарейгаас гадна цэнэглэгч, залгуур, BMS, PCM, тэнцвэржүүлэгч нийлүүлнэ."
+                  ]
+                }
+              ],
+              "copy": "Сайн байна уу! Тээврийн батарей-ийн үнийн санал авмаар байна."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "golf",
+          "name": "Гольфын тэрэгний цуврал",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "Гольфын тэрэгний цуврал"
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Хүчдэл",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Багтаамж",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Хэмжээ",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "36V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "288×547×203 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "519×267×220 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "508×330×266 мм"
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "button",
+              "copy": "Сайн байна уу! Гольфын тэрэгний батарей-ийн үнийн санал авмаар байна."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "oem",
+          "name": "Багажны батарей, OEM/ODM жижиг батарей",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/tools.webp",
+                  "alt": "Багажны батарей",
+                  "w": 900,
+                  "h": 636,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/small-batt.webp",
+                  "alt": "Багажны батарей",
+                  "w": 900,
+                  "h": 342,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Багажны батарей, OEM/ODM жижиг батарей",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Хэмжээ, хүчдэл, багтаамж, их биеийн өнгийг захиалгаар тохируулна. Залгуур, үүр, кабель, усны хамгаалалтыг хувийн хэрэгцээнд нийцүүлнэ. Шинэ А зэрэглэлийн LiFePO4, олон шатны хамгаалалт, тэнцвэржүүлэх функц."
+                },
+                {
+                  "k": "lead",
+                  "text": "Аюулгүй байдлын гурвалсан хамгаалалт: CID (даралт сулруулах хавхлага), PTC (термистор), PME (полимер мембран)."
+                }
+              ],
+              "copy": "Сайн байна уу! OEM/ODM батарей-ийн үнийн санал авмаар байна."
+            }
+          ]
+        }
+      ],
+      "h1": "Тээвэр, багажны батарей",
+      "crumb": "Тээвэр, багажны батарей",
+      "introHtml": "Цахилгаан тээвэр, гольфын тэрэг, багаж болон жижиг төхөөрөмжид зориулсан батарей."
+    },
+    "en": {
+      "title": "Batteries for vehicles and tools | Partastar Solar",
+      "description": "Batteries for e-bikes, low-speed EVs and golf carts (48V, 60V, 72V; 37–120Ah), plus tool batteries and custom OEM/ODM small batteries.",
+      "ogImage": "img/transport.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "transport",
+          "name": "Vehicle battery series",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/transport.webp",
+                  "alt": "Vehicle batteries",
+                  "w": 675,
+                  "h": 900,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/ebike.webp",
+                  "alt": "Vehicle batteries",
+                  "w": 574,
+                  "h": 383,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Vehicle battery series",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "For low-speed electric vehicles with two, three or four wheels, touring carts, e-bikes, golf carts and cleaning machines. 48V, 60V, 72V; 37–120Ah. From 50 Wh to 5000 Wh."
+                },
+                {
+                  "k": "prose",
+                  "items": [
+                    "Raw materials are carefully selected and quality is controlled from the source.",
+                    "Besides the battery we supply chargers, connectors, BMS, PCM and balancers."
+                  ]
+                }
+              ],
+              "copy": "Hello! I'd like a quote for: Vehicle batteries."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "golf",
+          "name": "Golf cart series",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "Golf cart series"
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Voltage",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Capacity",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Dimensions",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "36V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "288×547×203 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "519×267×220 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "508×330×266 mm"
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "button",
+              "copy": "Hello! I'd like a quote for: golf cart battery."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "oem",
+          "name": "Tool batteries, small OEM/ODM batteries",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/tools.webp",
+                  "alt": "Tool batteries",
+                  "w": 900,
+                  "h": 636,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/small-batt.webp",
+                  "alt": "Tool batteries",
+                  "w": 900,
+                  "h": 342,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Tool batteries, small OEM/ODM batteries",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Size, voltage, capacity and body color are customized to order. Connectors, sockets, cables and water protection are adapted to individual needs. New Grade-A LiFePO4, multi-level protection and balancing function."
+                },
+                {
+                  "k": "lead",
+                  "text": "Triple safety protection: CID (pressure relief valve), PTC (thermistor), PME (polymer membrane)."
+                }
+              ],
+              "copy": "Hello! I'd like a quote for: OEM/ODM battery."
+            }
+          ]
+        }
+      ],
+      "h1": "Batteries for vehicles and tools",
+      "crumb": "Batteries for vehicles and tools",
+      "introHtml": "Batteries for electric vehicles, golf carts, tools and small devices."
+    },
+    "zh": {
+      "title": "交通与工具电池 | Partastar Solar",
+      "description": "适用于电动自行车、低速电动车和高尔夫球车的 48V/60V/72V 电池(37–120Ah),以及工具电池和 OEM/ODM 定制小型电池。",
+      "ogImage": "img/transport.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "transport",
+          "name": "交通工具电池系列",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/transport.webp",
+                  "alt": "交通工具电池",
+                  "w": 675,
+                  "h": 900,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/ebike.webp",
+                  "alt": "交通工具电池",
+                  "w": 574,
+                  "h": 383,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "交通工具电池系列",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "适用于两轮、三轮、四轮低速电动车、观光车、电动自行车、高尔夫球车和清洁车。48V、60V、72V;37–120Ah。50 Wh 至 5000 Wh。"
+                },
+                {
+                  "k": "prose",
+                  "items": [
+                    "精选原材料,从源头把控质量。",
+                    "除电池外,我们还提供充电器、插头、BMS、PCM 和均衡器。"
+                  ]
+                }
+              ],
+              "copy": "您好!我想获取报价:交通工具电池。"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "golf",
+          "name": "高尔夫球车系列",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "高尔夫球车系列"
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "电压",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "容量",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "尺寸",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "36V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "288×547×203 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "519×267×220 mm"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "508×330×266 mm"
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "button",
+              "copy": "您好!我想获取报价:高尔夫球车电池。"
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "oem",
+          "name": "工具电池、OEM/ODM 小型电池",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/tools.webp",
+                  "alt": "工具电池",
+                  "w": 900,
+                  "h": 636,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/small-batt.webp",
+                  "alt": "工具电池",
+                  "w": 900,
+                  "h": 342,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "工具电池、OEM/ODM 小型电池",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "尺寸、电压、容量和外壳颜色均可定制。插头、插座、线缆和防水可按个人需求适配。全新 A 级 LiFePO4、多级保护及均衡功能。"
+                },
+                {
+                  "k": "lead",
+                  "text": "三重安全保护:CID(泄压阀)、PTC(热敏电阻)、PME(聚合物膜)。"
+                }
+              ],
+              "copy": "您好!我想获取报价:OEM/ODM 电池。"
+            }
+          ]
+        }
+      ],
+      "h1": "交通与工具电池",
+      "crumb": "交通与工具电池",
+      "introHtml": "适用于电动车辆、高尔夫球车、工具和小型设备的电池。"
+    },
+    "ru": {
+      "title": "Батареи для транспорта и инструмента | Partastar Solar",
+      "description": "Батареи для электровелосипедов, тихоходного электротранспорта и гольф-каров (48, 60, 72 В; 37–120 Ач), а также для инструмента и OEM/ODM.",
+      "ogImage": "img/transport.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "transport",
+          "name": "Серия транспортных батарей",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/transport.webp",
+                  "alt": "Транспортные батареи",
+                  "w": 675,
+                  "h": 900,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/ebike.webp",
+                  "alt": "Транспортные батареи",
+                  "w": 574,
+                  "h": 383,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Серия транспортных батарей",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Для малоскоростного электротранспорта с двумя, тремя и четырьмя колёсами, туристических тележек, электровелосипедов, гольф-каров и уборочных машин. 48 В, 60 В, 72 В; 37–120 А·ч. От 50 до 5000 Вт·ч."
+                },
+                {
+                  "k": "prose",
+                  "items": [
+                    "Сырьё тщательно отбирается, качество контролируется с самого начала.",
+                    "Помимо батареи, мы поставляем зарядные устройства, разъёмы, BMS, PCM и балансиры."
+                  ]
+                }
+              ],
+              "copy": "Здравствуйте! Хочу получить предложение: Транспортные батареи."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "golf",
+          "name": "Серия для гольф-каров",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "Серия для гольф-каров"
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Напряжение",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Ёмкость",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Размеры",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "36V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "288×547×203 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "519×267×220 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "508×330×266 мм"
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "button",
+              "copy": "Здравствуйте! Хочу получить предложение: батарея для гольф-кара."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "oem",
+          "name": "Батареи для инструмента, малые батареи OEM/ODM",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/tools.webp",
+                  "alt": "Батареи для инструмента",
+                  "w": 900,
+                  "h": 636,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/small-batt.webp",
+                  "alt": "Батареи для инструмента",
+                  "w": 900,
+                  "h": 342,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Батареи для инструмента, малые батареи OEM/ODM",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Размер, напряжение, ёмкость и цвет корпуса настраиваются под заказ. Разъёмы, гнёзда, кабели и защита от воды подбираются под ваши нужды. Новые элементы LiFePO4 класса A, многоуровневая защита и балансировка."
+                },
+                {
+                  "k": "lead",
+                  "text": "Тройная защита: CID (предохранительный клапан), PTC (термистор), PME (полимерная мембрана)."
+                }
+              ],
+              "copy": "Здравствуйте! Хочу получить предложение: батарея OEM/ODM."
+            }
+          ]
+        }
+      ],
+      "h1": "Батареи для транспорта и инструмента",
+      "crumb": "Батареи для транспорта и инструмента",
+      "introHtml": "Батареи для электротранспорта, гольф-каров, инструмента и малых устройств."
+    },
+    "kk": {
+      "title": "Көлік пен құралдарға арналған батареялар | Partastar Solar",
+      "description": "Электр велосипедтері, төмен жылдамдықты электр көліктері мен гольф арбаларына арналған батареялар (48V, 60V, 72V; 37–120Ah), құрал және OEM/ODM батареялары.",
+      "ogImage": "img/transport.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "transport",
+          "name": "Көлік батареялары сериясы",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/transport.webp",
+                  "alt": "Көлік батареялары",
+                  "w": 675,
+                  "h": 900,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/ebike.webp",
+                  "alt": "Көлік батареялары",
+                  "w": 574,
+                  "h": 383,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Көлік батареялары сериясы",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Екі, үш және төрт доңғалақты төмен жылдамдықты электр көліктеріне, туристік арбаларға, электр велосипедтеріне, гольф арбаларына және тазалау машиналарына арналған. 48V, 60V, 72V; 37–120Ah. 50 Вт·сағ-тан 5000 Вт·сағ-қа дейін."
+                },
+                {
+                  "k": "prose",
+                  "items": [
+                    "Шикізат мұқият таңдалады, сапа бастапқы көзден бақыланады.",
+                    "Батареядан бөлек зарядтағыш, штепсель, BMS, PCM және теңестіргіш жеткіземіз."
+                  ]
+                }
+              ],
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: Көлік батареялары."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "golf",
+          "name": "Гольф арбасы сериясы",
+          "blocks": [
+            {
+              "k": "h2",
+              "text": "Гольф арбасы сериясы"
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Кернеу",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Сыйымдылық",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Өлшемі",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "36V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "288×547×203 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "100Ah"
+                    ],
+                    [
+                      "td",
+                      "519×267×220 мм"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "48V",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "150Ah"
+                    ],
+                    [
+                      "td",
+                      "508×330×266 мм"
+                    ]
+                  ]
+                ]
+              }
+            },
+            {
+              "k": "button",
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: гольф арбасының батареясы."
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "oem",
+          "name": "Құрал батареялары, OEM/ODM шағын батареялар",
+          "blocks": [
+            {
+              "k": "top",
+              "two": true,
+              "imgs": [
+                {
+                  "src": "img/tools.webp",
+                  "alt": "Құрал батареялары",
+                  "w": 900,
+                  "h": 636,
+                  "cls": "cover"
+                },
+                {
+                  "src": "img/small-batt.webp",
+                  "alt": "Құрал батареялары",
+                  "w": 900,
+                  "h": 342,
+                  "cls": "cover"
+                }
+              ],
+              "h2": "Құрал батареялары, OEM/ODM шағын батареялар",
+              "parts": [
+                {
+                  "k": "lead",
+                  "text": "Өлшемі, кернеуі, сыйымдылығы және корпус түсі тапсырыс бойынша бейімделеді. Штепсель, ұя, кабель және судан қорғау жеке қажеттілікке сай жасалады. Жаңа A класты LiFePO4, көп сатылы қорғаныс және теңестіру функциясы."
+                },
+                {
+                  "k": "lead",
+                  "text": "Қауіпсіздіктің үш еселі қорғанысы: CID (қысымды басатын клапан), PTC (термистор), PME (полимер мембрана)."
+                }
+              ],
+              "copy": "Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: OEM/ODM батарея."
+            }
+          ]
+        }
+      ],
+      "h1": "Көлік пен құралдарға арналған батареялар",
+      "crumb": "Көлік пен құралдарға арналған батареялар",
+      "introHtml": "Электр көлігі, гольф арбалары, құралдар мен шағын құрылғыларға арналған батареялар."
+    }
+  }
+}

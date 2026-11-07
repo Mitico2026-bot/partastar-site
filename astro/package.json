@@ -1,0 +1,22 @@
+{
+  "name": "partastar-site-astro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "sync": "node scripts/sync-public.mjs",
+    "dev": "npm run sync && astro dev",
+    "build": "npm run sync && astro build",
+    "compare": "node scripts/compare.mjs",
+    "check": "npm run build && npm run compare"
+  },
+  "dependencies": {
+    "astro": "7.4.7"
+  },
+  "devDependencies": {
+    "node-html-parser": "9.0.7"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  }
+}

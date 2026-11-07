@@ -1,0 +1,83 @@
+---
+// Shared shell for every page: <head>, header, category nav, footer, mobile order bar, scripts.
+import { LANGS, HREFLANG, ORIGIN, MESSENGER, FACEBOOK, ASSET_VERSION, categories, dirOf, rootPrefix, pageUrl, langHref, ui, i18nDict, type Lang } from "../lib/site";
+
+interface Props { lang: Lang; slug: string; title: string; description: string; ogImage: string; jsonLd: object; }
+const { lang, slug, title, description, ogImage, jsonLd } = Astro.props;
+const t = ui(lang);
+const P = rootPrefix(lang);
+const url = pageUrl(lang, slug);
+const dict = i18nDict(lang);
+const vaStub = "window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};";
+---
+<html lang={t.htmlLang}>
+<head>
+<title>{title}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content={description}>
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description}>
+<meta property="og:url" content={url}>
+<meta property="og:site_name" content="Partastar Solar">
+<meta property="og:locale" content={t.ogLocale}>
+{LANGS.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={ui(l).ogLocale}>)}
+<meta property="og:type" content="website">
+<meta property="og:image" content={ORIGIN + ogImage}>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b1e3f">
+<link rel="canonical" href={url}>
+<link rel="icon" href={`${P}favicon.ico`} sizes="32x32">
+<link rel="apple-touch-icon" href={`${P}img/apple-touch-icon.png`}>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&subset=cyrillic,cyrillic-ext,latin">
+<link rel="stylesheet" href={`${P}style.css?v=${ASSET_VERSION.css}`}>
+<link rel="alternate" hreflang="x-default" href={pageUrl("mn", slug)}>
+{LANGS.map((l) => <link rel="alternate" hreflang={HREFLANG[l]} href={pageUrl(l, slug)}>)}
+<script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script><script is:inline set:html={vaStub}></script>
+<script defer src="/_vercel/insights/script.js" is:inline></script>
+</head>
+<body>
+<a class="skip" href="#main">{t.skip}</a>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html" aria-label={t.brandAria}>
+    <img class="logo-light" src={`${P}img/logo-blue.webp`} alt="Partastar" width="490" height="188">
+    <img class="logo-dark" src={`${P}img/logo-white.webp`} alt="" width="520" height="254">
+    <span>Solar</span>
+  </a>
+  <nav class="top-links" aria-label={t.topNavAria}>
+    <a href="green-loan.html">{t.greenLoan}</a>
+    <a class="optional" href="about.html">{t.about}</a>
+    <details class="lang"><summary aria-label="Language">{"\u{1F310} " + t.langName}</summary><div class="lang-menu" role="navigation" aria-label="Language">{LANGS.map((l) => (
+      <a href={langHref(lang, l, slug)} hreflang={HREFLANG[l]} lang={HREFLANG[l]} title={t.langNames[l]} aria-current={l === lang ? "true" : undefined}>{t.langNames[l]}</a>
+    ))}</div></details><a class="btn small" href={MESSENGER} target="_blank" rel="noopener" data-copy={t.order.copy}>{t.order.text}</a>
+  </nav>
+</div></header>
+<nav class="cats" aria-label={t.catsAria}><div class="wrap">{categories.map((c) => (
+  <a href={`${c}.html`} aria-current={c === slug ? "page" : undefined}>{t.catLabels[c]}</a>
+))}</div></nav>
+<main id="main">
+<slot />
+</main>
+<footer class="site-foot"><div class="wrap">
+  <div class="cols">
+    <div>
+      <img src={`${P}img/logo-white.webp`} alt="Partastar" width="520" height="254">
+      <p>{t.footer.tagline}</p>
+    </div>
+    <div><h3>{t.footer.productsTitle}</h3>{categories.map((c) => <a href={`${c}.html`}>{t.catLabels[c]}</a>)}</div>
+    <div><h3>{t.footer.contactTitle}</h3>
+      <a href={MESSENGER} target="_blank" rel="noopener">{t.footer.messenger}</a>
+      <a href={FACEBOOK} target="_blank" rel="noopener">{t.footer.facebookPage}</a>
+      <a href="green-loan.html">{t.footer.greenLoan}</a>
+      <a href="about.html">{t.footer.about}</a>
+    </div>
+  </div>
+  <p class="legal">{t.footer.legal}</p>
+</div></footer>
+<div class="mbar"><a class="btn" href={MESSENGER} target="_blank" rel="noopener" data-copy={t.mbar.copy}>{t.mbar.text}</a></div>
+{dict && <script is:inline set:html={`window.I18N=${JSON.stringify(dict)};`}></script>}
+<script src={`${P}app.js?v=${ASSET_VERSION.app}`} defer is:inline></script>
+<script src={`${P}chat/chat.js?v=${ASSET_VERSION.chat}`} defer is:inline></script></body>
+</html>

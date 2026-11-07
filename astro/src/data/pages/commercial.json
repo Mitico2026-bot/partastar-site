@@ -1,0 +1,2332 @@
+{
+  "slug": "commercial",
+  "kind": "category",
+  "scene": "factory",
+  "langs": {
+    "mn": {
+      "title": "Аж үйлдвэрийн хадгалалт | Partastar Solar",
+      "description": "60 кВт·ц-аас 3290 кВт·ц хүртэл аж үйлдвэрийн эрчим хүч хадгалах систем. Шүүгээ, шингэн хөргөлттэй систем, контейнер. Аж ахуйн нэгж, барилга, станцад зориулсан.",
+      "ogImage": "img/ci-60.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "ci-60",
+          "name": "60 кВт·ц гадаа нам хүчдэлийн ус нэвтэрдэггүй загвар",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60.webp",
+                  "alt": "60 кВт·ц гадаа нам хүчдэлийн ус нэвтэрдэггүй загвар",
+                  "w": 551,
+                  "h": 900
+                }
+              ],
+              "h2": "60 кВт·ц гадаа нам хүчдэлийн ус нэвтэрдэггүй загвар",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Утга",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарейн нэрлэсэн энерги",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "64 кВт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн нэрлэсэн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1256Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "51.2Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарейн хүчдэлийн муж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "40–58.4Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн цэнэглэх/гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "600A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. цэнэглэх/гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "800A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC нэрлэсэн чадал",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "24 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн гаралтын гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "34.8A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл (оролт ба гаралт)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3L/N/PE; 400V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сүлжээний давтамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "50/60 Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Циклийн тоо",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000 удаа"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Жин",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Шүүгээний бохир жин 700 кг; инвертер 49 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гадна хэмжээ (Ө×З×Д)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Шүүгээ 1350×650×1000 мм, модон хайрцаг 800×1370×1650 мм; инвертер 700×440×260 мм, хайрцаг 920×620×390 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "ci-60-120",
+          "name": "60–120 кВт·ц гадаа нар-хадгалалтын нэгдсэн систем",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60-120.webp",
+                  "alt": "60–120 кВт·ц гадаа нар-хадгалалтын нэгдсэн систем",
+                  "w": 629,
+                  "h": 900
+                }
+              ],
+              "h2": "60–120 кВт·ц гадаа нар-хадгалалтын нэгдсэн систем",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Техникийн үзүүлэлт",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Үзүүлэлт",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Утга",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батарейн нэрлэсэн энерги",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120 кВт·ц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн багтаамж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "314Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хүчдэлийн муж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300–438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. цэнэглэх/гаргах гүйдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "157A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэнэглэлт таслах хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаргалт таслах хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн чадал",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "PCS 30 кВт / PV 38.4 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Нэрлэсэн хүчдэл",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "384V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "DC хүчдэлийн муж",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336–420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цэнэглэх температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~45℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Гаргах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~50℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хадгалах температур",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~35℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Хэмжээ",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1200×1850×1320 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150 кВт·ц-аас 3290 кВт·ц хүртэл</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Салхи-нар-дизель, шингэн хөргөлттэй болон контейнер хадгалалт.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-150.webp\" alt=\"150 кВт·ц нар-салхи-дизель\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-261.webp\" alt=\"261 кВт·ц шингэн хөргөлттэй\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-522.webp\" alt=\"522 кВт·ц шингэн хөргөлттэй\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"img/ci-3290.webp\" alt=\"3290 кВт·ц контейнер, агаар хөргөлттэй\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сайн байна уу! Аж үйлдвэрийн хадгалалт-ийн үнийн санал авмаар байна.\">Facebook-ээр асуух</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Техникийн үзүүлэлт\"><table class=\"spec\"><thead><tr><th scope=\"col\">Үзүүлэлт</th><th scope=\"col\">150 кВт·ц нар-салхи-дизель</th><th scope=\"col\">261 кВт·ц шингэн хөргөлттэй</th><th scope=\"col\">522 кВт·ц шингэн хөргөлттэй</th><th scope=\"col\">3290 кВт·ц контейнер, агаар хөргөлттэй</th></tr></thead><tbody><tr><th scope=\"row\">Элементийн төрөл</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Нэрлэсэн энерги</th><td>150.5 кВт·ц</td><td>261 кВт·ц</td><td>522.49 кВт·ц</td><td>3290.11 кВт·ц</td></tr><tr><th scope=\"row\">Цэнэглэх/гаргах хурд</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Нэрлэсэн хүчдэл</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Батарейн хүчдэлийн муж</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 түвшин</td><td>2 түвшин</td><td>3 түвшин</td><td>3 түвшин</td></tr><tr><th scope=\"row\">Хэмжээ (Н×Г×Ө)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Жин</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Хамгаалалтын зэрэг</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Ажлын температур</th><td>−30~+55°C (&gt;45°C чадал бууруулна)</td><td>−30~+50°C (&gt;45°C чадал бууруулна)</td><td>−30~+45°C</td><td>−30~+50°C (&gt;45°C чадал бууруулна)</td></tr><tr><th scope=\"row\">Ажлын чийгшил</th><td>5–95%RH (конденсацгүй)</td><td>0–95%RH (конденсацгүй)</td><td>0–95%RH</td><td>0–95%RH (конденсацгүй)</td></tr><tr><th scope=\"row\">Туслах тэжээл</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Галын хамгаалалт</th><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>S төрлийн аэрозоль / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Суурилуулах арга</th><td class=\"merged\" colspan=\"4\">Гадаа суурилуулалт</td></tr><tr><th scope=\"row\">Зэврэлтээс хамгаалах зэрэг</th><td>C3 (C4/C5 сонголттой)</td><td>C3 (C4/C5 сонголттой)</td><td>C3</td><td>C3 (C4/C5 сонголттой)</td></tr><tr><th scope=\"row\">Өндөршил</th><td class=\"merged\" colspan=\"4\">3000 м хүртэл</td></tr><tr><th scope=\"row\">Ажлын горим</th><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td><td>1 цэнэглэлт, 1 гаргалт</td><td>Өдөрт макс. 2 цэнэглэлт, 2 гаргалт</td></tr><tr><th scope=\"row\">Холбооны интерфейс</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Гадаад холбооны протокол</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Гэрчилгээ</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
+          "product": {
+            "id": "ci-large",
+            "name": "150 кВт·ц-аас 3290 кВт·ц хүртэл",
+            "lead": null,
+            "img": "img/ci-150.webp"
+          }
+        }
+      ],
+      "h1": "Аж үйлдвэрийн хадгалалт",
+      "crumb": "Аж үйлдвэрийн хадгалалт",
+      "introHtml": "Шүүгээ, шингэн хөргөлттэй систем, контейнер. Аж ахуйн нэгж, барилга, станцад зориулсан."
+    },
+    "en": {
+      "title": "Industrial storage | Partastar Solar",
+      "description": "Industrial energy storage systems from 60 kWh to 3290 kWh. Cabinets, liquid-cooled systems and containers. For businesses, buildings and stations.",
+      "ogImage": "img/ci-60.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "ci-60",
+          "name": "60 kWh outdoor low-voltage waterproof model",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60.webp",
+                  "alt": "60 kWh outdoor low-voltage waterproof model",
+                  "w": 551,
+                  "h": 900
+                }
+              ],
+              "h2": "60 kWh outdoor low-voltage waterproof model",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Value",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Battery rated energy",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "64 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery rated capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1256Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "51.2Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Battery voltage range",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "40–58.4Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated charge/discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "600A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. charge/discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "800A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC rated power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "24 kW"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated output current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "34.8A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage (input and output)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3L/N/PE; 400V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Grid frequency",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "50/60 Hz"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Cycle count",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000 cycles"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Weight",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Cabinet gross weight 700 kg; inverter 49 kg"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Outer dimensions (H×W×D)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Cabinet 1350×650×1000 mm, wooden crate 800×1370×1650 mm; inverter 700×440×260 mm, box 920×620×390 mm"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "ci-60-120",
+          "name": "60–120 kWh outdoor integrated solar-storage system",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60-120.webp",
+                  "alt": "60–120 kWh outdoor integrated solar-storage system",
+                  "w": 629,
+                  "h": 900
+                }
+              ],
+              "h2": "60–120 kWh outdoor integrated solar-storage system",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Specifications",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Parameter",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Value",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Battery rated energy",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated capacity",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "314Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Voltage range",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300–438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Max. charge/discharge current",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "157A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Charge cut-off voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Discharge cut-off voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated power",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "PCS 30 kW / PV 38.4 kW"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Rated voltage",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "384V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "DC voltage range",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336–420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Charging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~45℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Discharging temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~50℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Storage temperature",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~35℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Dimensions",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1200×1850×1320 mm"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>From 150 kWh to 3290 kWh</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Wind-solar-diesel, liquid-cooled and container storage.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 kWh solar-wind-diesel\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 kWh liquid-cooled\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 kWh liquid-cooled\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 kWh container, air-cooled\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Hello! I&#x27;d like a quote for: Industrial storage.\">Ask on Facebook</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Specifications\"><table class=\"spec\"><thead><tr><th scope=\"col\">Parameter</th><th scope=\"col\">150 kWh solar-wind-diesel</th><th scope=\"col\">261 kWh liquid-cooled</th><th scope=\"col\">522 kWh liquid-cooled</th><th scope=\"col\">3290 kWh container, air-cooled</th></tr></thead><tbody><tr><th scope=\"row\">Cell type</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Rated energy</th><td>150.5 kWh</td><td>261 kWh</td><td>522.49 kWh</td><td>3290.11 kWh</td></tr><tr><th scope=\"row\">Charge/discharge rate</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Rated voltage</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Battery voltage range</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 levels</td><td>2 levels</td><td>3 levels</td><td>3 levels</td></tr><tr><th scope=\"row\">Dimensions (H×W×D)</th><td>1600×1700×2591 mm</td><td>950×1300×2200 mm</td><td>1850×1300×2200 mm</td><td>6058×2438×2896 mm</td></tr><tr><th scope=\"row\">Weight</th><td>≈3 t</td><td>≈2.3 t</td><td>≈4.5 t</td><td>≈33 t</td></tr><tr><th scope=\"row\">Protection rating</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Operating temperature</th><td>−30~+55°C (derating above 45°C)</td><td>−30~+50°C (derating above 45°C)</td><td>−30~+45°C</td><td>−30~+50°C (derating above 45°C)</td></tr><tr><th scope=\"row\">Operating humidity</th><td>5–95% RH (non-condensing)</td><td>0–95% RH (non-condensing)</td><td>0–95%RH</td><td>0–95% RH (non-condensing)</td></tr><tr><th scope=\"row\">Auxiliary power</th><td>25 kW, 380V/480V, 50Hz</td><td>6 kW, 380V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td></tr><tr><th scope=\"row\">Fire protection</th><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td><td>Perfluorohexanone</td><td>Type S aerosol / heptafluoropropane / perfluorohexanone</td></tr><tr><th scope=\"row\">Installation method</th><td class=\"merged\" colspan=\"4\">Outdoor installation</td></tr><tr><th scope=\"row\">Corrosion protection class</th><td>C3 (C4/C5 optional)</td><td>C3 (C4/C5 optional)</td><td>C3</td><td>C3 (C4/C5 optional)</td></tr><tr><th scope=\"row\">Altitude</th><td class=\"merged\" colspan=\"4\">Up to 3000 m</td></tr><tr><th scope=\"row\">Operating mode</th><td>Up to 2 charges and 2 discharges per day</td><td>Up to 2 charges and 2 discharges per day</td><td>1 charge, 1 discharge</td><td>Up to 2 charges and 2 discharges per day</td></tr><tr><th scope=\"row\">Communication interface</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">External communication protocol</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Certification</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
+          "product": {
+            "id": "ci-large",
+            "name": "From 150 kWh to 3290 kWh",
+            "lead": null,
+            "img": "img/ci-150.webp"
+          }
+        }
+      ],
+      "h1": "Industrial storage",
+      "crumb": "Industrial storage",
+      "introHtml": "Cabinets, liquid-cooled systems and containers. For businesses, buildings and stations."
+    },
+    "zh": {
+      "title": "工商业储能 | Partastar Solar",
+      "description": "60 kWh 至 3290 kWh 工商业储能系统:户外低压防水型、光储一体系统、风光柴储、液冷及集装箱储能。适用于企业、建筑和站点。",
+      "ogImage": "img/ci-60.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "ci-60",
+          "name": "60 kWh 户外低压防水型号",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60.webp",
+                  "alt": "60 kWh 户外低压防水型号",
+                  "w": 551,
+                  "h": 900
+                }
+              ],
+              "h2": "60 kWh 户外低压防水型号",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "数值",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电池额定能量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "64 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池额定容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1256Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "51.2Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电池电压范围",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "40–58.4Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定充放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "600A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大充放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "800A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "交流额定功率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "24 kW"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定输出电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "34.8A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压(输入和输出)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3L/N/PE; 400V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电网频率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "50/60 Hz"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "循环次数",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000 次"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "重量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "机柜毛重 700 kg;逆变器 49 kg"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "外形尺寸(高×宽×深)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "机柜 1350×650×1000 mm,木箱 800×1370×1650 mm;逆变器 700×440×260 mm,包装箱 920×620×390 mm"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "ci-60-120",
+          "name": "60–120 kWh 户外光储一体系统",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60-120.webp",
+                  "alt": "60–120 kWh 户外光储一体系统",
+                  "w": 629,
+                  "h": 900
+                }
+              ],
+              "h2": "60–120 kWh 户外光储一体系统",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "技术参数",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "参数",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "数值",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "电池额定能量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120 kWh"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定容量",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "314Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "电压范围",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300–438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "最大充放电电流",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "157A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "充电截止电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "放电截止电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定功率",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "PCS 30 kW / PV 38.4 kW"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "额定电压",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "384V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "直流电压范围",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336–420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "充电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~45℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "放电温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~50℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "存储温度",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~35℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "尺寸",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1200×1850×1320 mm"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150 kWh 至 3290 kWh</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">风光柴储、液冷及集装箱储能。</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 kWh 光风柴储\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 kWh 液冷\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 kWh 液冷\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 kWh 集装箱,风冷\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"您好!我想获取报价:工商业储能。\">通过 Facebook 咨询</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"技术参数\"><table class=\"spec\"><thead><tr><th scope=\"col\">参数</th><th scope=\"col\">150 kWh 光风柴储</th><th scope=\"col\">261 kWh 液冷</th><th scope=\"col\">522 kWh 液冷</th><th scope=\"col\">3290 kWh 集装箱,风冷</th></tr></thead><tbody><tr><th scope=\"row\">电芯类型</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">额定能量</th><td>150.5 kWh</td><td>261 kWh</td><td>522.49 kWh</td><td>3290.11 kWh</td></tr><tr><th scope=\"row\">充放电倍率</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">额定电压</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">电池电压范围</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 级</td><td>2 级</td><td>3 级</td><td>3 级</td></tr><tr><th scope=\"row\">尺寸(高×宽×深)</th><td>1600×1700×2591 mm</td><td>950×1300×2200 mm</td><td>1850×1300×2200 mm</td><td>6058×2438×2896 mm</td></tr><tr><th scope=\"row\">重量</th><td>≈3 t</td><td>≈2.3 t</td><td>≈4.5 t</td><td>≈33 t</td></tr><tr><th scope=\"row\">防护等级</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">工作温度</th><td>−30~+55°C(超过 45°C 降额)</td><td>−30~+50°C(超过 45°C 降额)</td><td>−30~+45°C</td><td>−30~+50°C(超过 45°C 降额)</td></tr><tr><th scope=\"row\">工作湿度</th><td>5–95% RH(无冷凝)</td><td>0–95% RH(无冷凝)</td><td>0–95%RH</td><td>0–95% RH(无冷凝)</td></tr><tr><th scope=\"row\">辅助电源</th><td>25 kW, 380V/480V, 50Hz</td><td>6 kW, 380V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td><td>25 kW, 380V/480V, 50Hz</td></tr><tr><th scope=\"row\">消防保护</th><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td><td>全氟己酮</td><td>S 型气溶胶 / 七氟丙烷 / 全氟己酮</td></tr><tr><th scope=\"row\">安装方式</th><td class=\"merged\" colspan=\"4\">户外安装</td></tr><tr><th scope=\"row\">防腐等级</th><td>C3(可选 C4/C5)</td><td>C3(可选 C4/C5)</td><td>C3</td><td>C3(可选 C4/C5)</td></tr><tr><th scope=\"row\">海拔</th><td class=\"merged\" colspan=\"4\">最高 3000 m</td></tr><tr><th scope=\"row\">工作模式</th><td>每天最多 2 充 2 放</td><td>每天最多 2 充 2 放</td><td>1 充 1 放</td><td>每天最多 2 充 2 放</td></tr><tr><th scope=\"row\">通信接口</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">对外通信协议</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">认证</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
+          "product": {
+            "id": "ci-large",
+            "name": "150 kWh 至 3290 kWh",
+            "lead": null,
+            "img": "img/ci-150.webp"
+          }
+        }
+      ],
+      "h1": "工商业储能",
+      "crumb": "工商业储能",
+      "introHtml": "储能柜、液冷系统和集装箱。适用于企业、建筑和站点。"
+    },
+    "ru": {
+      "title": "Промышленные накопители | Partastar Solar",
+      "description": "Промышленные системы накопления энергии от 60 до 3290 кВт·ч. Шкафы, системы с жидкостным охлаждением и контейнеры. Для предприятий, зданий и станций.",
+      "ogImage": "img/ci-60.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "ci-60",
+          "name": "Уличная низковольтная водонепроницаемая модель 60 кВт·ч",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60.webp",
+                  "alt": "Уличная низковольтная водонепроницаемая модель 60 кВт·ч",
+                  "w": 551,
+                  "h": 900
+                }
+              ],
+              "h2": "Уличная низковольтная водонепроницаемая модель 60 кВт·ч",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Значение",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Номинальная энергия батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "64 кВт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная ёмкость батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1256Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "51.2Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Диапазон напряжения батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "40–58.4Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальный ток заряда/разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "600A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток заряда/разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "800A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная мощность AC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "24 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальный выходной ток",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "34.8A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение (вход и выход)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3L/N/PE; 400V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Частота сети",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "50/60 Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Количество циклов",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000 циклов"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Вес",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Вес шкафа брутто 700 кг; инвертор 49 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Габариты (В×Ш×Г)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Шкаф 1350×650×1000 мм, деревянный ящик 800×1370×1650 мм; инвертор 700×440×260 мм, коробка 920×620×390 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "ci-60-120",
+          "name": "Уличная интегрированная система «солнце + накопитель» 60–120 кВт·ч",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60-120.webp",
+                  "alt": "Уличная интегрированная система «солнце + накопитель» 60–120 кВт·ч",
+                  "w": 629,
+                  "h": 900
+                }
+              ],
+              "h2": "Уличная интегрированная система «солнце + накопитель» 60–120 кВт·ч",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Технические характеристики",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Значение",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Номинальная энергия батареи",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120 кВт·ч"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная ёмкость",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "314Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Диапазон напряжения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300–438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. ток заряда/разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "157A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Напряжение отсечки заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Напряжение отсечки разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальная мощность",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "PCS 30 кВт / PV 38.4 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номинальное напряжение",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "384V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Диапазон напряжения DC",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336–420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура заряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~45℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура разряда",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~50℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Температура хранения",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~35℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Размеры",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1200×1850×1320 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>От 150 до 3290 кВт·ч</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Ветро-солнечно-дизельные, жидкостно-охлаждаемые и контейнерные накопители.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 кВт·ч «солнце–ветер–дизель»\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 кВт·ч с жидкостным охлаждением\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 кВт·ч с жидкостным охлаждением\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 кВт·ч контейнер с воздушным охлаждением\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Здравствуйте! Хочу получить предложение: Промышленные накопители.\">Спросить в Facebook</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Технические характеристики\"><table class=\"spec\"><thead><tr><th scope=\"col\">Параметр</th><th scope=\"col\">150 кВт·ч «солнце–ветер–дизель»</th><th scope=\"col\">261 кВт·ч с жидкостным охлаждением</th><th scope=\"col\">522 кВт·ч с жидкостным охлаждением</th><th scope=\"col\">3290 кВт·ч контейнер с воздушным охлаждением</th></tr></thead><tbody><tr><th scope=\"row\">Тип элементов</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Номинальная энергия</th><td>150.5 кВт·ч</td><td>261 кВт·ч</td><td>522.49 кВт·ч</td><td>3290.11 кВт·ч</td></tr><tr><th scope=\"row\">Скорость заряда/разряда</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Номинальное напряжение</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Диапазон напряжения батареи</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 уровня</td><td>2 уровня</td><td>3 уровня</td><td>3 уровня</td></tr><tr><th scope=\"row\">Размеры (В×Ш×Г)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Вес</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Степень защиты</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Рабочая температура</th><td>−30~+55°C (снижение мощности выше 45°C)</td><td>−30~+50°C (снижение мощности выше 45°C)</td><td>−30~+45°C</td><td>−30~+50°C (снижение мощности выше 45°C)</td></tr><tr><th scope=\"row\">Рабочая влажность</th><td>5–95% RH (без конденсации)</td><td>0–95% RH (без конденсации)</td><td>0–95%RH</td><td>0–95% RH (без конденсации)</td></tr><tr><th scope=\"row\">Вспомогательное питание</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Пожарная защита</th><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>Аэрозоль типа S / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Способ установки</th><td class=\"merged\" colspan=\"4\">Установка на улице</td></tr><tr><th scope=\"row\">Класс защиты от коррозии</th><td>C3 (C4/C5 по выбору)</td><td>C3 (C4/C5 по выбору)</td><td>C3</td><td>C3 (C4/C5 по выбору)</td></tr><tr><th scope=\"row\">Высота над уровнем моря</th><td class=\"merged\" colspan=\"4\">До 3000 м</td></tr><tr><th scope=\"row\">Режим работы</th><td>До 2 зарядов и 2 разрядов в сутки</td><td>До 2 зарядов и 2 разрядов в сутки</td><td>1 заряд, 1 разряд</td><td>До 2 зарядов и 2 разрядов в сутки</td></tr><tr><th scope=\"row\">Интерфейс связи</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Внешний протокол связи</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Сертификаты</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
+          "product": {
+            "id": "ci-large",
+            "name": "От 150 до 3290 кВт·ч",
+            "lead": null,
+            "img": "img/ci-150.webp"
+          }
+        }
+      ],
+      "h1": "Промышленные накопители",
+      "crumb": "Промышленные накопители",
+      "introHtml": "Шкафы, системы с жидкостным охлаждением и контейнеры. Для предприятий, зданий и станций."
+    },
+    "kk": {
+      "title": "Өнеркәсіптік жинағыш | Partastar Solar",
+      "description": "60-тан 3290 кВт·сағ-қа дейінгі өнеркәсіптік энергия жинақтау жүйелері. Шкафтар, сұйықпен салқындатылатын жүйелер және контейнерлер.",
+      "ogImage": "img/ci-60.webp",
+      "sections": [
+        {
+          "type": "line",
+          "id": "ci-60",
+          "name": "60 кВт·сағ далада орнатылатын төмен вольтты су өткізбейтін үлгі",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60.webp",
+                  "alt": "60 кВт·сағ далада орнатылатын төмен вольтты су өткізбейтін үлгі",
+                  "w": 551,
+                  "h": 900
+                }
+              ],
+              "h2": "60 кВт·сағ далада орнатылатын төмен вольтты су өткізбейтін үлгі",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Мәні",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батареяның номиналды энергиясы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "64 кВт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батареяның номиналды сыйымдылығы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1256Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батареяның номиналды кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "51.2Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Батарея кернеуінің ауқымы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "40–58.4Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды зарядтау/разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "600A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. зарядтау/разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "800A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "AC номиналды қуаты",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "24 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды шығыс тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "34.8A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу (кіріс және шығыс)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "3L/N/PE; 400V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Желі жиілігі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "50/60 Гц"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Цикл саны",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "6000 рет"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Салмағы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Шкафтың брутто салмағы 700 кг; инвертор 49 кг"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сыртқы өлшемдері (Б×Е×Т)",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "Шкаф 1350×650×1000 мм, ағаш жәшік 800×1370×1650 мм; инвертор 700×440×260 мм, қорап 920×620×390 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "ci-60-120",
+          "name": "60–120 кВт·сағ далада орнатылатын күн-жинағыш біріктірілген жүйе",
+          "blocks": [
+            {
+              "k": "top",
+              "two": false,
+              "imgs": [
+                {
+                  "src": "img/ci-60-120.webp",
+                  "alt": "60–120 кВт·сағ далада орнатылатын күн-жинағыш біріктірілген жүйе",
+                  "w": 629,
+                  "h": 900
+                }
+              ],
+              "h2": "60–120 кВт·сағ далада орнатылатын күн-жинағыш біріктірілген жүйе",
+              "parts": []
+            },
+            {
+              "k": "table",
+              "label": "Техникалық сипаттамалар",
+              "table": {
+                "head": [
+                  [
+                    [
+                      "th",
+                      "Параметр",
+                      {
+                        "scope": "col"
+                      }
+                    ],
+                    [
+                      "th",
+                      "Мәні",
+                      {
+                        "scope": "col"
+                      }
+                    ]
+                  ]
+                ],
+                "body": [
+                  [
+                    [
+                      "th",
+                      "Батареяның номиналды энергиясы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "120 кВт·сағ"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды сыйымдылық",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "314Ah"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Кернеу ауқымы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "300–438Vdc"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Макс. зарядтау/разрядтау тогы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "157A"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зарядтауды тоқтату кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Разрядтауды тоқтату кернеуі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды қуат",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "PCS 30 кВт / PV 38.4 кВт"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Номиналды кернеу",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "384V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "DC кернеу ауқымы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "336–420V"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Зарядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~45℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Разрядтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "−20~50℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Сақтау температурасы",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "0~35℃"
+                    ]
+                  ],
+                  [
+                    [
+                      "th",
+                      "Өлшемі",
+                      {
+                        "scope": "row"
+                      }
+                    ],
+                    [
+                      "td",
+                      "1200×1850×1320 мм"
+                    ]
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "raw",
+          "html": "<section class=\"line\" id=\"ci-large\"><div class=\"wrap\"><h2>150-ден 3290 кВт·сағ-қа дейін</h2><p class=\"lead\" style=\"color:var(--muted);margin-top:10px;max-width:60ch\">Жел-күн-дизель, сұйықпен салқындатылатын және контейнерлік жинағыштар.</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px\"><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-150.webp\" alt=\"150 кВт·сағ күн-жел-дизель\" width=\"741\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-261.webp\" alt=\"261 кВт·сағ сұйықпен салқындатылатын\" width=\"599\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-522.webp\" alt=\"522 кВт·сағ сұйықпен салқындатылатын\" width=\"699\" height=\"900\" loading=\"lazy\" decoding=\"async\"></div><div class=\"pic\" style=\"aspect-ratio:4/3\"><img src=\"../img/ci-3290.webp\" alt=\"3290 кВт·сағ контейнер, ауамен салқындатылатын\" width=\"958\" height=\"527\" loading=\"lazy\" decoding=\"async\"></div></div><div class=\"btns\"><a class=\"btn\" href=\"https://m.me/61595385219266\" target=\"_blank\" rel=\"noopener\" data-copy=\"Сәлеметсіз бе! Мына өнімнің баға ұсынысын алғым келеді: Өнеркәсіптік жинағыш.\">Facebook-тен сұрау</a></div><div class=\"tbl-wrap\" tabindex=\"0\" role=\"region\" aria-label=\"Техникалық сипаттамалар\"><table class=\"spec\"><thead><tr><th scope=\"col\">Параметр</th><th scope=\"col\">150 кВт·сағ күн-жел-дизель</th><th scope=\"col\">261 кВт·сағ сұйықпен салқындатылатын</th><th scope=\"col\">522 кВт·сағ сұйықпен салқындатылатын</th><th scope=\"col\">3290 кВт·сағ контейнер, ауамен салқындатылатын</th></tr></thead><tbody><tr><th scope=\"row\">Элемент түрі</th><td class=\"merged\" colspan=\"4\">LiFePO4</td></tr><tr><th scope=\"row\">Номиналды энергия</th><td>150.5 кВт·сағ</td><td>261 кВт·сағ</td><td>522.49 кВт·сағ</td><td>3290.11 кВт·сағ</td></tr><tr><th scope=\"row\">Зарядтау/разрядтау жылдамдығы</th><td>—</td><td>≤0.5CP</td><td>≤0.25CP</td><td>≤0.5CP</td></tr><tr><th scope=\"row\">Номиналды кернеу</th><td>537.6V</td><td>—</td><td>—</td><td>—</td></tr><tr><th scope=\"row\">Батарея кернеуінің ауқымы</th><td>470.4–604.8V</td><td>650–949V</td><td>650–949V</td><td>1142–1468.8V</td></tr><tr><th scope=\"row\">BMS</th><td>3 деңгей</td><td>2 деңгей</td><td>3 деңгей</td><td>3 деңгей</td></tr><tr><th scope=\"row\">Өлшемдері (Б×Е×Т)</th><td>1600×1700×2591 мм</td><td>950×1300×2200 мм</td><td>1850×1300×2200 мм</td><td>6058×2438×2896 мм</td></tr><tr><th scope=\"row\">Салмағы</th><td>≈3 т</td><td>≈2.3 т</td><td>≈4.5 т</td><td>≈33 т</td></tr><tr><th scope=\"row\">Қорғаныс дәрежесі</th><td>IP54</td><td>IP54</td><td>IP55</td><td>IP54</td></tr><tr><th scope=\"row\">Жұмыс температурасы</th><td>−30~+55°C (45°C-тан жоғары қуат азаяды)</td><td>−30~+50°C (45°C-тан жоғары қуат азаяды)</td><td>−30~+45°C</td><td>−30~+50°C (45°C-тан жоғары қуат азаяды)</td></tr><tr><th scope=\"row\">Жұмыс ылғалдылығы</th><td>5–95% RH (конденсациясыз)</td><td>0–95% RH (конденсациясыз)</td><td>0–95%RH</td><td>0–95% RH (конденсациясыз)</td></tr><tr><th scope=\"row\">Қосалқы қоректендіру</th><td>25 кВт, 380V/480V, 50Гц</td><td>6 кВт, 380V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td><td>25 кВт, 380V/480V, 50Гц</td></tr><tr><th scope=\"row\">Өрттен қорғау</th><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td><td>Перфторгексанон</td><td>S түрлі аэрозоль / гептафторпропан / перфторгексанон</td></tr><tr><th scope=\"row\">Орнату тәсілі</th><td class=\"merged\" colspan=\"4\">Далада орнату</td></tr><tr><th scope=\"row\">Коррозиядан қорғау класы</th><td>C3 (C4/C5 таңдау бойынша)</td><td>C3 (C4/C5 таңдау бойынша)</td><td>C3</td><td>C3 (C4/C5 таңдау бойынша)</td></tr><tr><th scope=\"row\">Биіктік</th><td class=\"merged\" colspan=\"4\">3000 м-ге дейін</td></tr><tr><th scope=\"row\">Жұмыс режимі</th><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td><td>1 зарядтау, 1 разрядтау</td><td>Тәулігіне ең көбі 2 зарядтау, 2 разрядтау</td></tr><tr><th scope=\"row\">Байланыс интерфейсі</th><td>—</td><td>—</td><td>Ethernet / RS485</td><td>Ethernet / RS485</td></tr><tr><th scope=\"row\">Сыртқы байланыс протоколы</th><td>—</td><td>—</td><td>ModbusTCP / Modbus RTU</td><td>ModbusTCP / IEC61850 / Modbus RTU</td></tr><tr><th scope=\"row\">Сертификаттау</th><td>—</td><td>—</td><td>GB/T 36276, GB/T 34131, GB/T 34120</td><td>GB/T 36276, GB/T 34131, UL 1973</td></tr></tbody></table></div></div></section>",
+          "product": {
+            "id": "ci-large",
+            "name": "150-ден 3290 кВт·сағ-қа дейін",
+            "lead": null,
+            "img": "img/ci-150.webp"
+          }
+        }
+      ],
+      "h1": "Өнеркәсіптік жинағыш",
+      "crumb": "Өнеркәсіптік жинағыш",
+      "introHtml": "Шкафтар, сұйықпен салқындатылатын жүйелер және контейнерлер. Кәсіпорындарға, ғимараттарға және станцияларға арналған."
+    }
+  }
+}

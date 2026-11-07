@@ -1,0 +1,34 @@
+---
+// One <section class="line"> from structured data. Markup matches the original site so style.css and app.js work unchanged.
+import { MESSENGER, rootPrefix, ui, quoteText, type Lang } from "../lib/site";
+
+interface Props { lang: Lang; line: any; }
+const { lang, line } = Astro.props;
+const P = rootPrefix(lang);
+const t = ui(lang);
+const Btn = (b: any) => ({ href: MESSENGER, copy: quoteText(lang, line.name, b.copy) });
+---
+<section class="line" id={line.id}><div class="wrap">{line.blocks.map((b: any) => {
+  if (b.k === "top") return (
+    <div class="line-top"><div class={b.two ? "pic two" : "pic"}>{b.imgs.map((i: any) => (
+      <img src={P + i.src} alt={i.alt} width={i.w} height={i.h} class={i.cls} loading="lazy" decoding="async">
+    ))}</div><div><h2>{b.h2}</h2>{b.parts.map((p: any) => {
+      if (p.k === "lead") return <p class="lead" style={p.style}>{p.text}</p>;
+      if (p.k === "chipTitle") return <p class="chip-title">{p.text}</p>;
+      if (p.k === "chips") return <ul class="chips" style="margin-top:8px">{p.items.map((c: string) => <li>{c}</li>)}</ul>;
+      if (p.k === "prose") return <ul class="prose" style="margin-top:14px;padding-left:1.2rem">{p.items.map((h: string) => <li set:html={h} />)}</ul>;
+      if (p.k === "facts") return <dl class="facts-dl">{p.items.map(([dt, dd]: [string, string]) => <div><dt>{dt}</dt><dd set:html={dd} /></div>)}</dl>;
+    })}<div class="btns"><a class="btn" href={Btn(b).href} target="_blank" rel="noopener" data-copy={Btn(b).copy}>{t.lineButton}</a></div></div></div>
+  );
+  if (b.k === "h2") return <h2>{b.text}</h2>;
+  if (b.k === "lead") return <p class="lead" style={b.style}>{b.text}</p>;
+  if (b.k === "button") return <div class="btns"><a class="btn" href={Btn(b).href} target="_blank" rel="noopener" data-copy={Btn(b).copy}>{t.lineButton}</a></div>;
+  if (b.k === "tblTitle") return <p class="tbl-title">{b.text}</p>;
+  if (b.k === "note") return <p class="note" set:html={b.html} />;
+  if (b.k === "table") return (
+    <div class="tbl-wrap" tabindex="0" role="region" aria-label={b.label}><table class="spec">
+      {b.table.head.length > 0 && <thead>{b.table.head.map((row: any[]) => <tr>{row.map(([tag, html, attrs]) => tag === "th" ? <th {...attrs} set:html={html} /> : <td {...attrs} set:html={html} />)}</tr>)}</thead>}
+      <tbody>{b.table.body.map((row: any[]) => <tr>{row.map(([tag, html, attrs]) => tag === "th" ? <th {...attrs} set:html={html} /> : <td {...attrs} set:html={html} />)}</tr>)}</tbody>
+    </table></div>
+  );
+})}</div></section>
